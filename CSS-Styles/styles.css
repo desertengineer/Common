@@ -47,4 +47,5 @@ display: inline-block;
 margin: 15px;
 display: inline-block;
 position:inherit;
+    max-width: 100%;
  }
