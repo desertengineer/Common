@@ -1,0 +1,27 @@
+
+.div-0 {display: flex; background-color: #7fd1de; color: white;
+  border: 8px solid blue; margin: 16px; padding: 16px;
+ width: auto; }
+.div-1 { background-color: #b4bbe8;  color: white;
+  border: 8px solid blue;
+  margin: 16px;
+  padding: 16px;
+ width: 38.5%;}
+.span-0 { background-color: #edffac;  color: red;
+  border: 6px solid red;
+  margin: 16px;
+  padding: 16px;
+ width: auto;
+display: inline;}
+.span-1 { background-color: #de897f;  color: green;
+  border: 4px solid green;
+  margin: 16px;
+  padding: 16px;
+ width: 38.5%;}
+.image {
+ float: right
+  background-color: yellow;
+  color: white;
+  border: 2px solid blue;
+ width: auto;
+}
