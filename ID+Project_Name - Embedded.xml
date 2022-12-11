@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet"?> 
+
+<!DOCTYPE doc [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+
+<doc> 
+<!--Start XSL-->
+<xsl:stylesheet id="stylesheet" version="1.0"  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+<xsl:template match="xsl:stylesheet" />
+<xsl:template match="/doc">
+<html>
+   <link rel="stylesheet" href="w3.css"/>
+  <body style=" margin:50">
+ 
+  <h2 class="w3-green">My Projects</h2>
+<image src="https://www.autoguide.com/blog/wp-content/gallery/odd-and-ugly-cars-from-2016-geneva-motor-show/Ugly-RR.jpg" height="500"/> 
+
+  <table border="3">
+    <tr bgcolor="#1f78be">
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    <xsl:for-each select="MyProjects/Project">
+      <xsl:sort select="ID"/>
+    <tr>
+      <td><xsl:value-of select="ID"/></td>
+      <td><xsl:value-of select="Project_Name"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+ 
+ </body>
+  </html>
+</xsl:template>
+</xsl:stylesheet>
+
+<!--Start XML-->
+<MyProjects>
+	<Project>
+		<ID>NLTC</ID>
+		<Program>SFL</Program>
+		<Project_Name>Construction of National Legal Training Centre</Project_Name>
+		<Contract_Ref.>ITB-LBY-SFL-2020-5835</Contract_Ref.>
+		<Contractor>Bab Alaaj Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>01/02/2021</Actual_Start_Date>
+		<Substantial_Completion>28/11/2022</Substantial_Completion>
+		<Construction_Time>676.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.59097, 12.7694</Location>
+		<Contract_Amount>752000</Contract_Amount>
+		<Sector>H. Education</Sector>
+	</Project>
+	<Project>
+		<ID>Airport</ID>
+		<Program>SFL</Program>
+		<Project_Name>Rehabilitation of Obari Civil Airports taxiway and aircraft standing area</Project_Name>
+		<Contract_Ref.>ITB-LBY-SFL-2020-7639</Contract_Ref.>
+		<Contractor>Emaar Fezzan Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>04/06/2021</Actual_Start_Date>
+		<Substantial_Completion>27/3/2022</Substantial_Completion>
+		<Construction_Time>553.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.57057, 12.81791</Location>
+		<Contract_Amount>375014.55</Contract_Amount>
+		<Sector>Transportation</Sector>
+	</Project>
+	<Project>
+		<ID>Sol_Power</ID>
+		<Program>SFL</Program>
+		<Project_Name>Supply and installation of 2 LOT Solar Power System in Municipality of Bent Baya</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SFL-2021-022</Contract_Ref.>
+		<Contractor>Four Joints Contracting Company</Contractor>
+		<Project_Status>In Progress</Project_Status>
+		<Progress>0.75</Progress>
+		<Actual_Start_Date>15/10/2021</Actual_Start_Date>
+		<Substantial_Completion></Substantial_Completion>
+		<Construction_Time>420.978872800923</Construction_Time>
+		<Municipality>Bent Baya</Municipality>
+		<Location>26.64525, 13.65626</Location>
+		<Contract_Amount>106725</Contract_Amount>
+		<Sector>Solar Power</Sector>
+	</Project>
+	<Project>
+		<ID>Pri_School</ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Ubari Primary School</Project_Name>
+		<Contract_Ref.>RFQ-LBY-REPSOL-2021</Contract_Ref.>
+		<Contractor>Yanabea Al-Atta Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>07/10/2021</Actual_Start_Date>
+		<Substantial_Completion>30/5/2022</Substantial_Completion>
+		<Construction_Time>428.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.59467, 12.78067</Location>
+		<Contract_Amount>91479.62</Contract_Amount>
+		<Sector>Education</Sector>
+	</Project>
+	<Project>
+		<ID>Aquba_School </ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Aquba Ben Nafaa School </Project_Name>
+		<Contract_Ref.>RFQ-LBY-SRLC-2021-029</Contract_Ref.>
+		<Contractor>Bab Alaaj Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>07/10/2021</Actual_Start_Date>
+		<Substantial_Completion>05/02/2022</Substantial_Completion>
+		<Construction_Time>428.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.56746, 12.76618</Location>
+		<Contract_Amount>117533.9</Contract_Amount>
+		<Sector>Education</Sector>
+	</Project>
+	<Project>
+		<ID>Disa_School</ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Disa School</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SRLC-2021-001 </Contract_Ref.>
+		<Contractor>Tiendy Mountain Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>25/05/2021</Actual_Start_Date>
+		<Substantial_Completion>15/07/2021</Substantial_Completion>
+		<Construction_Time>563.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.58632, 12.81921</Location>
+		<Contract_Amount>56475.4</Contract_Amount>
+		<Sector>Education</Sector>
+	</Project>
+	<Project>
+		<ID>Gil_School</ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Gil Saade School</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SRLC-2021-010 </Contract_Ref.>
+		<Contractor>Tiendy Mountain Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>25/05/2021</Actual_Start_Date>
+		<Substantial_Completion>15/07/2021</Substantial_Completion>
+		<Construction_Time>563.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.59286, 12.72902</Location>
+		<Contract_Amount>65856.97</Contract_Amount>
+		<Sector>Education</Sector>
+	</Project>
+	<Project>
+		<ID>Roundabout</ID>
+		<Program>SFL</Program>
+		<Project_Name>Rehabilitation of Obari Main Entrance Roundabout</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SFL-2020-090</Contract_Ref.>
+		<Contractor>Qimmat Alammar Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>21/02/2021</Actual_Start_Date>
+		<Substantial_Completion>29/08/2021</Substantial_Completion>
+		<Construction_Time>656.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.58762, 12.77702</Location>
+		<Contract_Amount>40176</Contract_Amount>
+		<Sector>Recreation</Sector>
+	</Project>
+	<Project>
+		<ID>Gurdhabia_Externa</ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Al Gurdhabia School - External Works</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SRLC-2020-092</Contract_Ref.>
+		<Contractor>Wadi Alnahia Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>02/03/2021</Actual_Start_Date>
+		<Substantial_Completion>24/06/2021</Substantial_Completion>
+		<Construction_Time>647.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.59242, 12.72396</Location>
+		<Contract_Amount>143089</Contract_Amount>
+		<Sector>Education</Sector>
+	</Project>
+	<Project>
+		<ID>Oxygen</ID>
+		<Program>SFL</Program>
+		<Project_Name>Supply and Installation of Medical Oxygen Generator Plant for COVID-19 Bent Baya Hospital</Project_Name>
+		<Contract_Ref.>ITB-LBY-SFL-2020-0000006703</Contract_Ref.>
+		<Contractor>Alzamhareer Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>23/11/2020</Actual_Start_Date>
+		<Substantial_Completion>15/03/2021</Substantial_Completion>
+		<Construction_Time>746.978872800923</Construction_Time>
+		<Municipality>Bent Baya</Municipality>
+		<Location>26.64525, 13.65626</Location>
+		<Contract_Amount>395000</Contract_Amount>
+		<Sector>Health</Sector>
+	</Project>
+	<Project>
+		<ID>Soccer</ID>
+		<Program>SRLC</Program>
+		<Project_Name>Rehabilitation of Soccer Fields at Gil Saade and Al-Disa Primary Schools</Project_Name>
+		<Contract_Ref.>RFQ-LBY-SRLC-2021-038</Contract_Ref.>
+		<Contractor>Wadi Alnahia Contracting Company</Contractor>
+		<Project_Status>Completed</Project_Status>
+		<Progress>1</Progress>
+		<Actual_Start_Date>10/07/2021</Actual_Start_Date>
+		<Substantial_Completion>06/01/2022</Substantial_Completion>
+		<Construction_Time>517.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.59286, 12.72852</Location>
+		<Contract_Amount>56776</Contract_Amount>
+		<Sector>Recreation</Sector>
+	</Project>
+	<Project>
+		<ID>University</ID>
+		<Program>SLCRR</Program>
+		<Project_Name>Rehabilitation of Ubari University of Arts and Science</Project_Name>
+		<Contract_Ref.>ITB-LBY-SLCRR-2022-11854</Contract_Ref.>
+		<Contractor>Fawanis El Khir Company</Contractor>
+		<Project_Status>In Progress</Project_Status>
+		<Progress>0.8</Progress>
+		<Actual_Start_Date>31/07/2022</Actual_Start_Date>
+		<Substantial_Completion></Substantial_Completion>
+		<Construction_Time>131.978872800923</Construction_Time>
+		<Municipality>Ubari</Municipality>
+		<Location>26.5952, 12.76721</Location>
+		<Contract_Amount>129586</Contract_Amount>
+		<Sector>H. Education</Sector>
+	</Project>
+</MyProjects>
+</doc>
