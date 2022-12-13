@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Moulay New Website</title>
+<link rel="icon" href="icons\AllWays.ico" type="image/png">
+<link rel="stylesheet" href="css\w3.css"><link rel="stylesheet" href="css\style.css">   
+
+<!--script src="scripts\w3.js">
+</script--><script src="scripts\main.js"></script>
+	<script src="scripts\PageText.js" ></script>
+</head>
+
+<!-- the page contents-->
+<body onload = "loadPageTexts()" > 
+<!-- header content-->
+<div id="header">
+<!--change the title number to change the posts from zero to 9-->
+<h1 id="title1"  class="w3-green">Project Name</h1>
+
+<label for="projectNum">Number of Project (1-10):</label>
+<input type="number" id="projectNum" name="projectNum" min="1" max="10"  value="1" />
+ <input type="submit"  id="projectPage" value="Click Here" onclick="chooseProject();" />
+</div>
+<!-- main cover-->
+<div id="cover-box">
+<div id="cover-left"><h3 id="main-heading">h3</h3><p id="main-paragraph" >p</p></div>
+<div id="cover-right"><img id="main-image"  src="#" width="500" /></div>
+</div>
+<!--c-->
+
+
+</body>
+</html>

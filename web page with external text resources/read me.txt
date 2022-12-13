@@ -1,0 +1,6 @@
+To populate the document tags: 
+(data are ready in and XML file)
+**
+by javascript:
+1. get the last two characters of the h1 ID which will be the number of the element's node in XML file
+2. using the ID, match each element value with the HTML tag
