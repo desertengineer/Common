@@ -2,7 +2,8 @@
 
 function loadPageTexts() {
 
-var xmlFile="https://github.com/desertengineer/Common/web page with external text resources/web%20page%20with%20external%20text%20resources/UbariProjects.xml"
+var xmlFile="https://github.com/desertengineer/Common/UbariProjects.xml"
+
 var myXML=new XMLHttpRequest()
 
 
