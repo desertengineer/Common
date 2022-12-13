@@ -2,7 +2,7 @@
 
 function loadPageTexts() {
 
-var xmlFile="file:///D:/!%20DRIVES/OneDrive/Desktop/2-HTML%20&%20JScript/2_JavaScript/web%20page%20with%20external%20text%20resources/UbariProjects.xml"
+var xmlFile="https://github.com/desertengineer/Common/web page with external text resources/web%20page%20with%20external%20text%20resources/UbariProjects.xml"
 var myXML=new XMLHttpRequest()
 
 
