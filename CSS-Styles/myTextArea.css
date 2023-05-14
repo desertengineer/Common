@@ -1,0 +1,5 @@
+#myNotesBoard{background-color: lightblue;text-align: center;display: block;height: fit-content;  top: 167px;right: 200px;width: fit-content;position: fixed;z-index: 999;padding: 5px;}
+#input-area{  margin: 5px;  border: solid blue;  padding: 5px;}
+#myQuery{  text-transform: capitalize;  font-family: auto;  padding: 2px;  margin: 3px;  font-size: 18px;  color: red;  font-weight: 500;" placeholder="Enter your query selector}
+#myText1{width: 518px; height: 173px; direction: ltr; background-color: khaki; display: block;" autocomplete="off" spellcheck="false" data-gramm="false" data-lt-tmp-id="lt-92825}
+#save-file{margin: 5px auto;border: red 2px solid;background-color: lime;}
