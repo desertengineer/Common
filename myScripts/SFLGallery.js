@@ -44,8 +44,8 @@ else if (document.implementation && document.implementation.createDocument)
 
 getNavLink=function () {  
   setTimeout(console.log("getNavLink"),3000);      
-  var xmlFile="https://desertengineer.github.io/Common/xmls/SFLProjectsGallery.xml";
-  var xslFile="https://desertengineer.github.io/Common/xsls/projectsGallery.xsl";
+  var xmlFile="https://desertengineer.github.io/Common/Xmls/SFLProjectsGallery.xml";
+  var xslFile="https://desertengineer.github.io/Common/Xsls/projectsGallery.xsl";
   var elemId="pjcts-gal";
   xml = loadXMLDoc(xmlFile);
   xsl = loadXMLDoc(xslFile);
