@@ -67,7 +67,7 @@ getNavLink=function (elem, sector) {
   transformXsl(xml,xsl,elemId);
   document.querySelector('h1#sector-title').innerHTML= "sfl projects gallery"; 
   w3.styleElement(page, 'display', "block"); 
-        //filterSelection(sector); 
+        filterSelection('all'); 
         //displayProject();  
 } 
 
