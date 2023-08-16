@@ -1,4 +1,3 @@
-// This is the script for fetching data from the script: 
 fetchData=function (file) { 
   fetch(file)
     .then((response) => response.text())
@@ -143,8 +142,7 @@ w3.getElements = function (id)
     console.log(" filter end");
       if (j==0) {
         msg.innerHTML="No Projects to display at the moment";} 
-  }
-// Show filtered elements
+  } 
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -154,8 +152,7 @@ function w3AddClass(element, name) {
       element.className += " " + arr2[i];
     }
   }
-}
-// Hide elements that are not selected
+} 
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
