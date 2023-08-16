@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsls/ProjectsGallery.xsl"?>
+<SRLCProjectsGallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Project>
+		<Classes>pjct Completed P-Education</Classes>
+		<Id>PriSch01</Id>
+		<Img>images\PjctCvrs\Ubari Primary School.jpg</Img>
+		<Name>Rehabilitation of Ubari, Municipality of Ubari Primary School</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education</Classes>
+		<Id>PriSch02</Id>
+		<Img>images\PjctCvrs\Auqba Ben Nafaa  School.jpg</Img>
+		<Name>Rehabilitation of Aquba Ben Nafaa School </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education</Classes>
+		<Id>PriSch03</Id>
+		<Img>images\PjctCvrs\Disa School.jpg</Img>
+		<Name>Rehabilitation of Disa School</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education</Classes>
+		<Id>PriSch04</Id>
+		<Img>images\PjctCvrs\Gil Saade School.jpg</Img>
+		<Name>Rehabilitation of Gil Saade School</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Recreation</Classes>
+		<Id>Recr01</Id>
+		<Img>images\PjctCvrs\Al Gurdhabia School - External Works.jpg</Img>
+		<Name>Rehabilitation of Al Gurdhabia School - External Works</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Recreation</Classes>
+		<Id>Recr02</Id>
+		<Img>images\PjctCvrs\Soccer Fields at Gil Saade and Al-Disa Primary Schools.jpg</Img>
+		<Name>Rehabilitation of Soccer Fields at Gil Saade and Al-Disa Primary Schools</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+</SRLCProjectsGallery>

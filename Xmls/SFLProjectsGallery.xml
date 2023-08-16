@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsls/ProjectsGallery.xsl"?>
+<SFLProjectsGallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Project>
+		<Classes>pjct Completed H-Education</Classes>
+		<Id>NLTC</Id>
+		<Img>images\PjctCvrs\National Legal Training Center.jpg</Img>
+		<Name>Construction of National Legal Training Centre</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Transportation</Classes>
+		<Id>Airport</Id>
+		<Img>images\PjctCvrs\Ubari Civil Airport’s taxiway and aircraft standing area.jpg</Img>
+		<Name>Rehabilitation of Ubari Civil Airport’s taxiway and aircraft standing area</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Renewable-Energy</Classes>
+		<Id>SolPower</Id>
+		<Img>images\PjctCvrs\2 LOT Solar Power System in Municipality of Bent Baya.jpg</Img>
+		<Name>Supply and installation of 2 LOT Solar Power System in Municipality of Bent Baya</Name>
+		<Location>Bent Baya, Municipality of Bent Baya</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Recreation</Classes>
+		<Id>RndAbout</Id>
+		<Img>images\PjctCvrs\Ubari Main Entrance Roundabout.jpg</Img>
+		<Name>Rehabilitation of Ubari Main Entrance Roundabout</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health</Classes>
+		<Id>Oxygen</Id>
+		<Img>images\PjctCvrs\Medical Oxygen Generator Plant for COVID-19 in Municipality of Bent Baya.jpeg</Img>
+		<Name>Supply and Installation of Medical Oxygen Generator Plant for COVID-19 in Municipality of Bent Baya</Name>
+		<Location>Bent Baya, Municipality of Bent Baya</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education </Classes>
+		<Id>PrefabSch</Id>
+		<Img>images\PjctCvrs\Prefab School.jpg</Img>
+		<Name>Construction of four units of five classrooms prefab building</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education </Classes>
+		<Id>PriSch05</Id>
+		<Img>images\PjctCvrs\Al-Qurania School.jpg</Img>
+		<Name>Rehabilitation of Al-Qurania School </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education </Classes>
+		<Id>PriSch06</Id>
+		<Img>images\PjctCvrs\Al-Markazeiha School.jpg</Img>
+		<Name>Rehabilitation of Al Markazeiha School </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed P-Education </Classes>
+		<Id>PriSch07</Id>
+		<Img>images\PjctCvrs\Al-Thanwia School.jpg</Img>
+		<Name>Rehabilitation of Al Thanwia School </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Hospital</Id>
+		<Img>images\PjctCvrs\Ubari Hospital.jpg</Img>
+		<Name>Rehabilitation of Ubari General hospital</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Economy</Classes>
+		<Id>Market</Id>
+		<Img>images\PjctCvrs\Ubari Market.jpg</Img>
+		<Name>Rehabilitation of Ubari Public Market </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Social</Classes>
+		<Id>Wom-Cen</Id>
+		<Img>images\PjctCvrs\Women Center.jpg</Img>
+		<Name>Rehabilitation of Ubari Women's Center </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Generator01</Id>
+		<Img>images\PjctCvrs\Medical Store Generator.jpg</Img>
+		<Name>Construction of shed for Diesel Generator & connections in Ubari Medical Store</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Generator02</Id>
+		<Img>images\PjctCvrs\General Hospital Generator.jpg</Img>
+		<Name>Construction of shed for Diesel Generator & connections in Ubari General Hospital</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Medical-Equip</Id>
+		<Img>images\PjctCvrs\Ubari Medical Equipment.jpg</Img>
+		<Name>Supply of Medical Equipment for Ubari General Hospital </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Ambulances</Id>
+		<Img>images\PjctCvrs\Ubari Hospital Ambulances.jpg</Img>
+		<Name>Supply of 2 ambulances for Ubari General Hospital </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Health </Classes>
+		<Id>Generators</Id>
+		<Img>images\PjctCvrs\Ubari 300 Kva Generators.jpg</Img>
+		<Name>Supply of  two 300 KVA generators for Ubari Health Sector </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Municipal-Services</Classes>
+		<Id>Garbage</Id>
+		<Img>images\PjctCvrs\Ubari Garbage Truck.jpg</Img>
+		<Name>Supply of 1 Large Garbage Truck </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Social</Classes>
+		<Id>Training-equip</Id>
+		<Img>images\PjctCvrs\Women'S Center Training Equipment.jpg</Img>
+		<Name>Supply of Training equipment for Women's Center </Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Municipal-Services</Classes>
+		<Id>Pesticide</Id>
+		<Img>images\PjctCvrs\Pesticide Sprayer Truck.jpg</Img>
+		<Name>Supply of pesticide sprayer truck</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+	<Project>
+		<Classes>pjct Completed Renewable-Energy</Classes>
+		<Id>SolLigh</Id>
+		<Img>images\PjctCvrs\streetLightening.jpg</Img>
+		<Name>Rehabilitation of Ubari Street Lightening Project</Name>
+		<Location>Ubari, Municipality of Ubari</Location>
+	</Project>
+</SFLProjectsGallery>
