@@ -59,15 +59,15 @@ getNavLink=function (elem, sector) {
   const mediaMain= document.getElementById("main-wraper");
   w3.styleElement(header, 'display', "none");
   w3.styleElement(mediaMain, 'display', "none");
-  var xmlFile="xmls/ProjectsGallery.xml";
-  var xslFile="xsls/projectsGallery.xsl";
+  var xmlFile="https://desertengineer.github.io/Common/xmls/SFLProjectsGallery.xml";
+  var xslFile="https://desertengineer.github.io/Common/xsls/projectsGallery.xsl";
   var elemId="pjcts-gal";
   xml = loadXMLDoc(xmlFile);
   xsl = loadXMLDoc(xslFile);
   transformXsl(xml,xsl,elemId);
-  document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
+  document.querySelector('h1#sector-title').innerHTML= "sfl projects gallery"; 
   w3.styleElement(page, 'display', "block"); 
-        filterSelection(sector); 
+        //filterSelection(sector); 
         //displayProject();  
 } 
 
