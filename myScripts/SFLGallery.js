@@ -52,12 +52,7 @@ else if (document.implementation && document.implementation.createDocument)
 } 
 // to display requested pages
 
-getNavLink=function () {  
-  const page = document.getElementById("nav-page");
-  const header =document.getElementById("header");
-  const mediaMain= document.getElementById("main-wraper");
-  w3.styleElement(header, 'display', "none");
-  w3.styleElement(mediaMain, 'display', "none");
+getNavLink=function () {     
   var xmlFile="https://desertengineer.github.io/Common/xmls/SFLProjectsGallery.xml";
   var xslFile="https://desertengineer.github.io/Common/xsls/projectsGallery.xsl";
   var elemId="pjcts-gal";
