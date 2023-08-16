@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsls/ProjectsGallery.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://desertengineer.github.io/Common/Xsls/projectsGallery.xsl"?>
 <SFLProjectsGallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Project>
 		<Classes>pjct Completed H-Education</Classes>
