@@ -1,16 +1,7 @@
-fetchData=function (file) { 
-  fetch(file)
-    .then((response) => response.text())
-    .then((text) => { 
-      sessionStorage.filelData= text; 
-      //console.log(text); 
-      //div.innerHTML=sessionStorage.filelData;
-    });   
-}  
-
-  var xhttp;
+ var xhttp;
 function loadXMLDoc(filename)
 {
+   console.log("loadXMLDoc"); 
   if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
     xhttp=new XMLHttpRequest();
@@ -29,11 +20,10 @@ function loadXMLDoc(filename)
     xhttp.send();
 return xhttp.responseXML;
 }
-
 function transformXsl(xml,xsl,elemId){  
+   console.log("transformXsl"); 
    document.querySelector('h1#sector-title').innerHTML="";
-  document.getElementById(elemId).innerHTML= "";
-  
+  document.getElementById(elemId).innerHTML= "";  
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
@@ -52,7 +42,8 @@ else if (document.implementation && document.implementation.createDocument)
 } 
 // to display requested pages
 
-getNavLink=function () {     
+getNavLink=function () {  
+  setTimeout(console.log("getNavLink"),3000);      
   var xmlFile="https://desertengineer.github.io/Common/xmls/SFLProjectsGallery.xml";
   var xslFile="https://desertengineer.github.io/Common/xsls/projectsGallery.xsl";
   var elemId="pjcts-gal";
