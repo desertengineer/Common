@@ -49,7 +49,6 @@ em {color: hsl(216deg 90.48% 41.67%);font-weight:500;}
 .attrib-p {margin:auto 0;}
 #attrib1 img {margin-left: 17px;}
 #github-logo{max-height:55px;}
-
 @media screen and (max-width: 500px) {
 .w3-bar .w3-bar-item {float:none}
 #top-nav .search-container {float: none;}
