@@ -1,0 +1,65 @@
+body {background-color:beige;margin:5px 25px 15px;}
+title{text-transform:capitalize;}
+#top-nav {display: flex;}
+#nav-logo{margin: 0;padding: 0 16px 0 0;}
+#logo {width: auto;height: 60px;margin: 0 0 0 30px;} 
+#nav-home, #infographic{padding: 20px 20px;margin: 0 15px;background-color: #154dd0;} 
+#infographic, #top-nav .search-container {display:none;} 
+#nav-home i {margin:0 0 0 auto;} 
+#nav-home b {margin: 0 auto 0 0;}  
+#infographic b{margin: 0 auto;} 
+.fa-home{color:#C2185B;margin:0 5px;}
+.w3-button {padding: 19px 20px;margin: 0 15px;}
+.w3-dropdown-hover {}
+button .w3-bar-item.w3-button.w3-mobile {margin:0;}
+#top-nav .search-container {float: right;} 
+#top-nav input[type=text] {padding: 6px;margin: 12px 0 13px;font-size: 14px;border: none;} 
+#top-nav .search-container button {float: right;padding: 6px 10px;margin: 12px 0;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
+#top-nav .search-container button:hover {background: #ccc;}
+a href::after {content: ' target="_blanck"';}
+#header {display: flex;overflow: hidden;/*height: 395px;*/}
+#header-main {display: flex;justify-content: space-around;flex-direction: row;}
+#moulay-photo{max-height:100px;margin: auto 8px;/* position: relative; */}
+#welcome-container{background-color:beige;margin: 30px 10px 30px 118px;padding:15px;width: 500px;/* height:275px; */position: relative;}
+#welcome-container h3{color:blue;font-weight:bold;margin:15px;}
+#welcome-msg {color: #101110;}
+em {color: hsl(216deg 90.48% 41.67%);font-weight:500;}
+#moulay-decorative{height:50px;}
+#pjcts-slider{/*padding:5px 0;vertical-align: middle;display:block;*/margin-top: 57px;}
+/*div .mySlides.fade img {width: 100%; height:auto; }*/
+.mySlides{max-height:280px;}
+#my-media {padding: 17px;color: #e3f525;background-color: #795548;font-weight:500;text-transform:capitalize;transition: height 2s;white-space: normal;}
+#my-media:hover {color: #e20a0a;background-color: #e3f525;height: 3em;cursor:pointer;}
+/*.active{color: #795548;background-color: #e3f525;}*/
+.panel {display: none;overflow: hidden;}
+#main-box{margin: 14px 16px;display: flex;} 
+#main-left {margin: 0px 8px;}  
+#main-right {margin: 1px 8px;}  
+#main-left iframe,#main-right iframe{padding: 0px 3px;margin: px 11px;height:380px;width:100%;}  
+#footer-box {/* display: flex; */justify-content: space-evenly;/* height: 175px; */background-COLOR:#0f136a;}
+#footer-box DIV {/* padding:5px 0px; */margin: 5px 0px;align-items: flex-start;} 
+#footer-box div a {border-bottom:none;text-decoration: none;padding: 13px;text-transform:capitalize;text-align:left;} 
+#footer-left img {max-width: 320px;} 
+#footer-box div h4 {padding:0px;margin: 0;text-decoration: underline;}
+#footer-mid1 a:hover ,#footer-mid2 a:hover {color: #ab0b0b!important;background-color: #d3d848!important;}
+#footer-mid1,#footer-mid2,#footer-mid3,#footer-right {flex-direction:column;}
+#attrib1{display:flex;padding: 0px;justify-content: space-around;}
+#attrib1 strong {margin-right:5px; text-transform:capitalize;}
+#attrib1 div {margin: 5px 10px;}
+.attrib-p {margin:auto 0;}
+#attrib1 img {margin-left: 17px;}
+#github-logo{max-height:55px;}
+
+@media screen and (max-width: 500px) {
+.w3-bar .w3-bar-item {float:none}
+#top-nav .search-container {float: none;}
+#top-nav a, #top-nav input[type=text], #top-nav .search-container button {float: none;width: 100%;margin: 0;padding: 7px;}
+#top-nav input[type=text] {border: 1px solid #ccc;}
+#top-nav, #header, #header-main, #main-box, #footer-box, #attrib1{ display: block;}
+#moulay-photo , #header-main, #welcome-container, #welcome-msg, #pjcts-slider, #mySlidesmySlides #footer-box , #attrib1 {float: none;height:auto;}
+#footer-box div, #attrib1 div { margin:auto;}
+#welcome-container {max-width: 331px;} 
+#main-box{float: none;display: block;} 
+.s4 iframe, .s8 iframe{max-width: 400px;} 
+#main-left ,#main-right {width:100%;} 
+}
