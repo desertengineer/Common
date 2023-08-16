@@ -52,8 +52,7 @@ else if (document.implementation && document.implementation.createDocument)
 } 
 // to display requested pages
 
-getNavLink=function (elem, sector) { 
-  var title=elem.innerHTML;
+getNavLink=function () {  
   const page = document.getElementById("nav-page");
   const header =document.getElementById("header");
   const mediaMain= document.getElementById("main-wraper");
