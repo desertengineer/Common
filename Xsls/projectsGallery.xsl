@@ -4,7 +4,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-    <xsl:for-each select="ProjectsGallery/Project">
+    <xsl:for-each select="SFLProjectsGallery/Project">
     <div class="{Classes}"> 
         <a href="javascript:void(0);" id="{Id}" onclick="displayProject(this)"> 
             <img src="{Img}"/> 
