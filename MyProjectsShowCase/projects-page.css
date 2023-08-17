@@ -7,7 +7,6 @@
 .pjct p {font-size:14px;text-align:center; text-transform: capitalize;} 
 .w3-container h1{text-align:center;text-transform:capitalize;margin:10px; padding:10px;} 
 .show {display:table-cell;}
-
 /* individual project styles*/
 #pjct-card {}
 #pjct-ttl{text-align:center;font-weight:600;text-transform:capitalize;}
@@ -27,7 +26,5 @@
 #pjct-footer img{width:100px;height:100px;margin:0 15px; }
 #client{display:flex;margin: 5px 45px;}
 #client img{max-height:105px; }
-
-
 @media screen and (max-width: 500px) {
 #project-cover, #sdg-icons, #pjct-footer, #sdg-icons{display: block;}}
