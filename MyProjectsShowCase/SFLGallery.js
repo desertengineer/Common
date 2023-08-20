@@ -41,17 +41,17 @@ else if (document.implementation && document.implementation.createDocument)
 } 
 // to display requested pages
 
-getNavLink=function () {  
+getProgramGallery=function (Program) {  
   setTimeout(console.log("getNavLink"),3000);      
-  var xmlFile="https://desertengineer.github.io/Common/Xmls/SFLProjectsGallery.xml";
-  var xslFile="https://desertengineer.github.io/Common/Xsls/projectsGallery.xsl";
+  var xmlFile="https://desertengineer.github.io/Common/MyProjectsShowCase.xml";
+  var xslFile="https://desertengineer.github.io/Common/MyProjectsShowCase.xsl";
   var elemId="pjcts-gal";
   xml = loadXMLDoc(xmlFile);
   xsl = loadXMLDoc(xslFile);
   transformXsl(xml,xsl,elemId);
-  document.querySelector('h1#sector-title').innerHTML= "sfl projects gallery"; 
+  document.querySelector('h1#sector-title').innerHTML=Program +" projects gallery"; 
   w3.styleElement(page, 'display', "block"); 
-        filterSelection('all'); 
+        //filterSelection('all'); 
         //displayProject();  
 } 
 
