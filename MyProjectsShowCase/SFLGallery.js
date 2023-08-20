@@ -1,6 +1,5 @@
- var xhttp;
 function loadXMLDoc(filename)
-{
+{ var xhttp;
    console.log("loadXMLDoc"); 
   if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
