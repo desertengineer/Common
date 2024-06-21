@@ -2,14 +2,14 @@ body {
         background: #ffffff;
         margin: 20px;
       }
-h1 {
+.post-body h1 {
   font-size: 5rem;
   text-transform: capitalize;
   text-shadow: 1px 1px 1px red, 2px 2px 1px red;
   text-align: center;
   padding: 15px 15px 15px 15%;
 }
-p {
+.post-body p {
  font-family: Georgia, "Times New Roman", Times, serif;
  font-size: 18px;
  font-weight: 600;
@@ -19,7 +19,7 @@ p {
  text-align: left;
 }
 
-      button {
+      .post-body button {
   border: 1px solid #d84343;
  color: #3438c7;
  font-size: 16px;
@@ -40,7 +40,7 @@ margin: 15px;
 display: inline-block;
  visibility:visible;
 }
- img {
+ .post-body img {
  background-color: #b6fcf4;
   border: 5px dashed #dea311;
   border-radius: 10px;
