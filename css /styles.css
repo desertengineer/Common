@@ -12,10 +12,11 @@ h1 {
 p {
  font-family: Georgia, "Times New Roman", Times, serif;
  font-size: 18px;
+ font-weight: 600;
  color: #039;
- background-color: #de1111;
+ background-color: #9fde1170;
  padding: 15px 15px 15px 15px;
- text-align: right;
+ text-align: left;
 }
 
       button {
