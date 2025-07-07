@@ -1,0 +1,1 @@
+bekeirat software blog assets
