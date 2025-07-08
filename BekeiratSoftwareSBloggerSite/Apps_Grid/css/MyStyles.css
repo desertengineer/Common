@@ -7,98 +7,98 @@
 
 
     .amiri {
-        font-family: 'Amiri', serif;
+        font-family: 'Amiri', serif!important;
     }
 
     .droid-arabic-kufi {
-        font-family: 'Droid Arabic Kufi', serif;
+        font-family: 'Droid Arabic Kufi', serif!important;
     }
 
     .droid-arabic-naskh {
-        font-family: 'Droid Arabic Naskh', serif;
+        font-family: 'Droid Arabic Naskh', serif!important;
     }
 
     .lateef {
-        font-family: 'Lateef', serif;
+        font-family: 'Lateef', serif!important;
     }
 
     .scheherazade {
-        font-family: 'Scheherazade', serif;
+        font-family: 'Scheherazade', serif!important;
     }
 
     .thabit {
-        font-family: 'Thabit', serif;
+        font-family: 'Thabit', serif!important;
     }
 
     #Blog1>div>article>div>div>div.slide>div>div.post-title-container>h3 {
-        display: none;
+        display: none!important;
     }
 
     h1.PageTitle {
-        font-size: 2.5em;
-        color: Yellow !important;
-        text-align: center;
+        font-size: 2.5em!important;
+        color: Yellow !important!important;
+        text-align: center!important;
     }
 
     div.gallery {
-        border: 1px solid #ccc;
+        border: 1px solid #ccc!important;
     }
 
     div.gallery:hover {
-        border: 1px solid #777;
+        border: 1px solid #777!important;
     }
 
     div.gallery img {
-        width: 100%;
-        height: auto;
+        width: 100%!important;
+        height: auto!important;
     }
 
     div.desc {
-        padding: 15px;
-        text-align: center;
+        padding: 15px!important;
+        text-align: center!important;
     }
 
     .btn {
-        background-color: #ddd;
-        border: none;
-        color: black;
-        padding: 16px 32px;
-        text-align: center;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition: 0.3s;
+        background-color: #ddd!important;
+        border: none!important;
+        color: black!important;
+        padding: 16px 32px!important;
+        text-align: center!important;
+        font-size: 16px!important;
+        margin: 4px 2px!important;
+        transition: 0.3s!important;
     }
 
     .btn:hover {
-        background-color: #3e8e41;
-        color: white;
+        background-color: #3e8e41!important;
+        color: white!important;
     }
 
     * {
-        box-sizing: border-box;
+        box-sizing: border-box!important;
     }
 
     .responsive {
-        padding: 0 6px;
-        float: right;
-        width: 33.33333%;
+        padding: 0 6px!important;
+        float: right!important;
+        width: 33.33333%!important;
     }
 
     @media only screen and (max-width: 700px) {
         .responsive {
-            width: 49.99999%;
-            margin: 6px 0;
+            width: 49.99999%!important;
+            margin: 6px 0!important;
         }
     }
 
     @media only screen and (max-width: 500px) {
         .responsive {
-            width: 100%;
+            width: 100%!important;
         }
     }
 
     .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
+        content: ""!important;
+        display: table!important;
+        clear: both!important;
     }
