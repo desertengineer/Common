@@ -1,1 +1,104 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+
+
+    .amiri {
+        font-family: 'Amiri', serif;
+    }
+
+    .droid-arabic-kufi {
+        font-family: 'Droid Arabic Kufi', serif;
+    }
+
+    .droid-arabic-naskh {
+        font-family: 'Droid Arabic Naskh', serif;
+    }
+
+    .lateef {
+        font-family: 'Lateef', serif;
+    }
+
+    .scheherazade {
+        font-family: 'Scheherazade', serif;
+    }
+
+    .thabit {
+        font-family: 'Thabit', serif;
+    }
+
+    #Blog1>div>article>div>div>div.slide>div>div.post-title-container>h3 {
+        display: none;
+    }
+
+    h1.PageTitle {
+        font-size: 2.5em;
+        color: Yellow !important;
+        text-align: center;
+    }
+
+    div.gallery {
+        border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #3e8e41;
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: right;
+        width: 33.33333%;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
