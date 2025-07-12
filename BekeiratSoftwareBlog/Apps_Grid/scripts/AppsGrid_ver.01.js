@@ -1,5 +1,5 @@
 function loadApps() {
-  fetch('https://raw.githubusercontent.com/your-github-repo/apps.xml')
+  fetch('https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/data/AppsGrid_ver.01.xml')
     .then(function(response) {
       return response.text();
     })
