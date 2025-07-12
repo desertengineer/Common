@@ -49,7 +49,7 @@ function renderApps(apps) {
     card.setAttribute('data-direction', app.direction);
 
     card.innerHTML =
-      '<img class="icon" src="https://your-github-repo/icons/' + app.icon + '" alt="' + app.name + '">' +
+      '<img class="icon" src="' + app.icon + '" alt="' + app.name + '">' +
       '<div class="app-name">' + app.name + '</div>' +
       '<div class="app-desc">' + app.description + '</div>' +
       '<a class="playstore-link" href="' + app.playstore + '" target="_blank" rel="noopener noreferrer">' +
