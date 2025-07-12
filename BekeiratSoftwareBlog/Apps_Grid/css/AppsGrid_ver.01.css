@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif !important;
+  margin: 0 !important;
+  background: #f7f7f7 !important;
+}
+
+.filter-bar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 1em !important;
+  background: #fff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+.lang-filters, .category-filters {
+  display: flex !important;
+  gap: 0.5em !important;
+}
+
+.lang-btn {
+  width: 50px !important;      /* increased size */
+  height: 50px !important;     /* increased size */
+  border: none !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  outline: 2px solid transparent !important;
+}
+
+.lang-btn.active, .cat-btn.active {
+  outline: 2px solid #007bff !important;
+}
+
+.cat-btn {
+  padding: 0.5em 1em !important;
+  border: none !important;
+  background: #e0e0e0 !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  font-size: 1em !important;
+}
+
+.cat-btn.active {
+  background: #007bff !important;
+  color: #fff !important;
+}
+
+.app-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 1.5em !important;
+  padding: 2em !important;
+}
+
+.app-card {
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+  padding: 1.5em !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.app-card img.icon {
+  width: 100px !important;  /* increased from 64px */
+  height: 100px !important; /* increased from 64px */
+  margin-bottom: 1em !important;
+}
+
+.app-card .app-name {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  margin-bottom: 0.5em !important;
+}
+
+.app-card .app-desc {
+  font-size: 0.95em !important;
+  color: #444 !important;
+  margin-bottom: 1em !important;
+  text-align: center !important;
+}
+
+.app-card .playstore-link img {
+  width: 140px !important;  /* slightly bigger */
+  height: auto !important;
+}
