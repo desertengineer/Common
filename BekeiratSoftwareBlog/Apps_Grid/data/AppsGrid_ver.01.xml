@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<app>
+		<name>خمن عاصمة الدولة </name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArCapitalsIcon_512X512.png</icon>
+		<description>اختبر معلوماتك عن عواصم العالم.</description>
+		<category>Capitals</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.khmnsmldwl</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>العب وتعرف على اعلام البلدان</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArFlagsIcon_512X512.png</icon>
+		<description>تحدي معرفتك مع لعبة الأسئلة الشيقة 'العب وتعرف على اعلام البلدان</description>
+		<category>Flags</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.lbwtrfllmlbldn</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>معالم مشهورة</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLandmarksIcon_512X512.png</icon>
+		<description>اختبر معرفتك بالمعالم العالمية المشهورة !</description>
+		<category>Landmarks</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.myguessthepic</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>لمن هذا الشعار؟</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLogosIcon_512X512.png</icon>
+		<description>تحدي معرفتك واختبر ذكائك في لعبة تريفيا الشعارات العربية الممتعة!</description>
+		<category>Logos</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amyguessthepic</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>شخصيات عالمية</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPeopleIcon_512X512.png</icon>
+		<description>تحدي معرفتك بالشخصيات العالمية في لعبة خمن الشخصية</description>
+		<category>People</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.shkhsytlmy</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>خمن لاعب كرة القدم</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPlayersIcon_512X512.png</icon>
+		<description>مرحبا بكم في لعبة لاعبي كرة القدم في كل العصور! </description>
+		<category>Players</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.hltrfhdhlb</playstore>
+		<direction>rtl</direction>
+		<lang>Ar</lang>
+	</app>
+	<app>
+		<name>Guess the World Capitals Quiz</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnCapitalsIcon_512X512.png</icon>
+		<description>Test your knowledge of the world countries! Capitals Quiz</description>
+		<category>Capitals</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guesstheworldcapitalsquiz</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>Guess the Country Name</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnFlagsIcon_512X512.png</icon>
+		<description>Test your knowledge of geography! Identify world flags in this game.</description>
+		<category>Flags</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guessthecountryname</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>Famous Landmarks Quiz </name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnLandmarksIcon_512X512.png</icon>
+		<description>Identify the most attractive landmarks in the world!</description>
+		<category>Landmarks</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amlmmshhwr</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>Do you know this Logo?</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnLogosIcon_512X512.png</icon>
+		<description>Challenge your knowledge to guess the Cars, Sports, Food and Business Logos</description>
+		<category>Logos</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.doyouknowthislogo</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>International Personalities</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnPeopleIcon_512X512.png</icon>
+		<description>Challenge yourself in this exciting Personalities puzzle game</description>
+		<category>People</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.internationalpersonalities</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>Guess the Footballer Quiz</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnPlayersIcon_512X512.png</icon>
+		<description>Do you know this player?</description>
+		<category>Players</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.footballersofalltime</playstore>
+		<direction>ltr</direction>
+		<lang>En</lang>
+	</app>
+	<app>
+		<name>Adivina la capital del país</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsCapitalsIcon_512X512.png</icon>
+		<description>Pon a prueba tus conocimientos sobre las capitales del mundo.</description>
+		<category>Capitals</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.cubbyclips</playstore>
+		<direction>ltr</direction>
+		<lang>Es</lang>
+	</app>
+	<app>
+		<name>Adivina el nombre del país</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsFlagsIcon_512X512.png</icon>
+		<description>Pon a prueba tus conocimientos de geografía! Identifica banderas del mundo en este juego.</description>
+		<category>Flags</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaelnombredelpais</playstore>
+		<direction>ltr</direction>
+		<lang>Es</lang>
+	</app>
+	<app>
+		<name>¿Conoces este logotipo?</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsLogosIcon_512X512.png</icon>
+		<description>Pon a prueba tus conocimientos para adivinar este logo</description>
+		<category>Logos</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.conocesestelogotipo</playstore>
+		<direction>ltr</direction>
+		<lang>Es</lang>
+	</app>
+	<app>
+		<name>Personalidades internacionales</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsPeopleIcon_512X512.png</icon>
+		<description>Ponte a prueba en este emocionante juego de rompecabezas de personalidades.</description>
+		<category>People</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.personalidadesinternacionales</playstore>
+		<direction>ltr</direction>
+		<lang>Es</lang>
+	</app>
+	<app>
+		<name>Adivina el jugador</name>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsPlayersIcon_512X512.png</icon>
+		<description>¿Conoces a este jugador?</description>
+		<category>Players</category>
+		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaeljugador</playstore>
+		<direction>ltr</direction>
+		<lang>Es</lang>
+	</app>
+</apps>
