@@ -56,7 +56,7 @@
 	</app>
 	<app>
 		<name>Guess the World Capitals Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnCapitalsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnCapitalsIcon_512X512.png</icon>
 		<description>Test your knowledge of the world countries! Capitals Quiz</description>
 		<category>Capitals</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guesstheworldcapitalsquiz</playstore>
@@ -65,7 +65,7 @@
 	</app>
 	<app>
 		<name>Guess the Country Name</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnFlagsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnFlagsIcon_512X512.png</icon>
 		<description>Test your knowledge of geography! Identify world flags in this game.</description>
 		<category>Flags</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guessthecountryname</playstore>
@@ -74,7 +74,7 @@
 	</app>
 	<app>
 		<name>Famous Landmarks Quiz </name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnLandmarksIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLandmarksIcon_512X512.png</icon>
 		<description>Identify the most attractive landmarks in the world!</description>
 		<category>Landmarks</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amlmmshhwr</playstore>
@@ -83,7 +83,7 @@
 	</app>
 	<app>
 		<name>Do you know this Logo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnLogosIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLogosIcon_512X512.png</icon>
 		<description>Challenge your knowledge to guess the Cars, Sports, Food and Business Logos</description>
 		<category>Logos</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.doyouknowthislogo</playstore>
@@ -92,7 +92,7 @@
 	</app>
 	<app>
 		<name>International Personalities</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnPeopleIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPeopleIcon_512X512.png</icon>
 		<description>Challenge yourself in this exciting Personalities puzzle game</description>
 		<category>People</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.internationalpersonalities</playstore>
@@ -101,7 +101,7 @@
 	</app>
 	<app>
 		<name>Guess the Footballer Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EnEnPlayersIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPlayersIcon_512X512.png</icon>
 		<description>Do you know this player?</description>
 		<category>Players</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.footballersofalltime</playstore>
@@ -110,7 +110,7 @@
 	</app>
 	<app>
 		<name>Adivina la capital del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsCapitalsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsCapitalsIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos sobre las capitales del mundo.</description>
 		<category>Capitals</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.cubbyclips</playstore>
@@ -119,7 +119,7 @@
 	</app>
 	<app>
 		<name>Adivina el nombre del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsFlagsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsFlagsIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos de geografía! Identifica banderas del mundo en este juego.</description>
 		<category>Flags</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaelnombredelpais</playstore>
@@ -128,7 +128,7 @@
 	</app>
 	<app>
 		<name>¿Conoces este logotipo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsLogosIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsLogosIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos para adivinar este logo</description>
 		<category>Logos</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.conocesestelogotipo</playstore>
@@ -137,7 +137,7 @@
 	</app>
 	<app>
 		<name>Personalidades internacionales</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsPeopleIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPeopleIcon_512X512.png</icon>
 		<description>Ponte a prueba en este emocionante juego de rompecabezas de personalidades.</description>
 		<category>People</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.personalidadesinternacionales</playstore>
@@ -146,7 +146,7 @@
 	</app>
 	<app>
 		<name>Adivina el jugador</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/EsEsPlayersIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPlayersIcon_512X512.png</icon>
 		<description>¿Conoces a este jugador?</description>
 		<category>Players</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaeljugador</playstore>
