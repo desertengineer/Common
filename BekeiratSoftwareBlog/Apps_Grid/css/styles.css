@@ -1,0 +1,167 @@
+    @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+    @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+
+
+    .amiri {
+        font-family: 'Amiri', serif!important;
+    }
+
+    .droid-arabic-kufi {
+        font-family: 'Droid Arabic Kufi', serif!important;
+    }
+
+    .droid-arabic-naskh {
+        font-family: 'Droid Arabic Naskh', serif!important;
+    }
+
+    .lateef {
+        font-family: 'Lateef', serif!important;
+    }
+
+    .scheherazade {
+        font-family: 'Scheherazade', serif!important;
+    }
+
+    .thabit {
+        font-family: 'Thabit', serif!important;
+    }
+
+    #Blog1>div>article>div>div>div.slide>div>div.post-title-container>h3 {
+        display: none!important;
+    }
+    /* Base styles */
+body {
+  font-family: system-ui, sans-serif!important;
+  margin: 0!important;
+  padding: 1rem!important;
+  background: #f4f4f4!important;
+}
+
+.category-buttons {
+  display: flex!important;
+  flex-wrap: wrap!important;
+  gap: 0.5rem!important;
+  margin-bottom: 1rem!important;
+  justify-content: center!important;
+}
+
+.category-buttons button {
+  padding: 0.5rem 1.2rem!important;
+  border: none!important;
+  border-radius: 5px!important;
+  cursor: pointer!important;
+  background: #eee!important;
+  font-size: 0.9rem!important;
+  transition: background 0.3s!important;
+}
+
+.category-buttons button:hover {
+  background: #ddd!important;
+}
+
+/* Language-specific colors */
+.category-buttons button.lang.arabic {
+  background-color: #fdd835!important;
+}
+
+.category-buttons button.lang.english {
+  background-color: #42a5f5!important;
+  color: white!important;
+}
+
+.category-buttons button.lang.spanish {
+  background-color: #ef5350!important;
+  color: white!important;
+}
+
+/* Responsive grid */
+.grid-container {
+  display: grid!important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))!important;
+  gap: 1rem!important;
+  padding: 1rem!important;
+}
+
+/* App card layout */
+.app-card {
+  background: #fff!important;
+  padding: 1rem!important;
+  border-radius: 12px!important;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1)!important;
+  text-align: center!important;
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: center!important;
+}
+
+.app-icon {
+  width: 64px!important;
+  height: 64px!important;
+  object-fit: contain!important;
+  margin-bottom: 0.5rem!important;
+}
+
+.app-card h3 {
+  font-size: 1rem!important;
+  margin: 0.5rem 0 0.25rem!important;
+}
+
+.app-card p {
+  font-size: 0.9rem!important;
+  color: #444!important;
+  margin: 0 0 0.5rem!important;
+  line-height: 1.4!important;
+}
+
+.play-badge {
+  width: 120px!important;
+  margin-top: auto!important;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .category-buttons {
+    gap: 0.4rem!important;
+  }
+
+  .category-buttons button {
+    flex: 1 1 30%!important;
+    font-size: 0.8rem!important;
+    padding: 0.4rem 0.8rem!important;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr!important;
+    padding: 0.5rem!important;
+  }
+
+  .app-card {
+    padding: 0.8rem!important;
+  }
+
+  .play-badge {
+    width: 100px!important;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr!important;
+  }
+
+  .category-buttons button {
+    flex: 1 1 100%!important;
+  }
+
+  .app-card h3 {
+    font-size: 0.95rem!important;
+  }
+
+  .app-card p {
+    font-size: 0.85rem!important;
+  }
+}

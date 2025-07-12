@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Catalog</title>
+  <link rel="stylesheet" href="https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/css/styles.css" />
+</head>
+
+<body>
+
+  <div class="category-buttons">
+    <button class="lang arabic" onclick="filterApps('Arabic')">Arabic</button>
+    <button class="lang english" onclick="filterApps('English')">English</button>
+    <button class="lang spanish" onclick="filterApps('Spanish')">Spanish</button>
+    <button onclick="filterApps('Flags')">Flags</button>
+    <button onclick="filterApps('Capitals')">Capitals</button>
+    <button onclick="filterApps('People')">People</button>
+    <button onclick="filterApps('Famous Logos')">Famous Logos</button>
+    <button onclick="filterApps('Landmarks')">Landmarks</button>
+    <button onclick="filterApps('All')">Show All</button>
+  </div>
+
+  <div id="app-grid" class="grid-container">
+    <!-- Cards inserted here -->
+  </div>
+
+  <script>
+    let allApps = [];
+
+    async function loadApps() {
+      const res = await fetch('https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/data/apps.xml');
+      const text = await res.text();
+      const xml = new DOMParser().parseFromString(text, "application/xml");
+
+      const direction = xml.documentElement.getAttribute("direction") || "ltr";
+      document.getElementById("html-root").setAttribute("dir", direction);
+
+      allApps = Array.from(xml.getElementsByTagName("app")).map(app => ({
+        name: app.getElementsByTagName("name")[0].textContent,
+        icon: app.getElementsByTagName("icon")[0].textContent,
+        description: app.getElementsByTagName("description")[0].textContent,
+        category: app.getElementsByTagName("category")[0].textContent,
+        playstore: app.getElementsByTagName("playstore")[0].textContent
+      }));
+
+      displayApps(allApps);
+    }
+
+    function displayApps(apps) {
+      const container = document.getElementById("app-grid");
+      container.innerHTML = "";
+
+      apps.forEach(app => {
+        const card = document.createElement("div");
+        card.className = "app-card";
+        card.innerHTML = `
+          <img src="${app.icon}" alt="${app.name}" class="app-icon" />
+          <h3>${app.name}</h3>
+          <p>${app.description}</p>
+          <a href="${app.playstore}" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="play-badge" />
+          </a>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function filterApps(category) {
+      if (category === 'All') return displayApps(allApps);
+      const filtered = allApps.filter(app => app.category === category);
+      displayApps(filtered);
+    }
+
+    loadApps();
+  </script>
+
+</body>
+
+</html>
