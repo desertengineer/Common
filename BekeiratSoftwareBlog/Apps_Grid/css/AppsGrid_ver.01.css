@@ -20,18 +20,29 @@ body {
 }
 
 .lang-btn {
-  width: 50px !important;      /* increased size */
-  height: 50px !important;     /* increased size */
+  width: 50px !important;
+  height: 50px !important;
   border: none !important;
   background-size: cover !important;
   background-position: center !important;
   border-radius: 50% !important;
   cursor: pointer !important;
   outline: 2px solid transparent !important;
+  font-size: 1em !important;
+  color: #333 !important;
+  text-align: center !important;
+  line-height: 50px !important;
+  background-color: #e0e0e0 !important; /* for "All" button */
+}
+
+.lang-btn[style] {
+  background-color: transparent !important; /* remove bg color for flag buttons */
 }
 
 .lang-btn.active, .cat-btn.active {
   outline: 2px solid #007bff !important;
+  background-color: #007bff !important;
+  color: #fff !important;
 }
 
 .cat-btn {
@@ -41,11 +52,6 @@ body {
   border-radius: 20px !important;
   cursor: pointer !important;
   font-size: 1em !important;
-}
-
-.cat-btn.active {
-  background: #007bff !important;
-  color: #fff !important;
 }
 
 .app-grid {
@@ -66,8 +72,8 @@ body {
 }
 
 .app-card img.icon {
-  width: 100px !important;  /* increased from 64px */
-  height: 100px !important; /* increased from 64px */
+  width: 100px !important;
+  height: 100px !important;
   margin-bottom: 1em !important;
 }
 
@@ -85,6 +91,6 @@ body {
 }
 
 .app-card .playstore-link img {
-  width: 140px !important;  /* slightly bigger */
+  width: 140px !important;
   height: auto !important;
 }
