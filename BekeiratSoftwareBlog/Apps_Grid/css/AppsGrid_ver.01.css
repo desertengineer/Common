@@ -57,10 +57,10 @@ h3.post-title.entry-title {background-color:#ddf977!important;color:blue!importa
   border-radius: 20px !important;
   cursor: pointer !important;
   font-size: 1.2em !important;
-  width: 5.5em !important;
+  width: 5.2em !important;
 }
  button.cat-btn:hover {
-   background: #54ef22 !important;color:black!important; border: 3px solid white!important;outline:none!important;
+   background: #54ef22 !important;color:black!important; border: 3px solid white!important;outline:none!important;width: 5.6em !important;
  }
 
 .app-grid {
