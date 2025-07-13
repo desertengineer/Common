@@ -81,6 +81,10 @@ h3.post-title.entry-title {background-color:#ddf977!important;color:blue!importa
   align-items: center !important;
 }
 
+.app-data{
+  cursor: pointer!important;
+}
+
 .app-card img.icon {
   width: 80% !important;
   margin-bottom: 1em !important;
