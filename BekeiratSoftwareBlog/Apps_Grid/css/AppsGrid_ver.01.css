@@ -4,14 +4,15 @@ body {
   background: #f7f7f7 !important;
 }
 
+h3.post-title.entry-title {background-color:#ddf977!important;color:blue!important;font-size:2.5em!important;font-weight:600!important;padding:8px!important;} 
+
 .filter-bar {
   display: flex !important;
   background-color: #9f0f8d!important;
   flex-wrap: wrap !important;
   justify-content: space-between !important;
   align-items: center !important;
-  padding: 1em !important;
-  background: #fff !important;
+  padding: 1em !important; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
 }
 
