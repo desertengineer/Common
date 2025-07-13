@@ -57,6 +57,9 @@ h3.post-title.entry-title {background-color:#ddf977!important;color:blue!importa
   font-size: 1.2em !important;
   width: 5.5em !important;
 }
+ button.cat-btn:hover {
+   background: #54ef22 !important;color:black!important; border: 2px solid red!important;outline:none!important;
+ }
 
 .app-grid {
   display: grid !important;
