@@ -17,6 +17,7 @@ body {
 .lang-filters, .category-filters {
   display: flex !important;
   gap: 0.5em !important;
+  margin: 1em !important;
 }
 
 .lang-btn {
