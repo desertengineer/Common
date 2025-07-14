@@ -18,7 +18,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.lbwtrfllmlbldn</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
-		<youtube>https://www.youtube.com/watch?v=Om4-5Wqtb3M</youtube>
+		<youtube>https://www.youtube.com/embed/Om4-5Wqtb3M</youtube>
 	</app>
 	<app>
 		<name>معالم مشهورة</name>
@@ -28,7 +28,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.myguessthepic</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
-		<youtube>https://youtu.be/FzVRvcpm6J8</youtube>
+		<youtube>https://youtube.com/embed/FzVRvcpm6J8</youtube>
 	</app>
 	<app>
 		<name>لمن هذا الشعار؟</name>
@@ -38,7 +38,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amyguessthepic</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
-		<youtube>https://www.youtube.com/watch?v=L7L6PBUtj8s</youtube>
+		<youtube>https://www.youtube.com/embed/L7L6PBUtj8s</youtube>
 	</app>
 	<app>
 		<name>شخصيات عالمية</name>
@@ -58,7 +58,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.hltrfhdhlb</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
-		<youtube>https://youtu.be/TGWJQezPS8g</youtube>
+		<youtube>https://youtube.com/embed/TGWJQezPS8g</youtube>
 	</app>
 	<app>
 		<name>Guess the World Capitals Quiz</name>
@@ -78,7 +78,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guessthecountryname</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
-		<youtube>https://www.youtube.com/watch?v=jq3pZN5jI0E</youtube>
+		<youtube>https://www.youtube.com/embed/jq3pZN5jI0E</youtube>
 	</app>
 	<app>
 		<name>Famous Landmarks Quiz</name>
@@ -88,7 +88,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amlmmshhwr</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
-		<youtube>https://www.youtube.com/watch?v=gJfhc18o1ec</youtube>
+		<youtube>https://www.youtube.com/embed/gJfhc18o1ec</youtube>
 	</app>
 	<app>
 		<name>Do you know this Logo?</name>
@@ -98,7 +98,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.doyouknowthislogo</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
-		<youtube>https://www.youtube.com/watch?v=92jk22sgc1g</youtube>
+		<youtube>https://www.youtube.com/embed/92jk22sgc1g</youtube>
 	</app>
 	<app>
 		<name>International Personalities</name>
@@ -118,7 +118,7 @@
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.footballersofalltime</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
-		<youtube>https://youtu.be/KfMXk0jMOCQ</youtube>
+		<youtube>https://youtube.com/embed/KfMXk0jMOCQ</youtube>
 	</app>
 	<app>
 		<name>Adivina la capital del país</name>
