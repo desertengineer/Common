@@ -101,10 +101,10 @@
 }
 
 .nav-arrow {
-  font-size: 2em !important;
-  background: none !important;
-  border: none !important;
-  color: #007bff !important;
+  font-size: 4em !important;
+  background-color: yellow !important;
+  border: solid red 2px !important;
+  color: #0026ff !important;
   cursor: pointer !important;
   padding: 0 1em !important;
 }
