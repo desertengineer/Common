@@ -58,6 +58,7 @@
 .modal-title {
   font-size: 1.3em !important;
   font-weight: bold !important;
+  margin-right: 2em!important;
 }
 
 .modal-body {
@@ -70,9 +71,11 @@
 .modal-desc {
   width: 25% !important;
   min-width: 80px !important;
-  font-size: 1em !important;
+  font-size: 1.3em !important;
   color: #444 !important;
   align-self: flex-start !important;
+  background-color: #c1eec1!important;
+  padding: 10px 5px!important;
 }
 
 .modal-youtube {
