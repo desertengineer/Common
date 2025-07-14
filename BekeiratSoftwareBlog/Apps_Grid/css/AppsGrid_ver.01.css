@@ -94,13 +94,13 @@ h3.post-title.entry-title {background-color:#ddf977!important;color:blue!importa
   font-size: 1.8em !important;
   font-weight: bold !important;
   margin-bottom: 0.5em !important;
-}
+  text-align: center !important;
+} 
 
-.app-card .app-desc {
+.app-desc {
   font-size: 1.2em !important;
   color: #444 !important;
   margin-bottom: 1em !important;
-  text-align: center !important;
 }
 
 .app-card .playstore-link img {
