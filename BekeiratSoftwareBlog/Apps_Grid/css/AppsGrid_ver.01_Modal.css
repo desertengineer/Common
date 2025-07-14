@@ -19,8 +19,8 @@
   background: #fff !important;
   border-radius: 16px !important;
   width: 95vw !important;
-  max-width: 500px !important;
-  max-height: 90vh !important;
+  max-width: 5600px !important;
+  max-height: 450px !important;
   display: flex !important;
   flex-direction: column !important;
   position: relative !important;
@@ -44,7 +44,7 @@
 .modal-header {
   display: flex !important;
   align-items: center !important;
-  padding: 1em !important;
+  padding: 5px !important;
   border-bottom: 1px solid #eee !important;
   font-size: 1.5em!important;
   margin-right: 2em!important;
@@ -64,7 +64,7 @@
 .modal-body {
   display: flex !important;
   flex-direction: row !important;
-  padding: 1em !important;
+  padding: 2px 5px!important;
   gap: 1em !important;
 }
 
