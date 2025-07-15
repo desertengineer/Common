@@ -4,7 +4,7 @@
   left: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
-  background: rgba(0,0,0,0.6) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
   z-index: 999 !important;
   display: flex !important;
   align-items: center !important;
@@ -24,8 +24,15 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0 !important; transform: scale(0.9) !important; }
-  to { opacity: 1 !important; transform: scale(1) !important; }
+  from {
+    opacity: 0 !important;
+    transform: scale(0.9) !important;
+  }
+
+  to {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
 }
 
 .modal-header {
@@ -125,7 +132,7 @@
 }
 
 .slide-arrow {
-  background: rgba(0,0,0,0.3) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   border: none !important;
   font-size: 1.5em !important;
   cursor: pointer !important;
@@ -137,7 +144,7 @@
 }
 
 .slide-arrow:hover {
-  background: rgba(0,0,0,0.6) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .modal-nav {
