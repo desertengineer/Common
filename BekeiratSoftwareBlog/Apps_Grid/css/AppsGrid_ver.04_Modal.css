@@ -4,7 +4,7 @@
   left: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0,0,0,0.6) !important;
   z-index: 999 !important;
   display: flex !important;
   align-items: center !important;
@@ -38,16 +38,17 @@
 .modal-header {
   display: flex !important;
   align-items: center !important;
-  gap: 10px !important;
+  gap: 15px !important;     /* Increased gap between icon and title */
   border-bottom: 1px solid #ddd !important;
-  padding-bottom: 10px !important;
+  padding-bottom: 15px !important;  /* Increased padding */
   margin-bottom: 15px !important;
 }
 
 .modal-icon {
-  height: 48px !important;
-  width: 48px !important;
-  border-radius: 10px !important;
+  height: 64px !important;  /* Increased from 48px */
+  width: 64px !important;   /* Increased from 48px */
+  border-radius: 12px !important;  /* Slightly larger radius */
+  object-fit: contain !important;  /* Ensures icon maintains aspect ratio */
 }
 
 .modal-title {
