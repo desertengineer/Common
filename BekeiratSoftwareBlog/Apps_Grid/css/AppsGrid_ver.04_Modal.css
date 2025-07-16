@@ -123,6 +123,7 @@
   transition: transform 0.3s ease-in-out !important;
   height: 100% !important;
   width: 100% !important;
+  overflow: hidden!important;
 }
 
 .slide-img {
@@ -130,6 +131,12 @@
   max-width: 100% !important;
   height: 100% !important;
   object-fit: contain !important;
+}
+
+.slider-track img.slide-img {
+  flex: 0 0 100%!important;
+  width: 100%!important;
+  object-fit: contain!important;
 }
 
 .slide-arrow {
