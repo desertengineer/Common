@@ -92,15 +92,15 @@ function renderApps(appList) {
     card.setAttribute('data-lang', app.lang);
     card.setAttribute('dir', app.direction);
 
-    card.innerHTML = `
-      <div class="app-data">
-        <img class="icon" src="${app.icon}" alt="${app.name}">
-        <div class="app-name">${app.name}</div>
-        <div class="app-desc">${app.description}</div>
-      </div>
-      <a class="playstore-link" href="${app.playstore}" target="_blank" rel="noopener noreferrer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-      </a>`;
+    card.innerHTML =
+      '<div class="app-data">' +
+        '<img class="icon" src="' + app.icon + '" alt="' + app.name + '">' +
+        '<div class="app-name">' + app.name + '</div>' +
+        '<div class="app-desc">' + app.description + '</div>' +
+      '</div>' +
+      '<a class="playstore-link" href="' + app.playstore + '" target="_blank" rel="noopener noreferrer">' +
+        '<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">' +
+      '</a>';
 
     grid.appendChild(card);
   });
