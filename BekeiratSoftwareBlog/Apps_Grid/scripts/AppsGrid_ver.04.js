@@ -78,7 +78,7 @@ function openModal(index) {
   const modal = document.getElementById('app-modal');
 
   // Show modal with fade (using class, not display)
-  modal.classList.add('active');
+  modal.style.display = 'flex';
   modal.setAttribute('dir', app.direction);
 
   // Set modal content
