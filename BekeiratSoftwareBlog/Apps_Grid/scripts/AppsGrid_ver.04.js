@@ -111,7 +111,7 @@ function slideShots(direction) {
   const track = document.getElementById('sliderTrack');
   const slides = track.querySelectorAll('.slide-img');
   const totalSlides = slides.length;
-
+console.log(totalSlides);
   if (!totalSlides) return;
 
   currentSlide += direction;
