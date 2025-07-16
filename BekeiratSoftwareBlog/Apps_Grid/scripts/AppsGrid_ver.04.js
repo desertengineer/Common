@@ -21,7 +21,7 @@ function loadApps() {
                 name: a.getElementsByTagName('name')[0].textContent,
                 icon: a.getElementsByTagName('icon')[0].textContent,
                 description: a.getElementsByTagName('description')[0].textContent,
-                longdesc: a.getElementsByTagName('longdesc')[0].textContent,
+                longdesc: a.getElementsByTagName('long_description')[0].textContent,
                 category: a.getElementsByTagName('category')[0].textContent,
                 playstore: a.getElementsByTagName('playstore')[0].textContent,
                 direction: a.getElementsByTagName('direction')[0].textContent,
