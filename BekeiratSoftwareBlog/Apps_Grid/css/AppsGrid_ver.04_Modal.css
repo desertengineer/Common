@@ -3,7 +3,8 @@
   top: 0 !important;
   left: 0 !important;
   width: 100% !important;
-  height: 100% !important; 
+  height: 100% !important;
+  display: none !important;
   align-items: center !important;
   justify-content: center !important;
   background: rgba(0, 0, 0, 0.5) !important;
@@ -14,7 +15,7 @@
   background: #fff !important;
   max-width: 600px !important;
   width: 90% !important;
-  max-height: 90% !important;
+  max-height: 90vh !important;
   overflow-y: auto !important;
   border-radius: 8px !important;
   position: relative !important;
@@ -36,13 +37,11 @@
   align-items: center !important;
   margin-bottom: 16px !important;
 }
-
 .modal-icon {
   width: 48px !important;
   height: 48px !important;
   margin-right: 12px !important;
 }
-
 .modal-title {
   font-size: 1.5rem !important;
   font-weight: bold !important;
@@ -53,7 +52,6 @@
   margin-bottom: 12px !important;
   border-bottom: 2px solid #eee !important;
 }
-
 .tab-btn {
   flex: 1 !important;
   padding: 8px 12px !important;
@@ -62,7 +60,6 @@
   cursor: pointer !important;
   font-size: 1rem !important;
 }
-
 .tab-btn.active {
   font-weight: bold !important;
   border-bottom: 3px solid #007BFF !important;
@@ -71,7 +68,6 @@
 .tab-panel {
   display: none !important;
 }
-
 .tab-panel.active {
   display: block !important;
 }
@@ -79,14 +75,12 @@
 .intro-desc {
   margin-bottom: 12px !important;
 }
-
 .youtube-frame {
   width: 100% !important;
   min-height: 200px !important;
   margin-bottom: 12px !important;
   border: none !important;
 }
-
 .playstore-link img {
   width: 150px !important;
   display: block !important;
@@ -96,72 +90,9 @@
 .app-slider {
   margin-bottom: 16px !important;
 }
-
 .slider-wrapper {
   position: relative !important;
   overflow: hidden !important;
 }
-
 .slider-track {
-  display: flex !important;
-  transition: transform 0.3s ease-in-out !important;
-  will-change: transform !important;
-}
-
-.slide-img {
-  width: 100% !important;
-  flex: 0 0 100% !important;
-  object-fit: contain !important;
-}
-
-.slide-arrow {
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  background: rgba(255, 255, 255, 0.8) !important;
-  border: none !important;
-  padding: 8px !important;
-  cursor: pointer !important;
-  font-size: 1.2rem !important;
-  z-index: 2 !important;
-}
-
-.slide-arrow.left {
-  left: 8px !important;
-}
-
-.slide-arrow.right {
-  right: 8px !important;
-}
-
-.app-description {
-  line-height: 1.5 !important;
-}
-
-.modal-nav {
-  display: flex !important;
-  justify-content: space-between !important;
-  margin-top: 12px !important;
-}
-
-.nav-arrow {
-  background: none !important;
-  border: none !important;
-  font-size: 1.8rem !important;
-  cursor: pointer !important;
-}
-
-@media (max-width: 480px) {
-  .modal-content {
-    padding: 12px !important;
-  }
-
-  .modal-title {
-    font-size: 1.2rem !important;
-  }
-
-  .slide-arrow {
-    font-size: 1rem !important;
-    padding: 6px !important;
-  }
-}
+  display:
