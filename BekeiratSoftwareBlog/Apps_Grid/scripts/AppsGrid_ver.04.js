@@ -58,7 +58,7 @@ function renderApps(appList) {
             '<div class="app-desc">' + app.description + '</div>' +
             '</div>' +
             '<a class="playstore-link" href="' + app.playstore + '" target="_blank" rel="noopener noreferrer">' +
-            '<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">' +
+            '<img src="https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Google_Play_Store_badge_EN.svg">' +
             '</a>';
 
         // Attach modal open event
