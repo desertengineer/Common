@@ -114,6 +114,7 @@ function slideShots(direction) {
   track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
 }
 
+
 function setupFilters(data) {
   const langButtons = document.querySelectorAll('.lang-btn');
   const catButtons = document.querySelectorAll('.cat-btn');
