@@ -71,53 +71,58 @@ function renderApps(appList) {
 }
 
 function openModal(index) {
-    currentIndex = index;
-    currentSlide = 0;
+  currentIndex = index;
+  currentSlide = 0;
 
-    const app = appsData[index];
-    const modal = document.getElementById('app-modal');
+  const app = appsData[index];
+  const modal = document.getElementById('app-modal');
 
-    modal.style.display = 'flex';
-    modal.setAttribute('dir', app.direction);
-    modal.querySelector('.modal-title').textContent = app.name;
-    modal.querySelector('.modal-icon').src = app.icon;
-    modal.querySelector('.modal-icon').alt = app.name;
-    modal.querySelector('.intro-desc').textContent = app.description;
-    modal.querySelector('.app-description').textContent = app.longdesc;
+  // Show modal with fade (using class, not display)
+  modal.classList.add('active');
+  modal.setAttribute('dir', app.direction);
 
-    modal.querySelector('.youtube-frame').src =
-        app.youtube.includes('youtube.com/embed/') ? app.youtube : '';
+  // Set modal content
+  modal.querySelector('.modal-title').textContent = app.name;
+  modal.querySelector('.modal-icon').src = app.icon;
+  modal.querySelector('.modal-icon').alt = app.name;
+  modal.querySelector('.intro-desc').textContent = app.description;
+  modal.querySelector('.app-description').textContent = app.longdesc;
+  modal.querySelector('.youtube-frame').src = app.youtube.includes('youtube.com/embed/') ? app.youtube : '';
+  modal.querySelector('.playstore-link').href = app.playstore || "#";
 
-    modal.querySelector('.playstore-link').href = app.playstore;
+  // Populate screenshots
+  const sliderTrack = document.getElementById('sliderTrack');
+  sliderTrack.innerHTML = '';
 
-    const sliderTrack = document.getElementById('sliderTrack');
-    sliderTrack.innerHTML = '';
+  const validShots = Object.values(app.screenshots).filter(Boolean);
+  validShots.forEach(src => {
+    const img = document.createElement('img');
+    img.src = src;
+    img.className = 'slide-img';
+    sliderTrack.appendChild(img);
+  });
 
-    const validShots = Object.values(app.screenshots).filter(Boolean);
-    validShots.forEach(src => {
-        const img = document.createElement('img');
-        img.src = src;
-        img.className = 'slide-img';
-        sliderTrack.appendChild(img);
-    });
-
-    sliderTrack.style.transform = 'translateX(0)';
+  // Reset position
+  sliderTrack.style.transform = 'translateX(0)';
 }
+
 
 function slideShots(direction) {
-    const track = document.getElementById('sliderTrack');
-    const slides = track?.querySelectorAll('.slide-img') || [];
+  const track = document.getElementById('sliderTrack');
+  const slides = track.querySelectorAll('.slide-img');
+  const totalSlides = slides.length;
 
-    if (slides.length === 0) return;
+  if (!totalSlides) return;
 
-    currentSlide += direction;
+  currentSlide += direction;
 
-    // Loop back to start or end
-    if (currentSlide < 0) currentSlide = slides.length - 1;
-    if (currentSlide >= slides.length) currentSlide = 0;
+  if (currentSlide < 0) currentSlide = totalSlides - 1;
+  if (currentSlide >= totalSlides) currentSlide = 0;
 
-    track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+  // Move the slider
+  track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
 }
+
 
 function setupFilters(data) {
     const langButtons = document.querySelectorAll('.lang-btn');
