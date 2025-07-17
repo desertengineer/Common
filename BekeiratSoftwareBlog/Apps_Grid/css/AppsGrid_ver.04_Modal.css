@@ -123,6 +123,39 @@
   font-size: 1.2rem !important;
   z-index: 2 !important;
 }
+.slider-wrapper {
+  overflow: hidden !important;
+  width: 100% !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.slider-track {
+  display: flex !important;
+  transition: transform 0.4s ease-in-out !important;
+  width: 100% !important;
+}
+
+.slide {
+  flex: 0 0 100% !important;
+  box-sizing: border-box !important;
+}
+
+.slide-img {
+  width: 100% !important;
+  display: block !important;
+  border-radius: 6px !important;
+}
+
+.slide-arrow {
+  background: none !important;
+  border: none !important;
+  font-size: 2rem !important;
+  cursor: pointer !important;
+}
+
 .slide-arrow.left {
   left: 8px !important;
 }
