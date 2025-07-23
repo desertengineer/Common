@@ -82,7 +82,6 @@
         }
       }
     }
-
     // خطط التسعير
     var pricingTbody = document.getElementById("pricing-table").getElementsByTagName("tbody")[0];
     pricingTbody.innerHTML = "";
