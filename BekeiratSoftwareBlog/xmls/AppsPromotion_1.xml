@@ -40,7 +40,8 @@
         <price>تواصل مع المبيعات</price>
       </plan>
     </pricingPlans>
-    <youtubeEmbed>https://www.youtube.com/watch?v=dQw4w9WgXcQ</youtubeEmbed>
+    <!-- عنصر iframeSrc لإعطاء رابط iframe الفيديو مباشرة -->
+    <iframeSrc>https://www.youtube.com/embed/dQw4w9WgXcQ</iframeSrc>
     <pros>
       <point>واجهة سهلة الاستخدام وبديهية.</point>
       <point>قدرات أتمتة قوية لتقليل الجهد اليدوي.</point>
