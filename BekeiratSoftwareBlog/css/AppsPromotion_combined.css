@@ -1,12 +1,14 @@
-/* Combined CSS for AppsPromotion_1 to AppsPromotion_5 with font sizes increased */
-/* The CSS rules are applied conditionally using the body[data-css-option] attribute */
+/* الملف: AppsPromotion_combined.css */
+/*  دمج أنماط 5 متغيرات مع زيادة حجم الخط */
+/* يتم تحديد النمط عبر السمة data-css-option على <body>  */
 
-/* Common styles for all options */
+/* التنسيقات المشتركة */
 body {
   direction: rtl !important;
   text-align: right !important;
 }
-/* Container style common base */
+
+/* الحاوية */
 .container {
   max-width: 900px !important;
   margin: 1.5rem auto !important;
@@ -16,7 +18,8 @@ body {
   background-color: #fff !important;
 }
 
-/* Option 1: AppsPromotion_1 */
+
+/* المتغير 1 */
 body[data-css-option="1"] {
   font-family: Arial, sans-serif !important;
   line-height: 1.6 !important;
@@ -25,11 +28,6 @@ body[data-css-option="1"] {
   background-color: #f9f9f9 !important;
   color: #222 !important;
   font-size: 20px !important;
-}
-body[data-css-option="1"] .container {
-  background-color: #fff !important;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
-  padding: 1.5rem 2rem !important;
 }
 body[data-css-option="1"] header {
   text-align: center !important;
@@ -42,7 +40,7 @@ body[data-css-option="1"] header img {
 }
 body[data-css-option="1"] header h1 {
   margin: 1rem 0 0.5rem !important;
-  font-size: 2.4rem !important; /* increased */
+  font-size: 2.4rem !important;
   color: #0b3d91 !important;
 }
 body[data-css-option="1"] header p.interstitial {
@@ -89,7 +87,7 @@ body[data-css-option="1"] section.pricing td {
 body[data-css-option="1"] section.pricing th {
   background-color: #e1eaff !important;
 }
-body[data-css-option="1"] .youtube iframe {
+body[data-css-option="1"] .youtube iframe, body[data-css-option="1"] #youtube-iframe {
   width: 100% !important;
   height: 360px !important;
   border: none !important;
@@ -144,7 +142,7 @@ body[data-css-option="1"] a.app-link:focus {
   background-color: #074077 !important;
 }
 
-/* Option 2: AppsPromotion_2 - Dark mode */
+/* المتغير 2: نمط داكن */
 body[data-css-option="2"] {
   font-family: Arial, sans-serif !important;
   line-height: 1.6 !important;
@@ -189,7 +187,7 @@ body[data-css-option="2"] section.pricing th {
   background-color: #6200ee !important;
   color: #fff !important;
 }
-body[data-css-option="2"] .youtube iframe {
+body[data-css-option="2"] .youtube iframe, body[data-css-option="2"] #youtube-iframe {
   width: 100% !important;
   height: 360px !important;
   border: none !important;
@@ -211,7 +209,7 @@ body[data-css-option="2"] a.app-link:focus {
   background-color: #9a67ea !important;
 }
 
-/* Option 3: AppsPromotion_3 - High contrast */
+/* المتغير 3: تباين عالي */
 body[data-css-option="3"] {
   font-family: "Arial Black", Gadget, sans-serif !important;
   line-height: 1.8 !important;
@@ -254,7 +252,7 @@ body[data-css-option="3"] section.pricing th {
   background-color: #ffff00 !important;
   color: #000 !important;
 }
-body[data-css-option="3"] .youtube iframe {
+body[data-css-option="3"] .youtube iframe, body[data-css-option="3"] #youtube-iframe {
   width: 100% !important;
   height: 380px !important;
   border: none !important;
@@ -277,7 +275,7 @@ body[data-css-option="3"] a.app-link:focus {
   background-color: #ffd500 !important;
 }
 
-/* Option 4: AppsPromotion_4 - Pastel calm */
+/* المتغير 4: باستيل هادئ */
 body[data-css-option="4"] {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   line-height: 1.5 !important;
@@ -319,7 +317,7 @@ body[data-css-option="4"] section.pricing th {
   background-color: #a6c8ff !important;
   color: #1a3d7c !important;
 }
-body[data-css-option="4"] .youtube iframe {
+body[data-css-option="4"] .youtube iframe, body[data-css-option="4"] #youtube-iframe {
   width: 100% !important;
   height: 350px !important;
   border: none !important;
@@ -341,7 +339,7 @@ body[data-css-option="4"] a.app-link:focus {
   background-color: #2862b4 !important;
 }
 
-/* Option 5: AppsPromotion_5 - Flat modern */
+/* المتغير 5: تصميم مسطح حديث */
 body[data-css-option="5"] {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   line-height: 1.65 !important;
@@ -383,7 +381,7 @@ body[data-css-option="5"] section.pricing th {
   background-color: #00a09b !important;
   color: #fff !important;
 }
-body[data-css-option="5"] .youtube iframe {
+body[data-css-option="5"] .youtube iframe, body[data-css-option="5"] #youtube-iframe {
   width: 100% !important;
   height: 350px !important;
   border: none !important;
@@ -403,119 +401,4 @@ body[data-css-option="5"] a.app-link {
 body[data-css-option="5"] a.app-link:hover,
 body[data-css-option="5"] a.app-link:focus {
   background-color: #004d4d !important;
-}
-
-.container {
-  max-width: 900px !important;
-  margin: 1.5rem auto !important;
-  background-color: #fff !important;
-  padding: 1.5rem 2rem !important;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
-  border-radius: 8px !important;
-}
-header {
-  text-align: center !important;
-  margin-bottom: 1.5rem !important;
-}
-header img {
-  max-width: 100% !important;
-  height: auto !important;
-  border-radius: 8px !important;
-}
-header h1 {
-  margin: 1rem 0 0.5rem !important;
-  font-size: 2rem !important;
-  color: #0b3d91 !important;
-}
-header p.interstitial {
-  font-style: italic !important;
-  color: #555 !important;
-  font-size: 1.1rem !important;
-}
-section.intro {
-  margin-bottom: 1.5rem !important;
-}
-section.general-use {
-  margin-bottom: 2rem !important;
-}
-section.general-use h2,
-section.pricing h2,
-section.youtube h2,
-section.pros-cons h2,
-section.link h2 {
-  color: #0b3d91 !important;
-  border-bottom: 2px solid #0b3d91 !important;
-  padding-bottom: 0.3rem !important;
-  margin-bottom: 0.8rem !important;
-}
-ul {
-  list-style-type: disc !important;
-  margin-left: 1.2rem !important;
-}
-section.pricing table {
-  width: 100% !important;
-  border-collapse: collapse !important;
-  margin-bottom: 1.5rem !important;
-}
-section.pricing th,
-section.pricing td {
-  border: 1px solid #ccc !important;
-  padding: 0.5rem !important;
-  text-align: left !important;
-}
-section.pricing th {
-  background-color: #e1eaff !important;
-}
-.youtube iframe {
-  width: 100% !important;
-  height: 315px !important;
-  border: none !important;
-  border-radius: 8px !important;
-}
-@media (max-width: 600px) {
-  body {
-    padding: 0 0.75rem !important;
-  }
-  section.pricing table,
-  section.pricing thead,
-  section.pricing tbody,
-  section.pricing th,
-  section.pricing td,
-  section.pricing tr {
-    display: block !important;
-    width: 100% !important;
-  }
-  section.pricing tr {
-    margin-bottom: 1rem !important;
-    border-bottom: 2px solid #ddd !important;
-  }
-  section.pricing td {
-    padding-left: 50% !important;
-    position: relative !important;
-    text-align: right !important;
-  }
-  section.pricing td::before {
-    content: attr(data-label) !important;
-    position: absolute !important;
-    left: 0 !important;
-    width: 45% !important;
-    padding-left: 0.5rem !important;
-    font-weight: bold !important;
-    text-align: left !important;
-    color: #0b3d91 !important;
-  }
-}
-a.app-link {
-  display: inline-block !important;
-  background-color: #0b3d91 !important;
-  color: white !important;
-  text-decoration: none !important;
-  padding: 0.5rem 1rem !important;
-  border-radius: 5px !important;
-  margin-top: 1rem !important;
-  transition: background-color 0.3s ease !important;
-}
-a.app-link:hover,
-a.app-link:focus {
-  background-color: #074077 !important;
 }
