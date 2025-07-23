@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <apps>
   <app>
-    <appName>Gemini</appName>
-    <headerImage>https://example.com/images/gemini-intro.jpg</headerImage>
-    <interstitial>Revolutionizing productivity with AI-powered insights and seamless integration.</interstitial>
-    <introduction>Gemini is an advanced AI-driven platform designed to streamline workflows, enhance decision-making, and deliver intelligent automation for businesses and individuals alike. Leveraging natural language processing and machine learning, Gemini offers tailored solutions for a variety of needs.</introduction>
+    <appName>جيميني</appName>
+    <headerImage>Gemini.png</headerImage>
+    <interstitial>تطوير الإنتاجية باستخدام رؤى الذكاء الاصطناعي والتكامل السلس.</interstitial>
+    <introduction>جيميني هو منصة متقدمة تعتمد على الذكاء الاصطناعي لتبسيط سير العمل، وتعزيز اتخاذ القرارات، وتقديم الأتمتة الذكية للشركات والأفراد على حد سواء. يعتمد على معالجة اللغة الطبيعية والتعلم الآلي لتقديم حلول مخصصة لمختلف الاحتياجات.</introduction>
     <generalUse>
       <use>
-        <category>Business Automation</category>
-        <description>Automate routine tasks, manage schedules, and optimize resource allocation.</description>
+        <category>أتمتة الأعمال</category>
+        <description>أتمتة المهام الروتينية، إدارة الجداول، وتحسين تخصيص الموارد.</description>
       </use>
       <use>
-        <category>Data Analysis</category>
-        <description>Generate actionable insights from complex datasets using advanced AI algorithms.</description>
+        <category>تحليل البيانات</category>
+        <description>توليد رؤى قابلة للتنفيذ من مجموعات بيانات معقدة باستخدام خوارزميات ذكاء اصطناعي متقدمة.</description>
       </use>
       <use>
-        <category>Communication Support</category>
-        <description>Enhance customer service with AI-powered chatbots and virtual assistants.</description>
+        <category>دعم الاتصال</category>
+        <description>تحسين خدمة العملاء عبر روبوتات المحادثة والمساعدين الافتراضيين المدعومين بالذكاء الاصطناعي.</description>
       </use>
       <use>
-        <category>Personal Productivity</category>
-        <description>Manage personal projects, reminders, and increase focus with smart recommendations.</description>
+        <category>الإنتاجية الشخصية</category>
+        <description>إدارة المشاريع الشخصية، التذكيرات، وزيادة التركيز من خلال توصيات ذكية.</description>
       </use>
     </generalUse>
     <pricingPlans>
       <plan>
-        <name>Free</name>
-        <features>Basic AI tools, limited usage, community support</features>
-        <price>Free</price>
+        <name>مجاني</name>
+        <features>أدوات ذكاء اصطناعي أساسية، استخدام محدود، دعم من المجتمع</features>
+        <price>مجاني</price>
       </plan>
       <plan>
-        <name>Pro</name>
-        <features>Unlimited access, priority support, advanced analytics</features>
-        <price>$29/month</price>
+        <name>احترافي</name>
+        <features>وصول غير محدود، دعم أولوية، تحليلات متقدمة</features>
+        <price>29 دولار/الشهر</price>
       </plan>
       <plan>
-        <name>Enterprise</name>
-        <features>Custom integrations, dedicated account manager, SLA uptime guarantee</features>
-        <price>Contact Sales</price>
+        <name>المؤسسات</name>
+        <features>تكاملات مخصصة، مدير حساب مخصص، ضمان وقت تشغيل SLA</features>
+        <price>تواصل مع المبيعات</price>
       </plan>
     </pricingPlans>
     <youtubeEmbed>https://www.youtube.com/watch?v=dQw4w9WgXcQ</youtubeEmbed>
     <pros>
-      <point>Intuitive and user-friendly interface.</point>
-      <point>Strong automation capabilities reduce manual effort.</point>
-      <point>Flexible pricing plans suitable for different users.</point>
-      <point>Robust analytics help improve decision-making.</point>
+      <point>واجهة سهلة الاستخدام وبديهية.</point>
+      <point>قدرات أتمتة قوية لتقليل الجهد اليدوي.</point>
+      <point>خطط تسعير مرنة تناسب المستخدمين المختلفين.</point>
+      <point>تحليلات متينة تساعد في تحسين اتخاذ القرار.</point>
     </pros>
     <cons>
-      <point>Learning curve can be steep for non-technical users.</point>
-      <point>Some advanced features only available in Enterprise plan.</point>
-      <point>Occasional latency during peak usage times.</point>
+      <point>منحنى تعلم مرتفع قليلاً للمستخدمين غير الفنيين.</point>
+      <point>بعض الوظائف المتقدمة متوفرة فقط في خطة المؤسسات.</point>
+      <point>تأخير أحيانا خلال أوقات الذروة.</point>
     </cons>
     <appLink>https://gemini.ai</appLink>
   </app>
