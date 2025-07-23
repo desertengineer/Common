@@ -1,4 +1,22 @@
 (function(){
+  // اختيار css بناءً على اليوم (1-5)، الجمعة (6) يعيد 1
+  function setCssOption(){
+    var today = new Date().getDay(); // الأحد=0, الإثنين=1 ... السبت=6
+    // نقوم بتحويل الأحد (0) ليكون 7 لسهولة الحساب (الأحد غير مستعمل)
+    if(today === 0){
+      today = 7;
+    }
+    // اليوم الفعلي المطلوب هو Mon=1 ... Fri=5; Sat=6; Sun=7
+    // هل الجمعة (6) يعيد إلى 1 حسب المطلوب
+    var option;
+    if(today === 6 || today ===7){
+      option = 1; // إعادة لل1 في الجمعة والسبت والأحد (لأن الأحد صفر)
+    } else {
+      option = today; // من 1 إلى 5 غرفة العمل (الاثنين إلى الجمعة)
+    }
+    document.body.setAttribute("data-css-option", option.toString());
+  }
+
   function trimText(str){
     return str.replace(/^\s+|\s+$/g, "");
   }
@@ -42,7 +60,6 @@
     document.getElementById("app-name").textContent = appName;
     var imgEl = document.getElementById("header-image");
     if(headerImageFile.length > 0){
-      // بناء رابط الصورة من المستودع المعلن
       imgEl.setAttribute("src", "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsImages/" + headerImageFile);
     } else {
       imgEl.setAttribute("src", "");
@@ -101,7 +118,7 @@
       }
     }
 
-    // تضمين يوتيوب
+    // تضمين يوتيوب (من XML مباشرة)
     var ytContainer = document.getElementById("youtube-placeholder");
     ytContainer.innerHTML = "";
     var ytLink = getText(appNode, "youtubeEmbed");
@@ -158,6 +175,7 @@
   }
 
   function main(){
+    setCssOption();
     var xmlFile = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
     loadXML(xmlFile, function(xmlDoc){
       if(xmlDoc){
