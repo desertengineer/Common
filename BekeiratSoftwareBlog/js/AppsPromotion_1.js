@@ -141,7 +141,6 @@
         ytContainer.appendChild(iframe);
       }
     }
-
     // الإيجابيات والسلبيات
     var prosList = document.getElementById("pros-list");
     prosList.innerHTML = "";
