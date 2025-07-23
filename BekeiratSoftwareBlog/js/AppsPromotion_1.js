@@ -35,13 +35,18 @@
       return;
     }
     var appName = getText(appNode, "appName");
-    var headerImage = getText(appNode, "headerImage");
+    var headerImageFile = getText(appNode, "headerImage");
     var interstitial = getText(appNode, "interstitial");
     var introduction = getText(appNode, "introduction");
 
     document.getElementById("app-name").textContent = appName;
     var imgEl = document.getElementById("header-image");
-    imgEl.setAttribute("src", headerImage);
+    if(headerImageFile.length > 0){
+      // بناء رابط الصورة من المستودع المعلن
+      imgEl.setAttribute("src", "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsImages/" + headerImageFile);
+    } else {
+      imgEl.setAttribute("src", "");
+    }
     imgEl.setAttribute("alt", appName + " صورة تعريفية لتطبيق الذكاء الاصطناعي");
 
     document.getElementById("interstitial").textContent = interstitial;
@@ -153,13 +158,14 @@
   }
 
   function main(){
-    var xmlFile = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/js/AppsPromotion_1.xml";
+    var xmlFile = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
     loadXML(xmlFile, function(xmlDoc){
       if(xmlDoc){
         var apps = xmlDoc.getElementsByTagName("app");
         var targetApp = null;
         for(var i=0; i<apps.length; i++){
           var name = getText(apps[i], "appName");
+          // مثال: نبحث عن تطبيق "جيميني" بالحرف العربي
           if(name === "جيميني"){
             targetApp = apps[i];
             break;
