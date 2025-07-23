@@ -1,18 +1,22 @@
 // AppsPromotion_1.js
 
-// Function to set CSS option based on day of week
+// Set CSS option based on day of week
 function setCssOption() {
-    var today = new Date().getDay(); // Sunday=0, Monday=1 ... Saturday=6
-    var option;
+    const today = new Date().getDay(); // Sunday=0, Monday=1 ... Saturday=6
+    let option;
     
-    // Friday (5) and Saturday (6) use option 1, others use day number
-    if (today === 0 || today === 5 || today === 6) {
-        option = 1;
-    } else {
-        option = today;
-    }
+    // Map days to options 1-7
+    if (today === 0) option = 7; // Sunday
+    else option = today; // Monday=1, Tuesday=2, ..., Saturday=6
     
     document.body.setAttribute("data-css-option", option.toString());
+}
+
+// Run on page load
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setCssOption);
+} else {
+    setCssOption();
 }
 
 // Function to trim text (without regex)
