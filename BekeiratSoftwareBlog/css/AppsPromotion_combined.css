@@ -4,130 +4,89 @@
 body {
   direction: rtl !important;
   text-align: right !important;
-}
-
-/* الحاوية */
-.container {
-  max-width: 900px !important;
-  margin: 1.5rem auto !important;
-  border-radius: 8px !important;
-  padding: 1.5rem 2rem !important;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
-  background-color: #fff !important;
-}
-
-
-/* المتغير 1 */
-body[data-css-option="1"] {
   font-family: Arial, sans-serif !important;
   line-height: 1.6 !important;
   margin: 0 !important;
   padding: 0 1rem !important;
-  background-color: #f9f9f9 !important;
-  color: #222 !important;
   font-size: 20px !important;
 }
-body[data-css-option="1"] header {
+
+.container {
+  max-width: 630px !important;
+  margin: 1.5rem auto !important;
+  border-radius: 8px !important;
+  padding: 1.5rem 2rem !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff !important;
+}
+
+body header {
+  max-width: 100% !important;
   text-align: center !important;
   margin-bottom: 1.5rem !important;
 }
-body[data-css-option="1"] header img {
-  max-width: 100% !important;
+
+body header img {
+  max-width: 95% !important;
   height: auto !important;
   border-radius: 8px !important;
 }
+
 body[data-css-option="1"] header h1 {
   margin: 1rem 0 0.5rem !important;
   font-size: 2.4rem !important;
   color: #0b3d91 !important;
 }
-body[data-css-option="1"] header p.interstitial {
-  font-style: italic !important;
-  color: #555 !important;
-  font-size: 1.3rem !important;
-}
-body[data-css-option="1"] section.intro {
+
+body section.intro {
   margin-bottom: 1.5rem !important;
   font-size: 1.25rem !important;
 }
-body[data-css-option="1"] section.general-use {
+
+body section.general-use {
   margin-bottom: 2rem !important;
   font-size: 1.25rem !important;
 }
-body[data-css-option="1"] section.general-use h2,
-body[data-css-option="1"] section.pricing h2,
-body[data-css-option="1"] section.youtube h2,
-body[data-css-option="1"] section.pros-cons h2,
-body[data-css-option="1"] section.link h2 {
-  color: #0b3d91 !important;
-  border-bottom: 2px solid #0b3d91 !important;
+
+body section.general-use h2,
+body section.pricing h2,
+body section.youtube h2,
+body section.pros-cons h2,
+body section.link h2 {
   padding-bottom: 0.3rem !important;
   margin-bottom: 0.8rem !important;
   font-size: 2rem !important;
 }
-body[data-css-option="1"] ul {
+
+body ul {
   list-style-type: disc !important;
   margin-left: 1.2rem !important;
   font-size: 1.2rem !important;
 }
-body[data-css-option="1"] section.pricing table {
+
+body section.pricing table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
 }
-body[data-css-option="1"] section.pricing th,
-body[data-css-option="1"] section.pricing td {
-  border: 1px solid #ccc !important;
+
+body section.pricing th,
+body section.pricing td {
   padding: 0.5rem !important;
   text-align: left !important;
 }
-body[data-css-option="1"] section.pricing th {
-  background-color: #e1eaff !important;
-}
-body[data-css-option="1"] .youtube iframe, body[data-css-option="1"] #youtube-iframe {
+
+body .youtube iframe,
+body #youtube-iframe {
   width: 100% !important;
   height: 360px !important;
   border: none !important;
   border-radius: 8px !important;
 }
-@media (max-width: 600px) {
-  body[data-css-option="1"] {
-    padding: 0 0.75rem !important;
-  }
-  body[data-css-option="1"] section.pricing table,
-  body[data-css-option="1"] section.pricing thead,
-  body[data-css-option="1"] section.pricing tbody,
-  body[data-css-option="1"] section.pricing th,
-  body[data-css-option="1"] section.pricing td,
-  body[data-css-option="1"] section.pricing tr {
-    display: block !important;
-    width: 100% !important;
-  }
-  body[data-css-option="1"] section.pricing tr {
-    margin-bottom: 1rem !important;
-    border-bottom: 2px solid #ddd !important;
-  }
-  body[data-css-option="1"] section.pricing td {
-    padding-left: 50% !important;
-    position: relative !important;
-    text-align: right !important;
-  }
-  body[data-css-option="1"] section.pricing td::before {
-    content: attr(data-label) !important;
-    position: absolute !important;
-    left: 0 !important;
-    width: 45% !important;
-    padding-left: 0.5rem !important;
-    font-weight: bold !important;
-    text-align: left !important;
-    color: #0b3d91 !important;
-  }
-}
-body[data-css-option="1"] a.app-link {
+
+body a.app-link {
   display: inline-block !important;
-  background-color: #0b3d91 !important;
-  color: white !important;
   text-decoration: none !important;
   padding: 0.5rem 1rem !important;
   border-radius: 5px !important;
@@ -135,6 +94,67 @@ body[data-css-option="1"] a.app-link {
   transition: background-color 0.3s ease !important;
   font-size: 1.2rem !important;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 0.75rem !important;
+  }
+
+  body section.pricing table,
+  body section.pricing thead,
+  body section.pricing tbody,
+  body section.pricing th,
+  body section.pricing td,
+  body section.pricing tr {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  body header p.interstitial {
+    font-style: italic !important; 
+    font-size: 1.3rem !important;
+  }
+
+  body  section.general-use h2,
+  body  section.pricing h2,
+  body  section.youtube h2,
+  body  section.pros-cons h2,
+  body  section.link h2 { 
+    border-bottom: 2px solid #0b3d91 !important;
+  }
+
+  body  section.pricing tr {
+    margin-bottom: 1rem !important; 
+  }
+
+  body  section.pricing td {
+    padding-left: 50% !important;
+    position: relative !important;
+    text-align: right !important;
+  }
+
+  body  section.pricing td::before {
+    content: attr(data-label) !important;
+    position: absolute !important;
+    left: 0 !important;
+    width: 45% !important;
+    padding-left: 0.5rem !important;
+    font-weight: bold !important;
+    text-align: left !important; 
+  }
+}
+
+/* المتغير 1 */
+body[data-css-option="1"] {
+  background-color: #f9f9f9 !important;
+  color: #222 !important;
+}
+
+body[data-css-option="1"] a.app-link {
+  background-color: #0b3d91 !important;
+  color: white !important;
+}
+
 body[data-css-option="1"] a.app-link:hover,
 body[data-css-option="1"] a.app-link:focus {
   background-color: #074077 !important;
@@ -150,47 +170,58 @@ body[data-css-option="2"] {
   color: #e0e0e0 !important;
   font-size: 20px !important;
 }
+
 body[data-css-option="2"] .container {
   background-color: #1e1e1e !important;
   box-shadow: 0 0 15px #6200ee !important;
   padding: 1.5rem 2rem !important;
 }
-body[data-css-option="2"] header, body[data-css-option="2"] section {
+
+body[data-css-option="2"] header,
+body[data-css-option="2"] section {
   text-align: center !important;
   margin-bottom: 1.5rem !important;
 }
+
 body[data-css-option="2"] header h1,
 body[data-css-option="2"] section h2 {
   color: #bb86fc !important;
   font-size: 2.4rem !important;
 }
+
 body[data-css-option="2"] ul {
   list-style-type: disc !important;
   margin-left: 1.2rem !important;
   font-size: 1.2rem !important;
 }
+
 body[data-css-option="2"] section.pricing table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
 }
+
 body[data-css-option="2"] section.pricing th,
 body[data-css-option="2"] section.pricing td {
   border: 1px solid #444 !important;
   padding: 0.5rem !important;
   text-align: left !important;
 }
+
 body[data-css-option="2"] section.pricing th {
   background-color: #6200ee !important;
   color: #fff !important;
 }
-body[data-css-option="2"] .youtube iframe, body[data-css-option="2"] #youtube-iframe {
+
+body[data-css-option="2"] .youtube iframe,
+body[data-css-option="2"] #youtube-iframe {
   width: 100% !important;
   height: 360px !important;
   border: none !important;
   border-radius: 8px !important;
 }
+
 body[data-css-option="2"] a.app-link {
   display: inline-block !important;
   background-color: #bb86fc !important;
@@ -202,6 +233,7 @@ body[data-css-option="2"] a.app-link {
   transition: background-color 0.3s ease !important;
   font-size: 1.2rem !important;
 }
+
 body[data-css-option="2"] a.app-link:hover,
 body[data-css-option="2"] a.app-link:focus {
   background-color: #9a67ea !important;
@@ -217,45 +249,54 @@ body[data-css-option="3"] {
   color: #ffff00 !important;
   font-size: 22px !important;
 }
+
 body[data-css-option="3"] .container {
   background-color: #000000 !important;
   border: 3px solid #ffff00 !important;
   padding: 1.5rem 2rem !important;
   box-shadow: none !important;
 }
+
 body[data-css-option="3"] header h1,
 body[data-css-option="3"] section h2 {
   color: #ffffff !important;
   font-weight: bolder !important;
   font-size: 2.6rem !important;
 }
+
 body[data-css-option="3"] ul {
   list-style-type: disc !important;
   margin-left: 1.2rem !important;
   font-size: 1.4rem !important;
 }
+
 body[data-css-option="3"] section.pricing table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.3rem !important;
 }
+
 body[data-css-option="3"] section.pricing th,
 body[data-css-option="3"] section.pricing td {
   border: 2px solid #ffff00 !important;
   padding: 0.75rem !important;
   text-align: left !important;
 }
+
 body[data-css-option="3"] section.pricing th {
   background-color: #ffff00 !important;
   color: #000 !important;
 }
-body[data-css-option="3"] .youtube iframe, body[data-css-option="3"] #youtube-iframe {
+
+body[data-css-option="3"] .youtube iframe,
+body[data-css-option="3"] #youtube-iframe {
   width: 100% !important;
   height: 380px !important;
   border: none !important;
   border-radius: 8px !important;
 }
+
 body[data-css-option="3"] a.app-link {
   display: inline-block !important;
   background-color: #ffff00 !important;
@@ -268,6 +309,7 @@ body[data-css-option="3"] a.app-link {
   font-size: 1.4rem !important;
   transition: background-color 0.3s ease !important;
 }
+
 body[data-css-option="3"] a.app-link:hover,
 body[data-css-option="3"] a.app-link:focus {
   background-color: #ffd500 !important;
@@ -283,44 +325,53 @@ body[data-css-option="4"] {
   color: #555555 !important;
   font-size: 19px !important;
 }
+
 body[data-css-option="4"] .container {
   background-color: #e6f0fa !important;
   padding: 2rem 3rem !important;
   border-radius: 12px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
+
 body[data-css-option="4"] header h1,
 body[data-css-option="4"] section h2 {
   color: #4a90e2 !important;
   font-size: 2.3rem !important;
 }
+
 body[data-css-option="4"] ul {
   list-style-type: disc !important;
   margin-left: 1.2rem !important;
   font-size: 1.15rem !important;
 }
+
 body[data-css-option="4"] section.pricing table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.15rem !important;
 }
+
 body[data-css-option="4"] section.pricing th,
 body[data-css-option="4"] section.pricing td {
   border: 1px solid #ccc !important;
   padding: 0.5rem !important;
   text-align: left !important;
 }
+
 body[data-css-option="4"] section.pricing th {
   background-color: #a6c8ff !important;
   color: #1a3d7c !important;
 }
-body[data-css-option="4"] .youtube iframe, body[data-css-option="4"] #youtube-iframe {
+
+body[data-css-option="4"] .youtube iframe,
+body[data-css-option="4"] #youtube-iframe {
   width: 100% !important;
   height: 350px !important;
   border: none !important;
   border-radius: 8px !important;
 }
+
 body[data-css-option="4"] a.app-link {
   display: inline-block !important;
   background-color: #4a90e2 !important;
@@ -332,6 +383,7 @@ body[data-css-option="4"] a.app-link {
   font-size: 1.15rem !important;
   transition: background-color 0.3s ease !important;
 }
+
 body[data-css-option="4"] a.app-link:hover,
 body[data-css-option="4"] a.app-link:focus {
   background-color: #2862b4 !important;
@@ -347,44 +399,53 @@ body[data-css-option="5"] {
   color: #333333 !important;
   font-size: 20px !important;
 }
+
 body[data-css-option="5"] .container {
   background-color: #fff !important;
   padding: 1.5rem 2rem !important;
   border-radius: 8px !important;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
 }
+
 body[data-css-option="5"] header h1,
 body[data-css-option="5"] section h2 {
   color: #008080 !important;
   font-size: 2.4rem !important;
 }
+
 body[data-css-option="5"] ul {
   list-style-type: disc !important;
   margin-left: 1.2rem !important;
   font-size: 1.2rem !important;
 }
+
 body[data-css-option="5"] section.pricing table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
 }
+
 body[data-css-option="5"] section.pricing th,
 body[data-css-option="5"] section.pricing td {
   border: 1px solid #ccc !important;
   padding: 0.5rem !important;
   text-align: left !important;
 }
+
 body[data-css-option="5"] section.pricing th {
   background-color: #00a09b !important;
   color: #fff !important;
 }
-body[data-css-option="5"] .youtube iframe, body[data-css-option="5"] #youtube-iframe {
+
+body[data-css-option="5"] .youtube iframe,
+body[data-css-option="5"] #youtube-iframe {
   width: 100% !important;
   height: 350px !important;
   border: none !important;
   border-radius: 8px !important;
 }
+
 body[data-css-option="5"] a.app-link {
   display: inline-block !important;
   background-color: #008080 !important;
@@ -396,6 +457,7 @@ body[data-css-option="5"] a.app-link {
   font-size: 1.2rem !important;
   transition: background-color 0.3s ease !important;
 }
+
 body[data-css-option="5"] a.app-link:hover,
 body[data-css-option="5"] a.app-link:focus {
   background-color: #004d4d !important;
