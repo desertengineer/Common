@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.container {
+  max-width: 900px !important;
+  margin: 1.5rem auto !important;
+  background-color: #1e1e1e !important;
+  padding: 1.5rem 2rem !important;
+  box-shadow: 0 0 15px #6200ee !important;
+  border-radius: 8px !important;
+}
+header h1, section h2 {
+  color: #bb86fc !important;
+}
+/* باقي التنسيقات تشبه AppsPromotion_1.css مع تعديلات ألوان متناسبة */
