@@ -40,7 +40,6 @@
         <price>تواصل مع المبيعات</price>
       </plan>
     </pricingPlans>
-    <!-- عنصر iframeSrc لإعطاء رابط iframe الفيديو مباشرة -->
     <iframeSrc>https://www.youtube.com/embed/dQw4w9WgXcQ</iframeSrc>
     <pros>
       <point>واجهة سهلة الاستخدام وبديهية.</point>
