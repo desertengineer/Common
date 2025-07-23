@@ -1,183 +1,152 @@
 (function(){
-  // ضبط خيار CSS حسب اليوم (1-5) و إعادة 1 للجمعة (6) وما بعده
   function setCssOption(){
-    var today = new Date().getDay(); // الأحد=0، الإثنين=1 ... السبت=6
-    if(today === 0){
-      today = 7; // الأحد =7 لتسهيل الحساب
-    }
-    var option;
-    if(today === 6 || today === 7){
-      option = 1; // الجمعة والسبت والأحد يعيد 1
-    } else {
-      option = today; // الاثنين=1 .. الجمعة=5
-    }
+    var today = new Date().getDay();
+    if(today === 0) today = 7;
+    var option = (today === 6 || today === 7) ? 1 : today;
     document.body.setAttribute("data-css-option", option.toString());
   }
 
   function trimText(str){
-    return str.replace(/^\s+|\s+$/g, "");
+    return str ? str.replace(/^\s+|\s+$/g, "") : "";
   }
+  
   function loadXML(url, callback){
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
     xhr.onreadystatechange = function(){
       if(xhr.readyState === 4){
         if(xhr.status === 200){
-          var xmlDoc = xhr.responseXML;
-          if(!xmlDoc){
-            var parser = new DOMParser();
-            xmlDoc = parser.parseFromString(xhr.responseText, "application/xml");
-          }
+          var parser = new DOMParser();
+          var xmlDoc = parser.parseFromString(xhr.responseText, "application/xml");
           callback(xmlDoc);
         } else {
-          console.error("فشل تحميل ملف XML: " + url + " الحالة: " + xhr.status);
+          console.error("فشل تحميل ملف XML");
           callback(null);
         }
       }
     };
     xhr.send(null);
   }
+  
   function getText(parent, tagName){
     var el = parent.getElementsByTagName(tagName);
-    if(el.length > 0){
-      return trimText(el[0].textContent);
-    }
-    return "";
+    return el.length > 0 ? trimText(el[0].textContent) : "";
   }
+  
   function populateContent(appNode){
     if(!appNode){
       document.getElementById("app-name").textContent = "لم يتم العثور على بيانات التطبيق";
       return;
     }
-    var appName = getText(appNode, "appName");
-    var headerImageFile = getText(appNode, "headerImage");
-    var interstitial = getText(appNode, "interstitial");
-    var introduction = getText(appNode, "introduction");
-
-    document.getElementById("app-name").textContent = appName;
+    
+    // Basic info population (same as before)
+    document.getElementById("app-name").textContent = getText(appNode, "appName");
+    document.getElementById("interstitial").textContent = getText(appNode, "interstitial");
+    document.getElementById("intro-text").textContent = getText(appNode, "introduction");
+    
+    // Image
     var imgEl = document.getElementById("header-image");
-    if(headerImageFile.length > 0){
-      imgEl.setAttribute("src", "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsImages/" + headerImageFile);
-    } else {
-      imgEl.setAttribute("src", "");
-    }
-    imgEl.setAttribute("alt", appName + " صورة تعريفية لتطبيق الذكاء الاصطناعي");
+    var headerImage = getText(appNode, "headerImage");
+    imgEl.src = headerImage ? 
+      "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsImages/" + headerImage : "";
+    imgEl.alt = getText(appNode, "appName") + " صورة تعريفية";
 
-    document.getElementById("interstitial").textContent = interstitial;
-    document.getElementById("intro-text").textContent = introduction;
-
-    // الاستخدام العام
+    // General use
     var generalUseList = document.getElementById("general-use-list");
     generalUseList.innerHTML = "";
-    var generalUses = appNode.getElementsByTagName("generalUse");
-    if(generalUses.length > 0){
-      var uses = generalUses[0].getElementsByTagName("use");
-      for(var i=0;i<uses.length;i++){
-        var category = getText(uses[i], "category");
-        var description = getText(uses[i], "description");
-        if(category.length > 0 && description.length > 0){
-          var li = document.createElement("li");
-          li.textContent = category + ": " + description;
-          generalUseList.appendChild(li);
-        }
+    var uses = appNode.getElementsByTagName("use");
+    for(var i = 0; i < uses.length; i++){
+      var category = getText(uses[i], "category");
+      var description = getText(uses[i], "description");
+      if(category && description){
+        var li = document.createElement("li");
+        li.textContent = category + ": " + description;
+        generalUseList.appendChild(li);
       }
     }
-    // خطط التسعير
-    var pricingTbody = document.getElementById("pricing-table").getElementsByTagName("tbody")[0];
+
+    // Pricing
+    var pricingTbody = document.getElementById("pricing-table").tBodies[0];
     pricingTbody.innerHTML = "";
-    var pricingPlans = appNode.getElementsByTagName("pricingPlans");
-    if(pricingPlans.length > 0){
-      var plans = pricingPlans[0].getElementsByTagName("plan");
-      for(var j=0;j<plans.length;j++){
-        var planName = getText(plans[j], "name");
-        var planFeatures = getText(plans[j], "features");
-        var planPrice = getText(plans[j], "price");
-
-        var tr = document.createElement("tr");
-
-        var tdName = document.createElement("td");
-        tdName.setAttribute("data-label", "الخطة");
-        tdName.textContent = planName;
-        tr.appendChild(tdName);
-
-        var tdFeat = document.createElement("td");
-        tdFeat.setAttribute("data-label", "المميزات");
-        tdFeat.textContent = planFeatures;
-        tr.appendChild(tdFeat);
-
-        var tdPrice = document.createElement("td");
-        tdPrice.setAttribute("data-label", "السعر");
-        tdPrice.textContent = planPrice;
-        tr.appendChild(tdPrice);
-
-        pricingTbody.appendChild(tr);
-      }
+    var plans = appNode.getElementsByTagName("plan");
+    for(var j = 0; j < plans.length; j++){
+      var tr = document.createElement("tr");
+      
+      var name = getText(plans[j], "name");
+      var nameTd = document.createElement("td");
+      nameTd.textContent = name;
+      nameTd.setAttribute("data-label", "الخطة");
+      tr.appendChild(nameTd);
+      
+      var features = getText(plans[j], "features");
+      var featTd = document.createElement("td");
+      featTd.textContent = features;
+      featTd.setAttribute("data-label", "المميزات");
+      tr.appendChild(featTd);
+      
+      var price = getText(plans[j], "price");
+      var priceTd = document.createElement("td");
+      priceTd.textContent = price;
+      priceTd.setAttribute("data-label", "السعر");
+      tr.appendChild(priceTd);
+      
+      pricingTbody.appendChild(tr);
     }
 
-    // تضمين يوتيوب (iframe src من XML)
+    // YouTube
     var ytIframe = document.getElementById("youtube-iframe");
-    ytIframe.setAttribute("src", "");
-    var iframeSrc = getText(appNode, "iframeSrc");
-    if(iframeSrc.length > 0){
-      ytIframe.setAttribute("src", iframeSrc);
-      ytIframe.setAttribute("title", appName + " فيديو تجريبي");
-    } else {
-      ytIframe.removeAttribute("src");
-      ytIframe.setAttribute("title", "لا يوجد فيديو تجريبي متوفر");
-    }
+    ytIframe.src = getText(appNode, "iframeSrc");
+    ytIframe.title = getText(appNode, "appName") + " فيديو تجريبي";
 
-    // الإيجابيات والسلبيات
+    // FIXED: Pros and cons handling
     var prosList = document.getElementById("pros-list");
     prosList.innerHTML = "";
-    var consList = document.getElementById("cons-list");
-    consList.innerHTML = "";
-
-    var prosNodes = appNode.getElementsByTagName("pros");
-    if(prosNodes.length > 0){
-      var points = prosNodes[0].getElementsByTagName("point");
-      for(var p=0;p<points.length;p++){
+    var pros = appNode.getElementsByTagName("pros")[0];
+    if(pros){
+      var prosPoints = pros.getElementsByTagName("point");
+      for(var p = 0; p < prosPoints.length; p++){
         var li = document.createElement("li");
-        li.textContent = trimText(points[p].textContent);
+        li.textContent = trimText(prosPoints[p].textContent);
         prosList.appendChild(li);
       }
     }
-    var consNodes = appNode.getElementsByTagName("cons");
-    if(consNodes.length > 0){
-      var cpoints = consNodes[0].getElementsByTagName("point");
-      for(var c=0;c<cpoints.length;c++){
-        var li2 = document.createElement("li");
-        li2.textContent = trimText(cpoints[c].textContent);
-        consList.appendChild(li2);
+    
+    var consList = document.getElementById("cons-list");
+    consList.innerHTML = "";
+    var cons = appNode.getElementsByTagName("cons")[0];
+    if(cons){
+      var consPoints = cons.getElementsByTagName("point");
+      for(var c = 0; c < consPoints.length; c++){
+        var li = document.createElement("li");
+        li.textContent = trimText(consPoints[c].textContent);
+        consList.appendChild(li);
       }
     }
 
-    // رابط التطبيق
-    var appLinkUrl = getText(appNode, "appLink");
-    var appLinkEl = document.getElementById("app-link");
-    appLinkEl.setAttribute("href", appLinkUrl);
-    appLinkEl.textContent = "زيارة الموقع الرسمي لـ " + appName;
+    // App link
+    var appLink = document.getElementById("app-link");
+    appLink.href = getText(appNode, "appLink");
+    appLink.textContent = "زيارة الموقع الرسمي لـ " + getText(appNode, "appName");
   }
 
   function main(){
     setCssOption();
-    var xmlFile = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
-    loadXML(xmlFile, function(xmlDoc){
-      if(xmlDoc){
-        var apps = xmlDoc.getElementsByTagName("app");
-        var targetApp = null;
-        for(var i=0; i<apps.length; i++){
-          var name = getText(apps[i], "appName");
-          if(name === "جيميني"){
-            targetApp = apps[i];
-            break;
+    loadXML(
+      "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml", 
+      function(xmlDoc){
+        if(xmlDoc){
+          var apps = xmlDoc.getElementsByTagName("app");
+          for(var i = 0; i < apps.length; i++){
+            if(getText(apps[i], "appName") === "جيميني"){
+              populateContent(apps[i]);
+              break;
+            }
           }
+        } else {
+          document.getElementById("app-name").textContent = "خطأ في تحميل البيانات";
         }
-        populateContent(targetApp);
-      } else {
-        document.getElementById("app-name").textContent = "حدث خطأ أثناء تحميل بيانات التطبيق.";
-        console.error("تعذر تحميل أو تحليل ملف XML.");
       }
-    });
+    );
   }
 
   if(document.readyState === "loading"){
