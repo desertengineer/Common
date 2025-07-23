@@ -1,5 +1,3 @@
-/* CSS Combined File with 5 Alternative Styles */
-
 /* Common Styles */
 body {
     direction: rtl !important;
@@ -10,18 +8,16 @@ body {
     padding: 0 !important;
     max-width: 630px !important;
     margin: auto !important;
-    background-color: #f9f9f9 !important;
-    color: #333 !important;
     font-size: 16px !important;
+    transition: background-color 0.5s ease !important;
 }
 
 .container {
     max-width: 630px !important;
     margin: 0 auto !important;
     padding: 15px !important;
-    background-color: white !important;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
     border-radius: 8px !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1) !important;
 }
 
 /* Header Styles */
@@ -51,18 +47,21 @@ header {
 .app-name {
     margin: 0 !important;
     font-size: 1.8rem !important;
+    transition: color 0.3s ease !important;
 }
 
 .interstitial {
     font-style: italic !important;
     margin: 10px 0 !important;
     font-size: 1.1rem !important;
+    transition: color 0.3s ease !important;
 }
 
 .intro p {
     margin: 10px 0 !important;
     font-size: 1rem !important;
     line-height: 1.6 !important;
+    transition: color 0.3s ease !important;
 }
 
 /* Section Styles */
@@ -70,6 +69,7 @@ header {
     margin-bottom: 25px !important;
     padding: 15px !important;
     border-radius: 8px !important;
+    transition: all 0.3s ease !important;
 }
 
 .section-title {
@@ -77,6 +77,7 @@ header {
     padding-bottom: 10px !important;
     border-bottom: 2px solid !important;
     font-size: 1.4rem !important;
+    transition: color 0.3s ease, border-color 0.3s ease !important;
 }
 
 /* Use Cases */
@@ -87,20 +88,22 @@ header {
 }
 
 .use-case {
-    background: #f8f8f8 !important;
     padding: 15px !important;
     border-radius: 8px !important;
     border-left: 4px solid !important;
+    transition: all 0.3s ease !important;
 }
 
 .use-case h3 {
     margin: 0 0 8px !important;
     font-size: 1.1rem !important;
+    transition: color 0.3s ease !important;
 }
 
 .use-case p {
     margin: 0 !important;
     font-size: 0.95rem !important;
+    transition: color 0.3s ease !important;
 }
 
 /* Pricing Table */
@@ -109,12 +112,14 @@ header {
     border-collapse: collapse !important;
     margin: 15px 0 !important;
     font-size: 0.95rem !important;
+    transition: all 0.3s ease !important;
 }
 
 .pricing-table th, .pricing-table td {
     padding: 10px !important;
     text-align: right !important;
-    border: 1px solid #ddd !important;
+    border: 1px solid !important;
+    transition: all 0.3s ease !important;
 }
 
 .pricing-table th {
@@ -124,7 +129,7 @@ header {
 /* YouTube Container */
 .youtube-container {
     position: relative !important;
-    padding-bottom: 56.25% !important; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25% !important;
     height: 0 !important;
     overflow: hidden !important;
     border-radius: 8px !important;
@@ -148,20 +153,16 @@ header {
     margin-top: 15px !important;
 }
 
-@media (max-width: 500px) {
-    .pros-cons {
-        grid-template-columns: 1fr !important;
-    }
-}
-
 .pros, .cons {
     padding: 15px !important;
     border-radius: 8px !important;
+    transition: all 0.3s ease !important;
 }
 
 .pros h3, .cons h3 {
     margin: 0 0 10px !important;
     font-size: 1.2rem !important;
+    transition: color 0.3s ease !important;
 }
 
 .pros ul, .cons ul {
@@ -172,21 +173,24 @@ header {
 
 .pros li, .cons li {
     padding: 8px 0 !important;
-    border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed !important;
     display: flex !important;
     align-items: flex-start !important;
+    transition: all 0.3s ease !important;
 }
 
 .pros li:before {
     content: "✓" !important;
     margin-left: 10px !important;
     font-weight: bold !important;
+    transition: color 0.3s ease !important;
 }
 
 .cons li:before {
     content: "✗" !important;
     margin-left: 10px !important;
     font-weight: bold !important;
+    transition: color 0.3s ease !important;
 }
 
 /* App Link */
@@ -210,164 +214,381 @@ footer {
     text-align: center !important;
     margin-top: 20px !important;
     padding-top: 15px !important;
-    border-top: 1px solid #ddd !important;
-    color: #666 !important;
+    border-top: 1px solid !important;
     font-size: 0.9rem !important;
+    transition: all 0.3s ease !important;
 }
 
-/* ======== ALTERNATIVE STYLES ======== */
+/* ======== 7 ALTERNATIVE COLOR SCHEMES ======== */
 
-/* Option 1: Blue Theme */
+/* Option 1: Sky Blue Theme (Monday) */
+body[data-css-option="1"] {
+    background-color: #f0f8ff !important; /* AliceBlue */
+    color: #1a3c5a !important;
+}
+
+body[data-css-option="1"] .container {
+    background-color: #e6f7ff !important; 
+}
+
 body[data-css-option="1"] .section {
-    background-color: #e6f0fa !important;
+    background-color: #d1ecff !important;
+    border: 1px solid #a8d8ff !important;
 }
 
 body[data-css-option="1"] .section-title {
-    border-bottom-color: #0b3d91 !important;
-    color: #0b3d91 !important;
+    border-bottom-color: #4da6ff !important;
+    color: #0066cc !important;
 }
 
 body[data-css-option="1"] .use-case {
-    border-left-color: #0b3d91 !important;
+    background-color: #e6f2ff !important;
+    border-left-color: #4da6ff !important;
+}
+
+body[data-css-option="1"] .pricing-table th {
+    background-color: #cce6ff !important;
+    border-color: #99ceff !important;
+    color: #004d99 !important;
+}
+
+body[data-css-option="1"] .pricing-table td {
+    background-color: #e6f2ff !important;
+    border-color: #cce6ff !important;
 }
 
 body[data-css-option="1"] .pros {
-    background-color: #e8f5e9 !important;
-    border-left: 4px solid #4caf50 !important;
+    background-color: #e6ffe6 !important;
+    border-left: 4px solid #66cc66 !important;
 }
 
 body[data-css-option="1"] .cons {
-    background-color: #ffebee !important;
-    border-left: 4px solid #f44336 !important;
-}
-
-body[data-css-option="1"] .app-link {
-    background-color: #0b3d91 !important;
-    color: white !important;
+    background-color: #ffe6e6 !important;
+    border-left: 4px solid #ff6666 !important;
 }
 
 body[data-css-option="1"] .pros li:before {
-    color: #4caf50 !important;
+    color: #339933 !important;
 }
 
 body[data-css-option="1"] .cons li:before {
-    color: #f44336 !important;
+    color: #cc0000 !important;
 }
 
-/* Option 2: Green Theme */
+body[data-css-option="1"] .app-link {
+    background-color: #4da6ff !important;
+    color: white !important;
+}
+
+body[data-css-option="1"] footer {
+    border-top-color: #cce6ff !important;
+    color: #666 !important;
+}
+
+/* Option 2: Mint Green Theme (Tuesday) */
+body[data-css-option="2"] {
+    background-color: #f0fff0 !important; /* Honeydew */
+    color: #1a451a !important;
+}
+
+body[data-css-option="2"] .container {
+    background-color: #e6ffe6 !important; 
+}
+
 body[data-css-option="2"] .section {
-    background-color: #e6f7ed !important;
+    background-color: #d1ffd1 !important;
+    border: 1px solid #a8ffa8 !important;
 }
 
 body[data-css-option="2"] .section-title {
-    border-bottom-color: #2e7d32 !important;
-    color: #2e7d32 !important;
+    border-bottom-color: #66cc66 !important;
+    color: #008000 !important;
 }
 
 body[data-css-option="2"] .use-case {
-    border-left-color: #2e7d32 !important;
+    background-color: #e6ffe6 !important;
+    border-left-color: #66cc66 !important;
+}
+
+body[data-css-option="2"] .pricing-table th {
+    background-color: #ccffcc !important;
+    border-color: #99ff99 !important;
+    color: #006600 !important;
 }
 
 body[data-css-option="2"] .pros {
-    background-color: #e8f5e9 !important;
-    border-left: 4px solid #4caf50 !important;
+    background-color: #f0fff0 !important;
+    border-left: 4px solid #99cc99 !important;
 }
 
 body[data-css-option="2"] .cons {
-    background-color: #ffebee !important;
-    border-left: 4px solid #f44336 !important;
+    background-color: #fff0f0 !important;
+    border-left: 4px solid #ff9999 !important;
 }
 
 body[data-css-option="2"] .app-link {
-    background-color: #2e7d32 !important;
+    background-color: #66cc66 !important;
     color: white !important;
 }
 
-/* Option 3: Purple Theme */
+body[data-css-option="2"] footer {
+    border-top-color: #ccffcc !important;
+    color: #666 !important;
+}
+
+/* Option 3: Lavender Theme (Wednesday) */
+body[data-css-option="3"] {
+    background-color: #f5f0ff !important; 
+    color: #3d1a5a !important;
+}
+
+body[data-css-option="3"] .container {
+    background-color: #ede6ff !important; 
+}
+
 body[data-css-option="3"] .section {
-    background-color: #f3e5f5 !important;
+    background-color: #e0d1ff !important;
+    border: 1px solid #c9a8ff !important;
 }
 
 body[data-css-option="3"] .section-title {
-    border-bottom-color: #6a1b9a !important;
-    color: #6a1b9a !important;
+    border-bottom-color: #9966ff !important;
+    color: #6600cc !important;
 }
 
 body[data-css-option="3"] .use-case {
-    border-left-color: #6a1b9a !important;
+    background-color: #f0e6ff !important;
+    border-left-color: #9966ff !important;
+}
+
+body[data-css-option="3"] .pricing-table th {
+    background-color: #e6ccff !important;
+    border-color: #d1b3ff !important;
+    color: #4d0099 !important;
 }
 
 body[data-css-option="3"] .pros {
-    background-color: #e8f5e9 !important;
-    border-left: 4px solid #4caf50 !important;
+    background-color: #f5f0ff !important;
+    border-left: 4px solid #b399e6 !important;
 }
 
 body[data-css-option="3"] .cons {
-    background-color: #ffebee !important;
-    border-left: 4px solid #f44336 !important;
+    background-color: #fff0f5 !important;
+    border-left: 4px solid #ff99c2 !important;
 }
 
 body[data-css-option="3"] .app-link {
-    background-color: #6a1b9a !important;
+    background-color: #9966ff !important;
     color: white !important;
 }
 
-/* Option 4: Orange Theme */
+body[data-css-option="3"] footer {
+    border-top-color: #e6ccff !important;
+    color: #666 !important;
+}
+
+/* Option 4: Peach Theme (Thursday) */
+body[data-css-option="4"] {
+    background-color: #fff5f0 !important; 
+    color: #5a1a1a !important;
+}
+
+body[data-css-option="4"] .container {
+    background-color: #ffe6e6 !important; 
+}
+
 body[data-css-option="4"] .section {
-    background-color: #fff3e0 !important;
+    background-color: #ffd1d1 !important;
+    border: 1px solid #ffa8a8 !important;
 }
 
 body[data-css-option="4"] .section-title {
-    border-bottom-color: #ef6c00 !important;
-    color: #ef6c00 !important;
+    border-bottom-color: #ff6666 !important;
+    color: #cc0000 !important;
 }
 
 body[data-css-option="4"] .use-case {
-    border-left-color: #ef6c00 !important;
+    background-color: #ffe6e6 !important;
+    border-left-color: #ff6666 !important;
+}
+
+body[data-css-option="4"] .pricing-table th {
+    background-color: #ffcccc !important;
+    border-color: #ff9999 !important;
+    color: #990000 !important;
 }
 
 body[data-css-option="4"] .pros {
-    background-color: #e8f5e9 !important;
-    border-left: 4px solid #4caf50 !important;
+    background-color: #f0fff5 !important;
+    border-left: 4px solid #66cc99 !important;
 }
 
 body[data-css-option="4"] .cons {
-    background-color: #ffebee !important;
-    border-left: 4px solid #f44336 !important;
+    background-color: #f0f0ff !important;
+    border-left: 4px solid #9999ff !important;
 }
 
 body[data-css-option="4"] .app-link {
-    background-color: #ef6c00 !important;
+    background-color: #ff6666 !important;
     color: white !important;
 }
 
-/* Option 5: Teal Theme */
+body[data-css-option="4"] footer {
+    border-top-color: #ffcccc !important;
+    color: #666 !important;
+}
+
+/* Option 5: Sunflower Theme (Friday) */
+body[data-css-option="5"] {
+    background-color: #fffaf0 !important; /* FloralWhite */
+    color: #5a3d1a !important;
+}
+
+body[data-css-option="5"] .container {
+    background-color: #fff5e6 !important; 
+}
+
 body[data-css-option="5"] .section {
-    background-color: #e0f2f1 !important;
+    background-color: #ffe8d1 !important;
+    border: 1px solid #ffd1a8 !important;
 }
 
 body[data-css-option="5"] .section-title {
-    border-bottom-color: #008080 !important;
-    color: #008080 !important;
+    border-bottom-color: #ffcc66 !important;
+    color: #cc8800 !important;
 }
 
 body[data-css-option="5"] .use-case {
-    border-left-color: #008080 !important;
+    background-color: #fff0e6 !important;
+    border-left-color: #ffcc66 !important;
+}
+
+body[data-css-option="5"] .pricing-table th {
+    background-color: #ffe6cc !important;
+    border-color: #ffd1b3 !important;
+    color: #996600 !important;
 }
 
 body[data-css-option="5"] .pros {
-    background-color: #e8f5e9 !important;
-    border-left: 4px solid #4caf50 !important;
+    background-color: #fffff0 !important;
+    border-left: 4px solid #cccc66 !important;
 }
 
 body[data-css-option="5"] .cons {
-    background-color: #ffebee !important;
-    border-left: 4px solid #f44336 !important;
+    background-color: #f0f0ff !important;
+    border-left: 4px solid #6666cc !important;
 }
 
 body[data-css-option="5"] .app-link {
-    background-color: #008080 !important;
+    background-color: #ffcc66 !important;
+    color: #333 !important;
+}
+
+body[data-css-option="5"] footer {
+    border-top-color: #ffe6cc !important;
+    color: #666 !important;
+}
+
+/* Option 6: Seafoam Theme (Saturday) */
+body[data-css-option="6"] {
+    background-color: #f0ffff !important; /* Azure */
+    color: #1a5a5a !important;
+}
+
+body[data-css-option="6"] .container {
+    background-color: #e6ffff !important; 
+}
+
+body[data-css-option="6"] .section {
+    background-color: #d1ffff !important;
+    border: 1px solid #a8ffff !important;
+}
+
+body[data-css-option="6"] .section-title {
+    border-bottom-color: #66cccc !important;
+    color: #008080 !important;
+}
+
+body[data-css-option="6"] .use-case {
+    background-color: #e6ffff !important;
+    border-left-color: #66cccc !important;
+}
+
+body[data-css-option="6"] .pricing-table th {
+    background-color: #ccffff !important;
+    border-color: #99ffff !important;
+    color: #006666 !important;
+}
+
+body[data-css-option="6"] .pros {
+    background-color: #f0ffff !important;
+    border-left: 4px solid #99cccc !important;
+}
+
+body[data-css-option="6"] .cons {
+    background-color: #fff0f0 !important;
+    border-left: 4px solid #ff9999 !important;
+}
+
+body[data-css-option="6"] .app-link {
+    background-color: #66cccc !important;
     color: white !important;
+}
+
+body[data-css-option="6"] footer {
+    border-top-color: #ccffff !important;
+    color: #666 !important;
+}
+
+/* Option 7: Rose Theme (Sunday) */
+body[data-css-option="7"] {
+    background-color: #fff0f5 !important; /* LavenderBlush */
+    color: #5a1a3d !important;
+}
+
+body[data-css-option="7"] .container {
+    background-color: #ffe6f0 !important; 
+}
+
+body[data-css-option="7"] .section {
+    background-color: #ffd1e6 !important;
+    border: 1px solid #ffa8d1 !important;
+}
+
+body[data-css-option="7"] .section-title {
+    border-bottom-color: #ff66b3 !important;
+    color: #cc0066 !important;
+}
+
+body[data-css-option="7"] .use-case {
+    background-color: #ffe6f0 !important;
+    border-left-color: #ff66b3 !important;
+}
+
+body[data-css-option="7"] .pricing-table th {
+    background-color: #ffcce6 !important;
+    border-color: #ffb3d9 !important;
+    color: #99004d !important;
+}
+
+body[data-css-option="7"] .pros {
+    background-color: #fff0f5 !important;
+    border-left: 4px solid #cc6699 !important;
+}
+
+body[data-css-option="7"] .cons {
+    background-color: #f0f5ff !important;
+    border-left: 4px solid #6699cc !important;
+}
+
+body[data-css-option="7"] .app-link {
+    background-color: #ff66b3 !important;
+    color: white !important;
+}
+
+body[data-css-option="7"] footer {
+    border-top-color: #ffcce6 !important;
+    color: #666 !important;
 }
 
 /* Responsive Adjustments */
