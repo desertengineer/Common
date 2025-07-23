@@ -6,8 +6,22 @@
     document.body.setAttribute("data-css-option", option.toString());
   }
 
-  function trimText(str){
-    return str ? str.replace(/^\s+|\s+$/g, "") : "";
+   function trimText(str){
+    if (typeof str !== 'string') return '';
+    
+    // إزالة الفراغات من البداية
+    var start = 0;
+    while (start < str.length && (str[start] === ' ' || str[start] === '\t' || str[start] === '\n' || str[start] === '\r')) {
+      start++;
+    }
+    
+    // إزالة الفراغات من النهاية
+    var end = str.length - 1;
+    while (end >= start && (str[end] === ' ' || str[end] === '\t' || str[end] === '\n' || str[end] === '\r')) {
+      end--;
+    }
+    
+    return str.substring(start, end + 1);
   }
   
   function loadXML(url, callback){
