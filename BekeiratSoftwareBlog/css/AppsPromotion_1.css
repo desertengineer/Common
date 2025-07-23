@@ -1,117 +1,123 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0 1rem;
-    background: #f9f9f9;
-    color: #222;
+ /* Inline fallback styles with !important added after each value */
+  body {
+    font-family: Arial, sans-serif !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    padding: 0 1rem !important;
+    background-color: #f9f9f9 !important;
+    color: #222 !important;
   }
   .container {
-    max-width: 900px;
-    margin: 1.5rem auto;
-    background: #fff;
-    padding: 1.5rem 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    max-width: 900px !important;
+    margin: 1.5rem auto !important;
+    background-color: #fff !important;
+    padding: 1.5rem 2rem !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
+    border-radius: 8px !important;
   }
   header {
-    text-align: center;
-    margin-bottom: 1.5rem;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
   }
   header img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
   }
   header h1 {
-    margin: 1rem 0 0.5rem;
-    font-size: 2rem;
-    color: #0b3d91;
+    margin: 1rem 0 0.5rem !important;
+    font-size: 2rem !important;
+    color: #0b3d91 !important;
   }
   header p.interstitial {
-    font-style: italic;
-    color: #555;
-    font-size: 1.1rem;
+    font-style: italic !important;
+    color: #555 !important;
+    font-size: 1.1rem !important;
   }
   section.intro {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem !important;
   }
   section.general-use {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
   }
   section.general-use h2,
   section.pricing h2,
   section.youtube h2,
   section.pros-cons h2,
   section.link h2 {
-    color: #0b3d91;
-    border-bottom: 2px solid #0b3d91;
-    padding-bottom: 0.3rem;
-    margin-bottom: 0.8rem;
+    color: #0b3d91 !important;
+    border-bottom: 2px solid #0b3d91 !important;
+    padding-bottom: 0.3rem !important;
+    margin-bottom: 0.8rem !important;
   }
   ul {
-    list-style-type: disc;
-    margin-left: 1.2rem;
+    list-style-type: disc !important;
+    margin-left: 1.2rem !important;
   }
   section.pricing table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1.5rem;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-bottom: 1.5rem !important;
   }
   section.pricing th,
   section.pricing td {
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    text-align: left;
+    border: 1px solid #ccc !important;
+    padding: 0.5rem !important;
+    text-align: left !important;
   }
   section.pricing th {
-    background-color: #e1eaff;
+    background-color: #e1eaff !important;
   }
   .youtube iframe {
-    width: 100%;
-    height: 315px;
-    border: none;
-    border-radius: 8px;
+    width: 100% !important;
+    height: 315px !important;
+    border: none !important;
+    border-radius: 8px !important;
   }
   @media (max-width: 600px) {
     body {
-      padding: 0 0.75rem;
+      padding: 0 0.75rem !important;
     }
-    section.pricing table, section.pricing thead, section.pricing tbody, section.pricing th, section.pricing td, section.pricing tr {
-      display: block;
-      width: 100%;
+    section.pricing table, 
+    section.pricing thead, 
+    section.pricing tbody, 
+    section.pricing th, 
+    section.pricing td, 
+    section.pricing tr {
+      display: block !important;
+      width: 100% !important;
     }
     section.pricing tr {
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #ddd;
+      margin-bottom: 1rem !important;
+      border-bottom: 2px solid #ddd !important;
     }
     section.pricing td {
-      padding-left: 50%;
-      position: relative;
-      text-align: right;
+      padding-left: 50% !important;
+      position: relative !important;
+      text-align: right !important;
     }
     section.pricing td::before {
-      content: attr(data-label);
-      position: absolute;
-      left: 0;
-      width: 45%;
-      padding-left: 0.5rem;
-      font-weight: bold;
-      text-align: left;
-      color: #0b3d91;
+      content: attr(data-label) !important;
+      position: absolute !important;
+      left: 0 !important;
+      width: 45% !important;
+      padding-left: 0.5rem !important;
+      font-weight: bold !important;
+      text-align: left !important;
+      color: #0b3d91 !important;
     }
   }
   a.app-link {
-    display: inline-block;
-    background-color: #0b3d91;
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
+    display: inline-block !important;
+    background-color: #0b3d91 !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px !important;
+    margin-top: 1rem !important;
+    transition: background-color 0.3s ease !important;
   }
   a.app-link:hover,
   a.app-link:focus {
-    background-color: #074077;
+    background-color: #074077 !important;
   }
