@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 1rem;
+    background: #f9f9f9;
+    color: #222;
+  }
+  .container {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    background: #fff;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  header h1 {
+    margin: 1rem 0 0.5rem;
+    font-size: 2rem;
+    color: #0b3d91;
+  }
+  header p.interstitial {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  section.intro {
+    margin-bottom: 1.5rem;
+  }
+  section.general-use {
+    margin-bottom: 2rem;
+  }
+  section.general-use h2,
+  section.pricing h2,
+  section.youtube h2,
+  section.pros-cons h2,
+  section.link h2 {
+    color: #0b3d91;
+    border-bottom: 2px solid #0b3d91;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
+  }
+  section.pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  section.pricing th,
+  section.pricing td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  section.pricing th {
+    background-color: #e1eaff;
+  }
+  .youtube iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+  }
+  @media (max-width: 600px) {
+    body {
+      padding: 0 0.75rem;
+    }
+    section.pricing table, section.pricing thead, section.pricing tbody, section.pricing th, section.pricing td, section.pricing tr {
+      display: block;
+      width: 100%;
+    }
+    section.pricing tr {
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ddd;
+    }
+    section.pricing td {
+      padding-left: 50%;
+      position: relative;
+      text-align: right;
+    }
+    section.pricing td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 45%;
+      padding-left: 0.5rem;
+      font-weight: bold;
+      text-align: left;
+      color: #0b3d91;
+    }
+  }
+  a.app-link {
+    display: inline-block;
+    background-color: #0b3d91;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  a.app-link:hover,
+  a.app-link:focus {
+    background-color: #074077;
+  }
