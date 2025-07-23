@@ -3,7 +3,7 @@ var xmlFolder = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xm
   var jsFolder = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/js";
 
   var xmlUrl = xmlFolder + "/AppsPromotion_1.xml";
-
+console.log(xmlUrl);
   function trimText(str) {
     return str.replace(/^\s+|\s+$/g, "");
   }
