@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<apps>
+<apps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <app>
     <appName>Gemini</appName>
     <headerImage>Gemini.png</headerImage>
     <interstitial>المساعد الذكي متعدد الاستخدامات من جوجل</interstitial>
     <introduction>جيميني هو نموذج ذكاء اصطناعي متقدم طورته جوجل، يساعدك في الترجمة الفورية، كتابة النصوص، وإجراء المحادثات التفاعلية عبر واجهة سهلة الاستخدام.</introduction>
-
     <generalUse1>كتابة النصوص الإبداعية</generalUse1>
     <generalUse2>إجراء المحادثات الآلية</generalUse2>
     <generalUse3>ترجمة لغات متعددة</generalUse3>
     <generalUse4>مساعدة المبرمجين في كتابة الأكواد</generalUse4>
-
     <plan1Name>الخطة المجانية</plan1Name>
     <plan1Features>وصول محدود إلى الميزات الأساسية</plan1Features>
     <plan1Price>مجاني</plan1Price>
-
     <plan2Name>الخطة الاحترافية</plan2Name>
     <plan2Features>وصول كامل إلى جميع القدرات وسرعة استجابة أعلى</plan2Features>
     <plan2Price>9.99 دولار/الشهر</plan2Price>
-
     <plan3Name>خطة المؤسسات</plan3Name>
     <plan3Features>تكامل API متقدم، دعم فني مخصص، خيارات أمان موسعة</plan3Features>
     <plan3Price>حسب المتطلبات</plan3Price>
@@ -27,233 +23,373 @@
     <pro2>دعم لغات متعددة</pro2>
     <pro3>واجهة مستخدم بسيطة وسهلة</pro3>
     <pro4>تكامل سلس مع خدمات جوجل الأخرى</pro4>
-
     <con1>حدود الاستخدام المجاني</con1>
     <con2>مخاوف تتعلق بخصوصية البيانات</con2>
     <con3>يتطلب اتصال إنترنت مستقر</con3>
-
     <appLink>https://gemini.google.com</appLink>
-  </app>  
+  </app>
   <app>
     <appName>ChatGPT</appName>
     <headerImage>ChatGPT.png</headerImage>
     <interstitial>المساعد التفاعلي المتقدم من OpenAI</interstitial>
     <introduction>ChatGPT هو نموذج لغوي متطور يساعدك في كتابة النصوص، الإجابة عن الأسئلة، الترجمة والتعلم التفاعلي عبر واجهة بسيطة.</introduction>
-
     <generalUse1>توليد المحتوى الإبداعي</generalUse1>
     <generalUse2>المساعدة في الدراسة والبحث</generalUse2>
     <generalUse3>تدقيق وتصحيح الأكواد البرمجية</generalUse3>
     <generalUse4>تلخيص النصوص وترجمتها</generalUse4>
-
     <plan1Name>الخطة المجانية</plan1Name>
     <plan1Features>وصول محدود إلى نموذج GPT-3.5</plan1Features>
     <plan1Price>مجاني</plan1Price>
-
     <plan2Name>خطة GPT-4</plan2Name>
     <plan2Features>وصول كامل إلى نموذج GPT-4</plan2Features>
     <plan2Price>20 دولار/الشهر</plan2Price>
-
     <plan3Name>ChatGPT Enterprise</plan3Name>
     <plan3Features>أمان مؤسسي وإدارة فريق</plan3Features>
     <plan3Price>حسب الاتفاق</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/ErDA_lKqLK0</iframeSrc>
-
     <pro1>دقة عالية في الفهم والاستجابة</pro1>
     <pro2>واجهة استخدام سهلة وسريعة</pro2>
     <pro3>تغطية لمجموعة واسعة من المواضيع</pro3>
     <pro4>متاح على الويب والهواتف</pro4>
-
     <con1>حدود على عدد الاستفسارات في الخطة المجانية</con1>
     <con2>يتطلب اتصال إنترنت مستقر</con2>
     <con3>قد يولد إجابات غير دقيقة أحياناً</con3>
-
     <appLink>https://chat.openai.com</appLink>
   </app>
-
   <app>
     <appName>Microsoft Copilot</appName>
     <headerImage>Microsoft Copilot.png</headerImage>
     <interstitial>المساعد الذكي المدعوم من مايكروسوفت</interstitial>
     <introduction>Copilot يدمج الذكاء الاصطناعي في بيئة مايكروسوفت Office وEdge لزيادة الإنتاجية وكتابة الوثائق تلقائياً.</introduction>
-
     <generalUse1>إنشاء وتحرير المستندات</generalUse1>
     <generalUse2>تلخيص النصوص والبريد الإلكتروني</generalUse2>
     <generalUse3>إنشاء العروض التقديمية</generalUse3>
     <generalUse4>توليد الصور والتحليلات</generalUse4>
-
     <plan1Name>مجاني</plan1Name>
     <plan1Features>ميزات أساسية للمستخدمين الجدد</plan1Features>
     <plan1Price>مجاني</plan1Price>
-
     <plan2Name>Copilot Pro</plan2Name>
     <plan2Features>التكامل الكامل مع Office 365</plan2Features>
     <plan2Price>7.99 دولار/الشهر</plan2Price>
-
     <plan3Name>Copilot for Enterprise</plan3Name>
     <plan3Features>أمان بيانات متقدم ودعم فني</plan3Features>
     <plan3Price>حسب الاتفاق</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/NwjXjlPGXNc</iframeSrc>
-
     <pro1>تكامل سلس مع منتجات مايكروسوفت</pro1>
     <pro2>أتمتة كبيرة للمهام المتكررة</pro2>
     <pro3>دعم لغات متعددة</pro3>
     <pro4>تحسين التعاون والعمل الجماعي</pro4>
-
     <con1>يتطلب اشتراك Office 365</con1>
     <con2>قد تكون التكلفة عالية للمؤسسات الصغيرة</con2>
     <con3>يتطلب إنترنت عالي السرعة</con3>
-
     <appLink>https://copilot.microsoft.com</appLink>
-  </app>
+  </app> 
   <app>
     <appName>DeepSeek</appName>
     <headerImage>DeepSeek.png</headerImage>
     <interstitial>النموذج الصيني للبحث والاستدلال</interstitial>
     <introduction>DeepSeek هو نموذج ذكاء اصطناعي صيني يقدم قدرات بحث وتحليل متقدمة مع إمكانية استكمال المحادثات والبحث العميق.</introduction>
-
     <generalUse1>بحث المعلومات المتعمق</generalUse1>
     <generalUse2>توليد الاستجابات المحسنة</generalUse2>
     <generalUse3>تلخيص الأخبار والوثائق</generalUse3>
     <generalUse4>توليد الأكواد البرمجية</generalUse4>
-
     <plan1Name>الخطة المجانية</plan1Name>
     <plan1Features>وصول أساسي للبحث الآلي</plan1Features>
     <plan1Price>مجاني</plan1Price>
-
     <plan2Name>DeepThink</plan2Name>
     <plan2Features>معالجة منطقية متقدمة</plan2Features>
     <plan2Price>9.99 دولار/الشهر</plan2Price>
-
     <plan3Name>DeepSeek Pro</plan3Name>
     <plan3Features>دمج API ودعم فني</plan3Features>
     <plan3Price>حسب الاستخدام</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/iu1FX-Y9bo8</iframeSrc>
-
     <pro1>تحليلات دقيقة وسريعة</pro1>
     <pro2>دمج بيانات الويب الفورية</pro2>
     <pro3>تكامل مع قواعد بيانات خارجية</pro3>
     <pro4>مدعوم من أبحاث IBM</pro4>
-
     <con1>واجهة استخدام قد تبدو تقنية</con1>
     <con2>يتطلب خبرة في تهيئة النماذج</con2>
     <con3>محدودية التوثيق باللغة العربية</con3>
-
     <appLink>https://deepseek.com</appLink>
   </app>
-
   <app>
     <appName>Synthesia</appName>
     <headerImage>Synthesia.png</headerImage>
     <interstitial>استوديو الفيديو المتقدم بالذكاء الاصطناعي</interstitial>
     <introduction>Synthesia يحول النصوص إلى فيديوهات مع ممثلين افتراضيين، يدعم لغات متعددة ويوفر قوالب سريعة الإنتاج.</introduction>
-
     <generalUse1>إنشاء فيديوهات تدريبية</generalUse1>
     <generalUse2>شرائح شرح وتقديم</generalUse2>
     <generalUse3>دبلجة المحتوى والنصوص</generalUse3>
     <generalUse4>الفيديوهات الترويجية والإعلامية</generalUse4>
-
     <plan1Name>Starter</plan1Name>
     <plan1Features>10 فيديوهات/الشهر</plan1Features>
     <plan1Price>30 دولار/الشهر</plan1Price>
-
     <plan2Name>Corporate</plan2Name>
     <plan2Features>100 فيديو/الشهر ودبلجة</plan2Features>
     <plan2Price>100 دولار/الشهر</plan2Price>
-
     <plan3Name>Enterprise</plan3Name>
     <plan3Features>إنتاج غير محدود ودعم مخصص</plan3Features>
     <plan3Price>حسب الاتفاق</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/ouwMSmNAoig</iframeSrc>
-
     <pro1>مشاركة سهلة للمستخدمين</pro1>
     <pro2>ممثلات وأصوات متعددة</pro2>
     <pro3>دبلجة تلقائية احترافية</pro3>
     <pro4>قوالب جاهزة لسرعة الإنتاج</pro4>
-
     <con1>تكلفة الترخيص عالية</con1>
     <con2>يحتاج لبراءة تصميمية</con2>
     <con3>محدودية تحرير المشاهد</con3>
-
     <appLink>https://www.synthesia.io</appLink>
   </app>
-
   <app>
     <appName>Runway</appName>
     <headerImage>Runway.png</headerImage>
     <interstitial>منصة الإنتاج الإبداعي بالذكاء الاصطناعي</interstitial>
     <introduction>Runway يوفر أدوات تحويل النص إلى فيديو ورفع مستوى الإخراج السينمائي بذكاء اصطناعي متقدم.</introduction>
-
     <generalUse1>تحويل النص إلى فيديو</generalUse1>
     <generalUse2>تحرير الفيديو تلقائياً</generalUse2>
     <generalUse3>تأثيرات بصرية متقدمة</generalUse3>
     <generalUse4>توليد الموسيقى الخلفية</generalUse4>
-
     <plan1Name>Free</plan1Name>
     <plan1Features>تصدير HD محدود</plan1Features>
     <plan1Price>مجاني</plan1Price>
-
     <plan2Name>Creator</plan2Name>
     <plan2Features>1080p وتصدير غير محدود</plan2Features>
     <plan2Price>12 دولار/الشهر</plan2Price>
-
     <plan3Name>Enterprise</plan3Name>
     <plan3Features>إدارة فريق ودعم مخصص</plan3Features>
     <plan3Price>حسب الطلب</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/fPGfWHGI7DI</iframeSrc>
-
     <pro1>نماذج فيديو عالية الجودة</pro1>
     <pro2>واجهة تحرير بديهية</pro2>
     <pro3>تكامل مع اللغات والصوت</pro3>
     <pro4>تصدير سريع ومتعدد الصيغ</pro4>
-
     <con1>قد يحتاج GPU قوي</con1>
     <con2>تكلفة الخطط المدفوعة</con2>
     <con3>منحنى تعلّم للتأثيرات</con3>
-
     <appLink>https://runwayml.com</appLink>
   </app>
-
   <app>
     <appName>InVideo</appName>
     <headerImage>InVideo.png</headerImage>
     <interstitial>منصة تحرير الفيديو على الويب</interstitial>
     <introduction>InVideo يتيح إنشاء وتحرير الفيديوهات بسهولة عبر قوالب جاهزة وأدوات ذكاء اصطناعي للكتابة الأوتوماتيكية.</introduction>
-
     <generalUse1>إنشاء الفيديو من النص</generalUse1>
     <generalUse2>تحرير الشرائح والصوت</generalUse2>
     <generalUse3>تغيير اللغات والترجمة</generalUse3>
     <generalUse4>إضافة تأثيرات وانتقالات</generalUse4>
-
     <plan1Name>Basic</plan1Name>
     <plan1Features>5 فيديوهات/الشهر</plan1Features>
     <plan1Price>10 دولار/الشهر</plan1Price>
-
     <plan2Name>Business</plan2Name>
     <plan2Features>20 فيديو/الشهر وترجمة</plan2Features>
     <plan2Price>30 دولار/الشهر</plan2Price>
-
     <plan3Name>Unlimited</plan3Name>
     <plan3Features>فيديوهات غير محدودة</plan3Features>
     <plan3Price>60 دولار/الشهر</plan3Price>
-
     <iframeSrc>https://www.youtube.com/embed/RPQoWeDiJxQ</iframeSrc>
-
     <pro1>قوالب جاهزة محترفة</pro1>
     <pro2>تحرير النص الصوتي الأوتوماتيكي</pro2>
     <pro3>دعم لغات متعددة</pro3>
     <pro4>تصدير سريع ومباشر</pro4>
-
     <con1>حدود على الخطة الأساسية</con1>
     <con2>يحتاج للتعلم أولاً</con2>
     <con3>بعض القوالب متكررة</con3>
-
     <appLink>https://invideo.io</appLink>
   </app>
-
-
+  <app>
+    <appName>Notion AI</appName>
+    <headerImage>Notion AI.png</headerImage>
+    <interstitial>تعزيز الإنتاجية وتنظيم الأفكار باستخدام الذكاء الاصطناعي</interstitial>
+    <introduction>Notion AI هو إضافة لبرنامج Notion تساعد في توليد النصوص، ملخص الصفحات، وإدارة المهام بأوامر بسيطة.</introduction>
+    <generalUse1>توليد محتوى تلقائي</generalUse1>
+    <generalUse2>تلخيص النصوص</generalUse2>
+    <generalUse3>اقتراحات كتابة</generalUse3>
+    <generalUse4>ترجمة وتحسين الأسلوب</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>للأفراد لتنظيم مشاريعهم الشخصية وحياتهم</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Plus</plan2Name>
+    <plan2Features>ميزات Notion الأساسية</plan2Features>
+    <plan2Price>10$/شهر</plan2Price>
+    <plan3Name>Business</plan3Name>
+    <plan3Features>تضمين Notion AI</plan3Features>
+    <plan3Price>20$/شهر</plan3Price>
+    <iframeSrc>https://www.youtube.com/embed/g8Y36hdZ0qY</iframeSrc>
+    <pro1>دمج مدمج في بيئة العمل</pro1>
+    <pro2>دعم مشاريع ومهام</pro2>
+    <pro3>واجهة سهلة</pro3>
+    <pro4>تكامل مع قواعد البيانات</pro4>
+    <con1>ظهور حدود للاستخدام التجريبي</con1>
+    <con2>تحتاج لخطة مدفوعة</con2>
+    <con3>اعتماد على الإنترنت</con3>
+    <appLink>https://www.notion.so</appLink>
+  </app>
+  <app>
+    <appName>Midjourney</appName>
+    <headerImage>Midjourney.png</headerImage>
+    <interstitial>ابتكر صوراً مذهلة عبر أوامر نصية بسيطة</interstitial>
+    <introduction>Midjourney هو أداة توليد صور AI عبر أوامر نصية تقدم خيارات متنوعة للمستخدمين.</introduction>
+    <generalUse1>صور فنية وإبداعية</generalUse1>
+    <generalUse2>تصميم مفاهيم</generalUse2>
+    <generalUse3>صور توضيحية</generalUse3>
+    <generalUse4>استكشاف أنماط</generalUse4>
+    <plan1Name>Basic</plan1Name>
+    <plan1Features>200 دقائق GPU</plan1Features>
+    <plan1Price>10$/شهر</plan1Price>
+    <plan2Name>Standard</plan2Name>
+    <plan2Features>15ساعات GPU</plan2Features>
+    <plan2Price>30$/شهر</plan2Price>
+    <plan3Name>Pro</plan3Name>
+    <plan3Features>Mega images</plan3Features>
+    <plan3Price>60$/شهر</plan3Price>
+    <iframeSrc></iframeSrc>
+    <pro1>ثقة عالية في النتائج</pro1>
+    <pro2>خيارات تسريع GPU</pro2>
+    <pro3>تنوع إبداعي</pro3>
+    <pro4>خطط مرنة</pro4>
+    <con1>لا يوجد خطة مجانية جديدة</con1>
+    <con2>قيود دقيقة GPU</con2>
+    <con3>يعتمد على توجيه النص</con3>
+    <appLink>https://www.midjourney.com</appLink>
+  </app> 
+  <app>
+    <appName>Grammarly</appName>
+    <headerImage>Grammarly.png</headerImage>
+    <interstitial>صديق الكتابة المثالي لتحسين أسلوبك ودقّتك</interstitial>
+    <introduction>Grammarly هو مساعد ذكي لتصحيح القواعد اللغوية، الأسلوب، وتوليد النصوص باستخدام الذكاء الاصطناعي.</introduction>
+    <generalUse1>تصحيح نحو وإملاء</generalUse1>
+    <generalUse2>تحليل الأسلوب</generalUse2>
+    <generalUse3>اكتشاف الانتحال</generalUse3>
+    <generalUse4>اقتراحات كتابة</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>شكليات أساسية</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Pro</plan2Name>
+    <plan2Features>تصحيح متقدم، اقتراحات، 2,000 مطالبة AI</plan2Features>
+    <plan2Price>12$/شهر (سنوي) أو 30$/شهر</plan2Price>
+    <plan3Name>Enterprise</plan3Name>
+    <plan3Features>أمان مؤسسي ودعم</plan3Features>
+    <plan3Price>حسب المتطلبات</plan3Price>
+    <iframeSrc>https://www.youtube.com/embed/VAkQdUFshrY</iframeSrc>
+    <pro1>تصحيح دقيق</pro1>
+    <pro2>تحليل الأسلوب</pro2>
+    <pro3>اقتراحات توليد نص</pro3>
+    <pro4>واجهة سهلة</pro4>
+    <con1>سعر شهري مرتفع</con1>
+    <con2>بعض الميزات مقيدة</con2>
+    <con3>يعتمد على الإنترنت</con3>
+    <appLink>https://www.grammarly.com</appLink>
+  </app>
+ <app>
+    <appName>Perplexity AI</appName>
+    <headerImage>Perplexity AI.png</headerImage>
+    <interstitial>إجابة فورية مدعومة بعدة نماذج AI</interstitial>
+    <introduction>Perplexity AI هو محرك بحث محسن بالذكاء الاصطناعي يوفر إجابات من نماذج متعددة.</introduction>
+    <generalUse1>بحث ذكي</generalUse1>
+    <generalUse2>اختيار النموذج</generalUse2>
+    <generalUse3>رفع ملفات</generalUse3>
+    <generalUse4>تكامل API</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>وصول أساسي</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Pro</plan2Name>
+    <plan2Features>300 بحث يومياً، نماذج متقدمة</plan2Features>
+    <plan2Price>20$/شهر</plan2Price>
+    <plan3Name>Enterprise Pro</plan3Name>
+    <plan3Features>سعر مقعد على المؤسسات، دعم وخصوصية</plan3Features>
+    <plan3Price>40$/شهر/مقعد</plan3Price>
+    <iframeSrc>https://www.youtube.com/embed/a1g_s1GgU4U</iframeSrc>
+    <pro1>نتائج دقيقة</pro1>
+    <pro2>نماذج متعددة</pro2>
+    <pro3>رفع وتحليل ملفات</pro3>
+    <pro4>خطط شركات</pro4>
+    <con1>الحد اليومي في الخطة المجانية</con1>
+    <con2>التكلفة للمؤسسات مرتفعة</con2>
+    <con3>يحتاج الإنترنت</con3>
+    <appLink>https://www.perplexity.ai</appLink>
+  </app>
+  <app>
+    <appName>GitHub Copilot</appName>
+    <headerImage>GitHub Copilot.png</headerImage>
+    <interstitial>المساعد الذكي للمبرمجين أثناء كتابة الكود</interstitial>
+    <introduction>GitHub Copilot يقترح أكواداً تلقائية ويجيب عن الأسئلة برمجياً داخل IDE.</introduction>
+    <generalUse1>اقتراح كود</generalUse1>
+    <generalUse2>تكملة متكاملة</generalUse2>
+    <generalUse3>دردشة مع AI</generalUse3>
+    <generalUse4>دعم نماذج متعددة</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>50 طلبات شهرية</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Pro</plan2Name>
+    <plan2Features>طلبات غير محدودة، نماذج AI</plan2Features>
+    <plan2Price>10$/شهر أو 100$/سنة</plan2Price>
+    <plan3Name>Pro+</plan3Name>
+    <plan3Features>1,500 طلب شهري، أولوية</plan3Features>
+    <plan3Price>39$/شهر أو 390$/سنة</plan3Price>
+    <iframeSrc>https://www.youtube.com/embed/ujQZ6yQB6oY</iframeSrc>
+    <pro1>تكامل داخل IDE</pro1>
+    <pro2>نماذج قوية</pro2>
+    <pro3>طلبات غير محدودة</pro3>
+    <pro4>خطة متقدمة</pro4>
+    <con1>القيود على الخطة المجانية</con1>
+    <con2>السعر للخبراء مرتفع</con2>
+    <con3>يتطلب GitHub</con3>
+    <appLink>https://github.com/features/copilot</appLink>
+  </app> 
+  <app>
+    <appName>Claude</appName>
+    <headerImage>Claude.png</headerImage>
+    <interstitial>المساعد الذكي الأخلاقي للكتابة والتحليل</interstitial>
+    <introduction>Claude هو نموذج محادثة AI يركز على السلامة والشفافية وفق مبادئ Constitutional AI.</introduction>
+    <generalUse1>تحليل نصوص طويلة</generalUse1>
+    <generalUse2>كتابة محتوى</generalUse2>
+    <generalUse3>برمجة</generalUse3>
+    <generalUse4>استجابة أخلاقية</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>وصول محدود</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Pro</plan2Name>
+    <plan2Features>ميزات محسّنة</plan2Features>
+    <plan2Price>20$/شهر</plan2Price>
+    <plan3Name>Team</plan3Name>
+    <plan3Features>فرق 5+ مستخدمين</plan3Features>
+    <plan3Price>30$/شهر/مستخدم</plan3Price>
+    <iframeSrc>https://www.youtube.com/embed/_g786Zc6q3s</iframeSrc>
+    <pro1>مناسب للوثائق الطويلة</pro1>
+    <pro2>نهج آمن، متعدد الاستخدام</pro2>
+    <pro3>أداء عالي</pro3>
+    <pro4>تحليل عميق</pro4>
+    <con1>حدود في الخطة المجانية</con1>
+    <con2>لا يدعم توليد الصور</con2>
+    <con3>خيار المؤسسات مكلف</con3>
+    <appLink>https://www.claude.ai</appLink>
+  </app>
+  <app>
+    <appName>Mistral</appName>
+    <headerImage>Mistral.png</headerImage>
+    <interstitial>نموذج AI فرنسي مفتوح الأداء</interstitial>
+    <introduction>منصة Mistral توفر نماذج مفتوحة تتفوق في الدقة والسرعة.</introduction>
+    <generalUse1>توليد نص</generalUse1>
+    <generalUse2>ترجمة</generalUse2>
+    <generalUse3>ملخصات</generalUse3>
+    <generalUse4>تحليل بيانات</generalUse4>
+    <plan1Name>Free</plan1Name>
+    <plan1Features>Personal AI assistant for life and work.</plan1Features>
+    <plan1Price>مجاني</plan1Price>
+    <plan2Name>Pro</plan2Name>
+    <plan2Features>Unlock enhanced productivity with extended AI, and agentic capabilities.</plan2Features>
+    <plan2Price>30$/شهر</plan2Price>
+    <plan3Name>Team</plan3Name>
+    <plan3Features>Empower your team with a secure, collaborative, AI-powered workspace</plan3Features>
+    <plan3Price>25$/شهر/مستخدم</plan3Price>
+    <iframeSrc></iframeSrc>
+    <pro1>مفتوح المصدر</pro1>
+    <pro2>أداء تنافسي</pro2>
+    <pro3>مجتمعي</pro3>
+    <pro4>شفاف</pro4>
+    <con1>إدارة صعبة</con1>
+    <con2>قلة دعم رسمي</con2>
+    <con3>اقتصار على نماذج</con3>
+    <appLink>https://www.mistral.ai</appLink>
+  </app>  
 </apps>
