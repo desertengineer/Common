@@ -107,44 +107,6 @@
 
     <appLink>https://copilot.microsoft.com</appLink>
   </app>
-
-  <app>
-    <appName>Gemini</appName>
-    <headerImage>Gemini.png</headerImage>
-    <interstitial>مساعد Google الذكي متعدد المهام</interstitial>
-    <introduction>Gemini هو نموذج ذكاء اصطناعي من جوجل يمكنه إجراء المحادثات، ترجمة اللغات، وصنع المحتوى عبر التطبيقات.</introduction>
-
-    <generalUse1>كتابة المقالات والنصوص</generalUse1>
-    <generalUse2>المحادثة التفاعلية</generalUse2>
-    <generalUse3>إنتاج الصور والفيديو بتوجيهات نصية</generalUse3>
-    <generalUse4>تحليل البيانات وتوليد الأكواد</generalUse4>
-
-    <plan1Name>الخطة الأساسية</plan1Name>
-    <plan1Features>وصول محدود إلى الميزات</plan1Features>
-    <plan1Price>مجاني</plan1Price>
-
-    <plan2Name>Gemini Pro</plan2Name>
-    <plan2Features>سرعة أعلى وقدرات متقدمة</plan2Features>
-    <plan2Price>14.99 دولار/الشهر</plan2Price>
-
-    <plan3Name>Gemini Enterprise</plan3Name>
-    <plan3Features>تخصيص API وأمان مؤسسي</plan3Features>
-    <plan3Price>حسب الطلب</plan3Price>
-
-    <iframeSrc>https://www.youtube.com/embed/D0FqRXxWVbI</iframeSrc>
-
-    <pro1>إجابات دقيقة ومتسقة</pro1>
-    <pro2>تكامل قوي مع خدمات جوجل</pro2>
-    <pro3>نماذج متعددة للتخصيص</pro3>
-    <pro4>دعم اللغة العربية بالكامل</pro4>
-
-    <con1>محدودية الاستخدام المجاني</con1>
-    <con2>قضايا خصوصية محتملة</con2>
-    <con3>يتطلب حساب جوجل نشط</con3>
-
-    <appLink>https://gemini.google.com</appLink>
-  </app>
-
   <app>
     <appName>DeepSeek</appName>
     <headerImage>DeepSeek.png</headerImage>
