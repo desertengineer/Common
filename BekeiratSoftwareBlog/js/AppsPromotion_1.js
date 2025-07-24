@@ -1,198 +1,114 @@
-// AppsPromotion_1.js
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. اختر الثيم بناءً على تاريخ اليوم (1–7)
+    var today = new Date();
+    var variant = (today.getDate() % 7) + 1;
+    var containerEl = document.querySelector(".container");
+    containerEl.classList.add("variant-" + variant);
 
-// Set CSS option based on day of week
-function setCssOption() {
-    const today = new Date().getDay(); // Sunday=0, Monday=1 ... Saturday=6
-    let option;
-    
-    // Map days to options 1-7
-    if (today === 0) option = 7; // Sunday
-    else option = today; // Monday=1, Tuesday=2, ..., Saturday=6
-    
-    document.body.setAttribute("data-css-option", option.toString());
-}
-
-// Run on page load
-if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setCssOption);
-} else {
-    setCssOption();
-}
-
-// Function to trim text (without regex)
-function trimText(str) {
-    if (typeof str !== 'string') return '';
-    
-    // Remove whitespace from start
-    var start = 0;
-    while (start < str.length && (str[start] === ' ' || str[start] === '\t' || str[start] === '\n' || str[start] === '\r')) {
-        start++;
-    }
-    
-    // Remove whitespace from end
-    var end = str.length - 1;
-    while (end >= start && (str[end] === ' ' || str[end] === '\t' || str[end] === '\n' || str[end] === '\r')) {
-        end--;
-    }
-    
-    return str.substring(start, end + 1);
-}
-
-// Function to load XML data
-function loadXML(url, callback) {
+    // 2. تحميل ملف XML
+    var xmlURL = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
+    var targetApp = document.body.getAttribute("data-app");
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", url, true);
+    xhr.open("GET", xmlURL, true);
     xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
-            if (xhr.status === 200) {
-                var parser = new DOMParser();
-                var xmlDoc = parser.parseFromString(xhr.responseText, "text/xml");
-                callback(xmlDoc);
-            } else {
-                console.error("فشل تحميل ملف XML");
-                callback(null);
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var parser = new DOMParser();
+            var xmlDoc = parser.parseFromString(xhr.responseText, "application/xml");
+            var apps = xmlDoc.getElementsByTagName("app");
+            for (var i = 0; i < apps.length; i++) {
+                var appNode = apps[i];
+                var nameNode = appNode.getElementsByTagName("appName")[0];
+                if (nameNode && nameNode.textContent.toLowerCase() === targetApp.toLowerCase()) {
+                    // صورة الهيدر
+                    var imgName = appNode.getElementsByTagName("headerImage")[0].textContent;
+                    var imgEl = document.getElementById("headerImage");
+                    imgEl.src = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/" + imgName;
+                    imgEl.alt = "صورة تعريفية لتطبيق " + nameNode.textContent;
+
+                    // الاسم والوصف
+                    document.getElementById("appName").textContent = nameNode.textContent;
+                    document.getElementById("interstitial").textContent =
+                        appNode.getElementsByTagName("interstitial")[0].textContent;
+                    document.getElementById("introduction").textContent =
+                        appNode.getElementsByTagName("introduction")[0].textContent;
+
+                    // الاستخدامات العامة
+                    var ucContainer = document.getElementById("useCases");
+                    ucContainer.innerHTML = "";
+                    var ulUC = document.createElement("ul");
+                    for (var u = 1; u <= 10; u++) {
+                        var tag = "generalUse" + u;
+                        var el = appNode.getElementsByTagName(tag)[0];
+                        if (el) {
+                            var li = document.createElement("li");
+                            li.textContent = el.textContent;
+                            ulUC.appendChild(li);
+                        }
+                    }
+                    ucContainer.appendChild(ulUC);
+
+                    // خطط التسعير
+                    var priceBody = document.getElementById("pricingPlans");
+                    priceBody.innerHTML = "";
+                    for (var p = 1; p <= 10; p++) {
+                        var nTag = "plan" + p + "Name";
+                        var fTag = "plan" + p + "Features";
+                        var prTag = "plan" + p + "Price";
+                        var nEl = appNode.getElementsByTagName(nTag)[0];
+                        if (nEl) {
+                            var row = document.createElement("tr");
+                            var c1 = document.createElement("td");
+                            c1.textContent = nEl.textContent;
+                            var c2 = document.createElement("td");
+                            var feat = appNode.getElementsByTagName(fTag)[0];
+                            c2.textContent = feat ? feat.textContent : "";
+                            var c3 = document.createElement("td");
+                            var cost = appNode.getElementsByTagName(prTag)[0];
+                            c3.textContent = cost ? cost.textContent : "";
+                            row.appendChild(c1);
+                            row.appendChild(c2);
+                            row.appendChild(c3);
+                            priceBody.appendChild(row);
+                        }
+                    }
+
+                    // فيديو يوتيوب
+                    var iframe = document.getElementById("youtubeIframe");
+                    iframe.src = appNode.getElementsByTagName("iframeSrc")[0].textContent;
+
+                    // الإيجابيات
+                    var prosUl = document.getElementById("prosList");
+                    prosUl.innerHTML = "";
+                    for (var pr = 1; pr <= 10; pr++) {
+                        var prTag = "pro" + pr;
+                        var prEl = appNode.getElementsByTagName(prTag)[0];
+                        if (prEl) {
+                            var liP = document.createElement("li");
+                            liP.textContent = prEl.textContent;
+                            prosUl.appendChild(liP);
+                        }
+                    }
+
+                    // السلبيات
+                    var consUl = document.getElementById("consList");
+                    consUl.innerHTML = "";
+                    for (var co = 1; co <= 10; co++) {
+                        var coTag = "con" + co;
+                        var coEl = appNode.getElementsByTagName(coTag)[0];
+                        if (coEl) {
+                            var liC = document.createElement("li");
+                            liC.textContent = coEl.textContent;
+                            consUl.appendChild(liC);
+                        }
+                    }
+
+                    // رابط التطبيق
+                    var linkEl = document.getElementById("appLink");
+                    linkEl.href = appNode.getElementsByTagName("appLink")[0].textContent;
+                    break;
+                }
             }
         }
     };
     xhr.send(null);
-}
-
-// Function to get text content from XML element
-function getText(parent, tagName) {
-    var elements = parent.getElementsByTagName(tagName);
-    if (elements.length > 0) {
-        return trimText(elements[0].textContent);
-    }
-    return "";
-}
-
-// Function to populate the template with app data
-function populateAppData(appNode, appName) {
-    // Set basic information
-    document.getElementById("appName").textContent = getText(appNode, "appName");
-    document.getElementById("interstitial").textContent = getText(appNode, "interstitial");
-    document.getElementById("introduction").textContent = getText(appNode, "introduction");
-    
-    // Set header image
-    var headerImage = document.getElementById("headerImage");
-    var imageFile = getText(appNode, "headerImage");
-    headerImage.src = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsImages/" + imageFile;
-    headerImage.alt = "صورة تعريفية لتطبيق " + getText(appNode, "appName");
-    
-    // Populate use cases
-    var useCasesContainer = document.getElementById("useCases");
-    useCasesContainer.innerHTML = "";
-    
-    for (var i = 1; i <= 4; i++) {
-        var useCase = getText(appNode, "generalUse" + i);
-        if (useCase) {
-            var useCaseDiv = document.createElement("div");
-            useCaseDiv.className = "use-case";
-            
-            // Split use case into category and description
-            var parts = useCase.split(":");
-            if (parts.length > 1) {
-                var category = parts[0];
-                var description = parts.slice(1).join(":").trim();
-                
-                useCaseDiv.innerHTML = "<h3>" + category + "</h3><p>" + description + "</p>";
-            } else {
-                useCaseDiv.innerHTML = "<p>" + useCase + "</p>";
-            }
-            
-            useCasesContainer.appendChild(useCaseDiv);
-        }
-    }
-    
-    // Populate pricing plans
-    var pricingTable = document.getElementById("pricingPlans");
-    pricingTable.innerHTML = "";
-    
-    for (var j = 1; j <= 3; j++) {
-        var planName = getText(appNode, "plan" + j + "Name");
-        var planFeatures = getText(appNode, "plan" + j + "Features");
-        var planPrice = getText(appNode, "plan" + j + "Price");
-        
-        if (planName && planFeatures && planPrice) {
-            var row = document.createElement("tr");
-            row.innerHTML = "<td>" + planName + "</td><td>" + planFeatures + "</td><td>" + planPrice + "</td>";
-            pricingTable.appendChild(row);
-        }
-    }
-    
-    // Set YouTube iframe
-    var youtubeIframe = document.getElementById("youtubeIframe");
-    youtubeIframe.src = getText(appNode, "iframeSrc");
-    youtubeIframe.title = "فيديو تعريفي لتطبيق " + getText(appNode, "appName");
-    
-    // Populate pros
-    var prosList = document.getElementById("prosList");
-    prosList.innerHTML = "";
-    
-    for (var k = 1; k <= 4; k++) {
-        var pro = getText(appNode, "pro" + k);
-        if (pro) {
-            var li = document.createElement("li");
-            li.textContent = pro;
-            prosList.appendChild(li);
-        }
-    }
-    
-    // Populate cons
-    var consList = document.getElementById("consList");
-    consList.innerHTML = "";
-    
-    for (var m = 1; m <= 3; m++) {
-        var con = getText(appNode, "con" + m);
-        if (con) {
-            var li = document.createElement("li");
-            li.textContent = con;
-            consList.appendChild(li);
-        }
-    }
-    
-    // Set app link
-    var appLink = document.getElementById("appLink");
-    appLink.href = getText(appNode, "appLink");
-    appLink.textContent = "زيارة الموقع الرسمي لـ " + getText(appNode, "appName");
-}
-
-// Main function to initialize everything
-function init() {
-    // Set CSS option based on day of week
-    setCssOption();
-    
-    // Load XML data
-    var xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
-    loadXML(xmlUrl, function(xmlDoc) {
-        if (xmlDoc) {
-            var apps = xmlDoc.getElementsByTagName("app");
-            var targetApp = null;
-            var appName = "جيميني"; // The app we want to display
-            
-            // Find the app by name
-            for (var i = 0; i < apps.length; i++) {
-                var currentAppName = getText(apps[i], "appName");
-                if (currentAppName === appName) {
-                    targetApp = apps[i];
-                    break;
-                }
-            }
-            
-            if (targetApp) {
-                populateAppData(targetApp, appName);
-            } else {
-                console.error("التطبيق '" + appName + "' غير موجود في ملف XML");
-            }
-        } else {
-            console.error("تعذر تحميل ملف XML");
-        }
-    });
-}
-
-// Wait for DOM to be fully loaded
-if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-} else {
-    init();
-}
+});
