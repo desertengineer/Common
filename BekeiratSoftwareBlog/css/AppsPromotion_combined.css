@@ -221,3 +221,10 @@ footer {
 .container.variant-7 .pricing-table thead {
   background-color: #ffe4c4!important;
 }
+.container[data-style="1"] { background: #fefefe !important; color: #111 !important; }
+.container[data-style="2"] { background: #eaf6ff !important; color: #000 !important; }
+.container[data-style="3"] { background: #fffaf0 !important; color: #222 !important; }
+.container[data-style="4"] { background: #f0fff5 !important; color: #111 !important; }
+.container[data-style="5"] { background: #fff0f5 !important; color: #111 !important; }
+.container[data-style="6"] { background: #f8f9fa !important; color: #111 !important; }
+.container[data-style="7"] { background: #f7f7f7 !important; color: #111 !important; }
