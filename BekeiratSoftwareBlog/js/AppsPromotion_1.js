@@ -2,12 +2,16 @@ document.addEventListener("DOMContentLoaded", function() {
     // 1. اختر الثيم بناءً على تاريخ اليوم (1–7)
     var today = new Date();
     var variant = (today.getDate() % 7) + 1;
+
+    // اقرأ العنصر .container وحمّل السمة data-app منه
     var containerEl = document.querySelector(".container");
     containerEl.classList.add("variant-" + variant);
 
+    // حدد اسم التطبيق من data-app على الحاوية
+    var targetApp = containerEl.getAttribute("data-app");
+
     // 2. تحميل ملف XML
     var xmlURL = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AppsPromotion_1.xml";
-    var targetApp = document.body.getAttribute("data-app");
     var xhr = new XMLHttpRequest();
     xhr.open("GET", xmlURL, true);
     xhr.onreadystatechange = function() {
@@ -19,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 var appNode = apps[i];
                 var nameNode = appNode.getElementsByTagName("appName")[0];
                 if (nameNode && nameNode.textContent.toLowerCase() === targetApp.toLowerCase()) {
+
+
                     // صورة الهيدر
                     var imgName = appNode.getElementsByTagName("headerImage")[0].textContent;
                     var imgEl = document.getElementById("headerImage");
