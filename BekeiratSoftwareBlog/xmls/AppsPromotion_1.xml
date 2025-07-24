@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <apps>
   <app>
-    <appName>جيميني</appName>
+    <appName>Gemini</appName>
     <headerImage>Gemini.png</headerImage>
     <interstitial>المساعد الذكي متعدد الاستخدامات من جوجل</interstitial>
     <introduction>جيميني هو نموذج ذكاء اصطناعي متقدم طورته جوجل، يساعدك في الترجمة الفورية، كتابة النصوص، وإجراء المحادثات التفاعلية عبر واجهة سهلة الاستخدام.</introduction>
