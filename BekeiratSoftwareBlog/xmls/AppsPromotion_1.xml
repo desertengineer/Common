@@ -3,37 +3,37 @@
   <app>
     <appName>جيميني</appName>
     <headerImage>Gemini.png</headerImage>
-    <interstitial>تطوير الإنتاجية باستخدام رؤى الذكاء الاصطناعي والتكامل السلس</interstitial>
-    <introduction>جيميني هو منصة متقدمة تعتمد على الذكاء الاصطناعي لتبسيط سير العمل، وتعزيز اتخاذ القرارات، وتقديم الأتمتة الذكية للشركات والأفراد على حد سواء. يعتمد على معالجة اللغة الطبيعية والتعلم الآلي لتقديم حلول مخصصة لمختلف الاحتياجات.</introduction>
-    
-    <generalUse1>أتمتة الأعمال: أتمتة المهام الروتينية، إدارة الجداول، وتحسين تخصيص الموارد</generalUse1>
-    <generalUse2>تحليل البيانات: توليد رؤى قابلة للتنفيذ من مجموعات بيانات معقدة باستخدام خوارزميات ذكاء اصطناعي متقدمة</generalUse2>
-    <generalUse3>دعم الاتصال: تحسين خدمة العملاء عبر روبوتات المحادثة والمساعدين الافتراضيين المدعومين بالذكاء الاصطناعي</generalUse3>
-    <generalUse4>الإنتاجية الشخصية: إدارة المشاريع الشخصية، التذكيرات، وزيادة التركيز من خلال توصيات ذكية</generalUse4>
-    
-    <plan1Name>مجاني</plan1Name>
-    <plan1Features>أدوات ذكاء اصطناعي أساسية، استخدام محدود، دعم من المجتمع</plan1Features>
+    <interstitial>المساعد الذكي متعدد الاستخدامات من جوجل</interstitial>
+    <introduction>جيميني هو نموذج ذكاء اصطناعي متقدم طورته جوجل، يساعدك في الترجمة الفورية، كتابة النصوص، وإجراء المحادثات التفاعلية عبر واجهة سهلة الاستخدام.</introduction>
+
+    <generalUse1>كتابة النصوص الإبداعية</generalUse1>
+    <generalUse2>إجراء المحادثات الآلية</generalUse2>
+    <generalUse3>ترجمة لغات متعددة</generalUse3>
+    <generalUse4>مساعدة المبرمجين في كتابة الأكواد</generalUse4>
+
+    <plan1Name>الخطة المجانية</plan1Name>
+    <plan1Features>وصول محدود إلى الميزات الأساسية</plan1Features>
     <plan1Price>مجاني</plan1Price>
-    
-    <plan2Name>احترافي</plan2Name>
-    <plan2Features>وصول غير محدود، دعم أولوية، تحليلات متقدمة</plan2Features>
-    <plan2Price>29 دولار/الشهر</plan2Price>
-    
-    <plan3Name>المؤسسات</plan3Name>
-    <plan3Features>تكاملات مخصصة، مدير حساب مخصص، ضمان وقت تشغيل SLA</plan3Features>
-    <plan3Price>تواصل مع المبيعات</plan3Price>
-    
-    <iframeSrc>https://www.youtube.com/embed/dQw4w9WgXcQ</iframeSrc>
-    
-    <pro1>واجهة سهلة الاستخدام وبديهية</pro1>
-    <pro2>قدرات أتمتة قوية لتقليل الجهد اليدوي</pro2>
-    <pro3>خطط تسعير مرنة تناسب المستخدمين المختلفين</pro3>
-    <pro4>تحليلات متينة تساعد في تحسين اتخاذ القرار</pro4>
-    
-    <con1>منحنى تعلم مرتفع قليلاً للمستخدمين غير الفنيين</con1>
-    <con2>بعض الوظائف المتقدمة متوفرة فقط في خطة المؤسسات</con2>
-    <con3>تأخير أحيانا خلال أوقات الذروة</con3>
-    
-    <appLink>https://gemini.ai</appLink>
+
+    <plan2Name>الخطة الاحترافية</plan2Name>
+    <plan2Features>وصول كامل إلى جميع القدرات وسرعة استجابة أعلى</plan2Features>
+    <plan2Price>9.99 دولار/الشهر</plan2Price>
+
+    <plan3Name>خطة المؤسسات</plan3Name>
+    <plan3Features>تكامل API متقدم، دعم فني مخصص، خيارات أمان موسعة</plan3Features>
+    <plan3Price>حسب المتطلبات</plan3Price>
+
+    <iframeSrc>https://www.youtube.com/embed/abcdef12345</iframeSrc>
+
+    <pro1>دقة عالية في الفهم والإجابة</pro1>
+    <pro2>دعم لغات متعددة</pro2>
+    <pro3>واجهة مستخدم بسيطة وسهلة</pro3>
+    <pro4>تكامل سلس مع خدمات جوجل الأخرى</pro4>
+
+    <con1>حدود الاستخدام المجاني</con1>
+    <con2>مخاوف تتعلق بخصوصية البيانات</con2>
+    <con3>يتطلب اتصال إنترنت مستقر</con3>
+
+    <appLink>https://gemini.google.com</appLink>
   </app>
 </apps>
