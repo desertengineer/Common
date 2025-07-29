@@ -1,0 +1,178 @@
+      /* Related to the host */
+        body>div.blog-wrapper>div.main-content-area>div.main-blogs,
+        #main,
+        .section,
+        #Blog1 {
+            margin: 0 !important;
+        }
+
+        #Blog1>div.blog-post {
+            display: block !important;
+            direction: rtl !important;
+            background-color: rgb(232, 228, 228) !important;
+        }
+
+        /* General Styling */
+        div::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .app-heading-h3 {
+            background-color: rgb(9, 28, 155) !important;
+            color: yellow !important;
+            padding: .3em !important;
+            text-align: center !important;
+            font-size: 2em !important;
+            font-weight: bold !important;
+            margin: .8em !important;
+        }
+
+        div.app-wrap {
+            display: block !important;
+            direction: rtl !important;
+        }
+
+        /* The hero */
+        div.app-hero {
+            text-align: center !important;
+            padding: .4em !important;
+        }
+
+        div.app-hero>img {
+            max-width: 100% !important;
+            height: 100% !important;
+        }
+
+        hr {
+            border: 3px solid rgb(0, 0, 0) !important;
+        }
+
+        /* The introduction section */
+        .hor-div-img-txt {
+            display: flex !important;
+            padding: .4em !important; 
+        }
+
+        .hor-div-img-txt div {
+            margin: 0 .5em !important;
+            clear: both !important;
+            width: 48% !important;
+        }
+
+        .hor-div-img-txt-right {
+            float: right !important;
+            padding: 1.5em !important;
+            background-color: blanchedalmond !important;
+        }
+
+        .hor-div-img-txt-left {
+            float: left !important;
+            text-align: center !important;
+            background-color: black !important;
+            color: white !important;
+        }
+
+        div>div.hor-div-img-txt-right>p.txt1 {
+            font-size: 1.2em !important;
+            text-align: justify !important;
+            line-height: 2.5em !important;
+        }
+
+        div>div.hor-div-img-txt-right>p.txt2 {
+            font-size: 1.2em !important;
+            font-weight: bold !important;
+            text-align: center !important;
+        }
+
+        .app-url {
+            display: block !important;
+            margin-top: 1.3em !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            background-color: pink !important;
+            font-size: 1.5em !important;
+            text-align: center !important;
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        div>div.hor-div-img-txt-left>p {
+            font-size: 1.35em !important;
+            font-weight: bold !important;
+            margin: 0.5em !important;
+        }
+
+        div>div.hor-div-img-txt-left>a>img {
+            max-width: 100% !important;
+        }
+
+        /* The description section */
+        .app-desc-wrap {
+            background-color: rgb(225, 220, 220) !important;
+        }
+
+        .app-desc {
+            display: flex !important;
+            padding: .4em !important;
+            /* height: 400px !important; */
+        }
+
+        .app-desc-wrap>div>div.desc-txts {
+            font-size: 1.2em !important;
+            text-align: justify !important;
+            line-height: 1.5em !important;
+            float: right !important;
+            padding: 1.5em !important;
+            background-color: blanchedalmond !important;
+        }
+
+        .app-desc-wrap>div>div.desc-icon {
+            float: left !important;
+            text-align: center !important;
+            background-color: black !important;
+            color: white !important;
+            padding: 5px 0 !important;
+        }
+
+        /* Application screenshots section */
+        div.app-scrns-wrap {
+            display: block !important;
+        }
+
+        div.app-scrns {
+            padding: 5px !important;
+        }
+
+        div.scrn-col {
+            width: 33% !important;
+            float: right !important;
+        }
+
+        img.app-scrn-img {
+            width: 95% !important;
+        }
+
+        /* Additional information  */
+        div.app-promo-end {
+            display: block !important;
+        }
+
+        div.app-stores {
+            font-size: 1.4em !important;
+            font-weight: bold !important;
+            text-align: center !important;
+            padding: 5px !important;
+        }
+
+        div.store-col {
+            width: 30% !important;
+            float: right !important;
+            margin: 0 10px!important;
+        }
+
+        img.app-store-img {
+            width: 95% !important;
+            margin-top: 10px !important;
+        }
