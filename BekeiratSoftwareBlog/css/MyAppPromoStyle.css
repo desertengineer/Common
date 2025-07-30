@@ -12,6 +12,21 @@
             background-color: rgb(232, 228, 228) !important;
         }
 
+      .post-title {
+          text-align: center !important;
+          padding: 5px !important;
+          background-color: black !important;
+      }
+
+      .post-title a {
+          color: white !important;
+      }
+
+      .post-title a:hover {
+          color: yellow !important;
+      }
+
+
         /* General Styling */
         div::after {
             content: "";
