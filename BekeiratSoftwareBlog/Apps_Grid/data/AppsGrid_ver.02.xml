@@ -2,767 +2,172 @@
 <apps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<app>
 		<name>خمن عاصمة الدولة</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArCapitals_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArCapitalsIcon_512X512.png</icon>
 		<description>اختبر معلوماتك عن عواصم العالم.</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف عواصم الدول حول العالم واختبار معرفتك الجغرافية.
-
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>Capitals</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.khmnsmldwl</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>العب وتعرف على اعلام البلدان</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArFlags_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArFlagsIcon_512X512.png</icon>
 		<description>تحدي معرفتك مع لعبة الأسئلة الشيقة 'العب وتعرف على اعلام البلدان</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف أعلام دول العالم بأسره ووضع معرفتك الجغرافية على اختبار حقيقي.
-
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>Flags</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.lbwtrfllmlbldn</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://www.youtube.com/embed/Om4-5Wqtb3M</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags6.png</shot6>
 	</app>
 	<app>
 		<name>معالم مشهورة</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArLandmarks_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLandmarksIcon_512X512.png</icon>
 		<description>اختبر معرفتك بالمعالم العالمية المشهورة !</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف أفضل مناطق الجذب في دول العالم بأسره ووضع معرفتك السياحية على اختبار حقيقي.
-
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>Landmarks</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.myguessthepic</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://youtube.com/embed/FzVRvcpm6J8</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks6.png</shot6>
 	</app>
 	<app>
 		<name>لمن هذا الشعار؟</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArLogos_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLogosIcon_512X512.png</icon>
 		<description>تحدي معرفتك واختبر ذكائك في لعبة تريفيا الشعارات العربية الممتعة!</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف أعلام دول العالم بأسره ووضع معرفتك الجغرافية على اختبار حقيقي
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>Logos</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amyguessthepic</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://www.youtube.com/embed/L7L6PBUtj8s</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos6.png</shot6>
 	</app>
 	<app>
 		<name>شخصيات عالمية</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArPeople_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPeopleIcon_512X512.png</icon>
 		<description>تحدي معرفتك بالشخصيات العالمية في لعبة خمن الشخصية</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف الأشخاص المؤثرين في دول العالم بأسره ووضع معرفتك العامة على اختبار حقيقي.
-
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>People</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.shkhsytlmy</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople6.png</shot6>
 	</app>
 	<app>
 		<name>خمن لاعب كرة القدم</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArPlayers_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPlayersIcon_512X512.png</icon>
 		<description>مرحبا بكم في لعبة لاعبي كرة القدم في كل العصور!</description>
-		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
-
-
-ستمنحك هذه اللعبة الفرصة لاستكشاف أشهر لاعبي كرة القدم ووضع معرفتك الرياضية في اختبار حقيقي.
-
-♦️ طريقة اللعب:
-- خمن الإجابة الصحيحة من من خلال الصورة المعروضة. 
-- اكتب الاسم الصحيح باستخدام الأحرف المتوفرة.
-- امسح الحروف الخاطئة من خلال النقر عليها.
-- إذا كانت الإجابة صحيحة ، فستحصل على عملات معدنية ويمكنك المتابعة إلى السؤال التالي.
-
-♦️ خيارات الإجابة: 
-✔️ اكشف الحرف الأول.
-✔️ إزالة الأحرف الزائدة.
-✔️ أظهر الإجابة.
-
-♦️ مميزات اللعبة:
-⭐ مسابقة كلاسيكية : اكتب الإجابات وشاهد درجاتك تتسلق لوحة المتصدرين.
-⭐ المبارزات عبر الإنترنت : واجه الأصدقاء والغرباء لمعرفة من يمكنه تخمين معظم الأسئلة بشكل صحيح.
-⭐ المهام اليومية: واجه تحديات يومية جديدة واكسب مكافآت مثيرة.
-⭐ المهام ولوحة المتصدرين  : أكمل المهام ، وتصدر لوحة المتصدرين ، وكن البطل النهائي.
-⭐ توسيع حزم اللعبة المستوى  والأحداث الدورية.
-
-من خلال الإجابة على أسئلة اللعبة ، ستتقدم في مستويات اللعبة وتكسب عملات معدنية لكل مستوى مكتمل مما سيمكنك من فتح حزم مستويات إضافية وزيادة الترفيه والتعلم والمنافسة الودية ، كل ذلك مجانا. ✨</long_description>
 		<category>Players</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.hltrfhdhlb</playstore>
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://youtube.com/embed/TGWJQezPS8g</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the World Capitals Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnCapitals_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnCapitalsIcon_512X512.png</icon>
 		<description>Test your knowledge of the world countries! Capitals Quiz</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the capitals of the whole world's countries and put your geographical knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>Capitals</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guesstheworldcapitalsquiz</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the Country Name</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnFlags_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnFlagsIcon_512X512.png</icon>
 		<description>Test your knowledge of geography! Identify world flags in this game.</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the flags of the whole world's countries and put your geographical knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>Flags</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.guessthecountryname</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/jq3pZN5jI0E</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags6.png</shot6>
 	</app>
 	<app>
 		<name>Famous Landmarks Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnLandmarks_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLandmarksIcon_512X512.png</icon>
 		<description>Identify the most attractive landmarks in the world!</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the top attractions of the whole world's countries and put your tourism knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>Landmarks</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.amlmmshhwr</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/gJfhc18o1ec</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks6.png</shot6>
 	</app>
 	<app>
 		<name>Do you know this Logo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnLogos_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLogosIcon_512X512.png</icon>
 		<description>Challenge your knowledge to guess the Cars, Sports, Food and Business Logos</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the logos of the world's famous brands and put your general knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>Logos</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.doyouknowthislogo</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/92jk22sgc1g</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos6.png</shot6>
 	</app>
 	<app>
 		<name>International Personalities</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnPeople_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPeopleIcon_512X512.png</icon>
 		<description>Challenge yourself in this exciting Personalities puzzle game</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the influncing people of the whole world's countries and put your general knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>People</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.internationalpersonalities</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the Footballer Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnPlayers_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPlayersIcon_512X512.png</icon>
 		<description>Do you know this player?</description>
-		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
-
-This game would give you the chance to explore the most famous footballers and put your sports knowledge to a real test.
-
-
-♦️ How to Play: 
-➡️ Guest the correct answer from the displayed image. 
-➡️ Compose the answer by using available letters.
-➡️ Erase wrong letters by clicking on them.
-➡️ If the answer is correct, you will get coins and can continue to the next question.
-
-♦️ Answer Options: 
-✔️ Reveal the first letter.
-✔️ Remove extra letters.
-✔️ Show the answer.
-
-♦️ Game Features:
-	⭐ Classic Quiz 🧠: Identify the flags and see your score climb the leaderboard.
-	⭐ Online Duels 🤼‍♂️: Face off against friends and strangers to see who can guess the most countries' flags correctly.
-	⭐ Daily tasks 📆: Face new daily challenges and earn exciting rewards.
-	⭐ Missions &amp; Leaderboard: Complete missions, top the leaderboard, and become the ultimate geography Champion 🏆.
-	⭐ Expanding Level Packs 🎁 and the periodical Events 🥳.
-
-By answering the game questions, You will advance in the game levels and earn coins for each completed level which will enable you to open extra level packs and increase your entertainment, learning, and friendly competition, all for FREE. ✨
-Download this game today and step into the expanding world of quizzes!</long_description>
 		<category>Players</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.footballersofalltime</playstore>
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://youtube.com/embed/KfMXk0jMOCQ</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina la capital del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsCapitals_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsCapitalsIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos sobre las capitales del mundo.</description>
-		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
-
-Este juego te dará la oportunidad de explorar las capitales de los países de todo el mundo y poner a prueba tus conocimientos geográficos.
-♦ ️ cómo jugar:
-➡️ Invitado La respuesta correcta de la imagen mostrada.
-➡️ Componga la respuesta usando letras disponibles.
-➡️ Borre las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦ Opciones de respuesta ️:
-✔️ Revela la primera letra.
-✔️ Eliminar letras adicionales.
-✔️ Muestre la respuesta.
-
-♦ ve características del juego:
-⭐ Prueba clásica 🧠: Identifique las banderas y vea su puntaje escalar la tabla de clasificación.
-⭐ Duelos en línea 🤼‍️: enfrentar a amigos y extraños para ver quién puede adivinar las banderas de la mayoría de los países correctamente.
-⭐ Tareas diarias 📆: enfrentar nuevos desafíos diarios y obtener recompensas emocionantes.
-⭐ Misiones y tabla de clasificación: misiones completas, encabezar la clasificación y convertirse en el último campeón de geografía 🏆.
-⭐ Paquetes de nivel de expansión 🎁 y los eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzará en los niveles del juego y ganará monedas para cada nivel completado que le permitirá abrir paquetes de nivel adicional y aumentar su entretenimiento, aprendizaje y competencia amigable, todo de forma gratuita. ✨
-¡Descargue este juego hoy y ingrese al mundo en expansión de las cuestionarios!
-♦️ Cómo jugar: 
-➡️ Adivina la respuesta de la imagen mostrada. 
-➡️ Componga el nombre correcto utilizando las letras disponibles.
-➡️ Borra las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦️ Opciones de respuesta: 
-✔️ Revela la primera letra.
-✔️ Elimina las letras adicionales.
-✔️ Muestre la respuesta.
-
-♦️ Características del juego:
-⭐ Cuestionario 🧠 clásico: Escribe las respuestas y observa cómo tu puntuación sube en la tabla de clasificación.⭐ Duelos 🤼 ♂️ en línea: enfréntate a amigos y extraños para ver quién puede adivinar correctamente la mayor cantidad de preguntas.⭐ Tareas diarias: Enfréntate a nuevos desafíos diarios y gana emocionantes recompensas 📆.⭐ Misiones y tabla de clasificación: completa misiones, encabeza la tabla de clasificación y conviértete en el campeón 🏆 definitivo.⭐ Expansión de los Paquetes de Niveles y de los 🎁 Eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzarás en los niveles del juego y ganarás monedas por cada nivel completado, lo que te permitirá abrir paquetes de niveles adicionales y aumentar tu entretenimiento, aprendizaje y competencia amistosa, todo GRATIS. ✨
-¡Descarga este juego hoy y adéntrate en el mundo en expansión de los concursos!</long_description>
 		<category>Capitals</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.cubbyclips</playstore>
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina el nombre del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsFlags_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsFlagsIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos de geografía! Identifica banderas del mundo en este juego.</description>
-		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
-
-Este juego te dará la oportunidad de explorar las banderas de los países de todo el mundo y poner a prueba tus conocimientos geográficos.
-
-♦ ️ cómo jugar:
-➡️ Invitado La respuesta correcta de la imagen mostrada.
-➡️ Componga la respuesta usando letras disponibles.
-➡️ Borre las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦ Opciones de respuesta ️:
-✔️ Revela la primera letra.
-✔️ Eliminar letras adicionales.
-✔️ Muestre la respuesta.
-
-♦ ve características del juego:
-⭐ Prueba clásica 🧠: Identifique las banderas y vea su puntaje escalar la tabla de clasificación.
-⭐ Duelos en línea 🤼‍️: enfrentar a amigos y extraños para ver quién puede adivinar las banderas de la mayoría de los países correctamente.
-⭐ Tareas diarias 📆: enfrentar nuevos desafíos diarios y obtener recompensas emocionantes.
-⭐ Misiones y tabla de clasificación: misiones completas, encabezar la clasificación y convertirse en el último campeón de geografía 🏆.
-⭐ Paquetes de nivel de expansión 🎁 y los eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzará en los niveles del juego y ganará monedas para cada nivel completado que le permitirá abrir paquetes de nivel adicional y aumentar su entretenimiento, aprendizaje y competencia amigable, todo de forma gratuita. ✨
-¡Descargue este juego hoy y ingrese al mundo en expansión de las cuestionarios!
-♦️ Cómo jugar: 
-➡️ Adivina la respuesta de la imagen mostrada. 
-➡️ Componga el nombre correcto utilizando las letras disponibles.
-➡️ Borra las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦️ Opciones de respuesta: 
-✔️ Revela la primera letra.
-✔️ Elimina las letras adicionales.
-✔️ Muestre la respuesta.
-
-♦️ Características del juego:
-⭐ Cuestionario 🧠 clásico: Escribe las respuestas y observa cómo tu puntuación sube en la tabla de clasificación.⭐ Duelos 🤼 ♂️ en línea: enfréntate a amigos y extraños para ver quién puede adivinar correctamente la mayor cantidad de preguntas.⭐ Tareas diarias: Enfréntate a nuevos desafíos diarios y gana emocionantes recompensas 📆.⭐ Misiones y tabla de clasificación: completa misiones, encabeza la tabla de clasificación y conviértete en el campeón 🏆 definitivo.⭐ Expansión de los Paquetes de Niveles y de los 🎁 Eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzarás en los niveles del juego y ganarás monedas por cada nivel completado, lo que te permitirá abrir paquetes de niveles adicionales y aumentar tu entretenimiento, aprendizaje y competencia amistosa, todo GRATIS. ✨
-¡Descarga este juego hoy y adéntrate en el mundo en expansión de los concursos!</long_description>
 		<category>Flags</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaelnombredelpais</playstore>
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags6.png</shot6>
 	</app>
 	<app>
 		<name>¿Conoces este logotipo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsLogos_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsLogosIcon_512X512.png</icon>
 		<description>Pon a prueba tus conocimientos para adivinar este logo</description>
-		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
-
-Este juego te dará la oportunidad de explorar los logotipos de las marcas más famosas del mundo y poner a prueba tus conocimientos generales.
-
-♦ ️ cómo jugar:
-➡️ Invitado La respuesta correcta de la imagen mostrada.
-➡️ Componga la respuesta usando letras disponibles.
-➡️ Borre las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦ Opciones de respuesta ️:
-✔️ Revela la primera letra.
-✔️ Eliminar letras adicionales.
-✔️ Muestre la respuesta.
-
-♦ ve características del juego:
-⭐ Prueba clásica 🧠: Identifique las banderas y vea su puntaje escalar la tabla de clasificación.
-⭐ Duelos en línea 🤼‍️: enfrentar a amigos y extraños para ver quién puede adivinar las banderas de la mayoría de los países correctamente.
-⭐ Tareas diarias 📆: enfrentar nuevos desafíos diarios y obtener recompensas emocionantes.
-⭐ Misiones y tabla de clasificación: misiones completas, encabezar la clasificación y convertirse en el último campeón de geografía 🏆.
-⭐ Paquetes de nivel de expansión 🎁 y los eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzará en los niveles del juego y ganará monedas para cada nivel completado que le permitirá abrir paquetes de nivel adicional y aumentar su entretenimiento, aprendizaje y competencia amigable, todo de forma gratuita. ✨
-¡Descargue este juego hoy y ingrese al mundo en expansión de las cuestionarios!
-♦️ Cómo jugar: 
-➡️ Adivina la respuesta de la imagen mostrada. 
-➡️ Componga el nombre correcto utilizando las letras disponibles.
-➡️ Borra las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦️ Opciones de respuesta: 
-✔️ Revela la primera letra.
-✔️ Elimina las letras adicionales.
-✔️ Muestre la respuesta.
-
-♦️ Características del juego:
-⭐ Cuestionario 🧠 clásico: Escribe las respuestas y observa cómo tu puntuación sube en la tabla de clasificación.⭐ Duelos 🤼 ♂️ en línea: enfréntate a amigos y extraños para ver quién puede adivinar correctamente la mayor cantidad de preguntas.⭐ Tareas diarias: Enfréntate a nuevos desafíos diarios y gana emocionantes recompensas 📆.⭐ Misiones y tabla de clasificación: completa misiones, encabeza la tabla de clasificación y conviértete en el campeón 🏆 definitivo.⭐ Expansión de los Paquetes de Niveles y de los 🎁 Eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzarás en los niveles del juego y ganarás monedas por cada nivel completado, lo que te permitirá abrir paquetes de niveles adicionales y aumentar tu entretenimiento, aprendizaje y competencia amistosa, todo GRATIS. ✨
-¡Descarga este juego hoy y adéntrate en el mundo en expansión de los concursos!</long_description>
 		<category>Logos</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.conocesestelogotipo</playstore>
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos6.png</shot6>
 	</app>
 	<app>
 		<name>Personalidades internacionales</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsPeople_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPeopleIcon_512X512.png</icon>
 		<description>Ponte a prueba en este emocionante juego de rompecabezas de personalidades.</description>
-		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
-
-Este juego te dará la oportunidad de explorar a las personas influyentes de los países de todo el mundo y poner a prueba tus conocimientos generales.
-
-♦ ️ cómo jugar:
-➡️ Invitado La respuesta correcta de la imagen mostrada.
-➡️ Componga la respuesta usando letras disponibles.
-➡️ Borre las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦ Opciones de respuesta ️:
-✔️ Revela la primera letra.
-✔️ Eliminar letras adicionales.
-✔️ Muestre la respuesta.
-
-♦ ve características del juego:
-⭐ Prueba clásica 🧠: Identifique las banderas y vea su puntaje escalar la tabla de clasificación.
-⭐ Duelos en línea 🤼‍️: enfrentar a amigos y extraños para ver quién puede adivinar las banderas de la mayoría de los países correctamente.
-⭐ Tareas diarias 📆: enfrentar nuevos desafíos diarios y obtener recompensas emocionantes.
-⭐ Misiones y tabla de clasificación: misiones completas, encabezar la clasificación y convertirse en el último campeón de geografía 🏆.
-⭐ Paquetes de nivel de expansión 🎁 y los eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzará en los niveles del juego y ganará monedas para cada nivel completado que le permitirá abrir paquetes de nivel adicional y aumentar su entretenimiento, aprendizaje y competencia amigable, todo de forma gratuita. ✨
-¡Descargue este juego hoy y ingrese al mundo en expansión de las cuestionarios!
-♦️ Cómo jugar: 
-➡️ Adivina la respuesta de la imagen mostrada. 
-➡️ Componga el nombre correcto utilizando las letras disponibles.
-➡️ Borra las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦️ Opciones de respuesta: 
-✔️ Revela la primera letra.
-✔️ Elimina las letras adicionales.
-✔️ Muestre la respuesta.
-
-♦️ Características del juego:
-⭐ Cuestionario 🧠 clásico: Escribe las respuestas y observa cómo tu puntuación sube en la tabla de clasificación.⭐ Duelos 🤼 ♂️ en línea: enfréntate a amigos y extraños para ver quién puede adivinar correctamente la mayor cantidad de preguntas.⭐ Tareas diarias: Enfréntate a nuevos desafíos diarios y gana emocionantes recompensas 📆.⭐ Misiones y tabla de clasificación: completa misiones, encabeza la tabla de clasificación y conviértete en el campeón 🏆 definitivo.⭐ Expansión de los Paquetes de Niveles y de los 🎁 Eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzarás en los niveles del juego y ganarás monedas por cada nivel completado, lo que te permitirá abrir paquetes de niveles adicionales y aumentar tu entretenimiento, aprendizaje y competencia amistosa, todo GRATIS. ✨
-¡Descarga este juego hoy y adéntrate en el mundo en expansión de los concursos!</long_description>
 		<category>People</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.personalidadesinternacionales</playstore>
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina el jugador</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsPlayers_512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPlayersIcon_512X512.png</icon>
 		<description>¿Conoces a este jugador?</description>
-		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
-
-Este juego te dará la oportunidad de explorar a los futbolistas más famosos y poner a prueba tus conocimientos deportivos.
-
-
-♦ ️ cómo jugar:
-➡️ Invitado La respuesta correcta de la imagen mostrada.
-➡️ Componga la respuesta usando letras disponibles.
-➡️ Borre las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦ Opciones de respuesta ️:
-✔️ Revela la primera letra.
-✔️ Eliminar letras adicionales.
-✔️ Muestre la respuesta.
-
-♦ ve características del juego:
-⭐ Prueba clásica 🧠: Identifique las banderas y vea su puntaje escalar la tabla de clasificación.
-⭐ Duelos en línea 🤼‍️: enfrentar a amigos y extraños para ver quién puede adivinar las banderas de la mayoría de los países correctamente.
-⭐ Tareas diarias 📆: enfrentar nuevos desafíos diarios y obtener recompensas emocionantes.
-⭐ Misiones y tabla de clasificación: misiones completas, encabezar la clasificación y convertirse en el último campeón de geografía 🏆.
-⭐ Paquetes de nivel de expansión 🎁 y los eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzará en los niveles del juego y ganará monedas para cada nivel completado que le permitirá abrir paquetes de nivel adicional y aumentar su entretenimiento, aprendizaje y competencia amigable, todo de forma gratuita. ✨
-¡Descargue este juego hoy y ingrese al mundo en expansión de las cuestionarios!
-♦️ Cómo jugar: 
-➡️ Adivina la respuesta de la imagen mostrada. 
-➡️ Componga el nombre correcto utilizando las letras disponibles.
-➡️ Borra las letras incorrectas haciendo clic en ellas.
-➡️ Si la respuesta es correcta, obtendrá monedas y podrá continuar con la siguiente pregunta.
-
-♦️ Opciones de respuesta: 
-✔️ Revela la primera letra.
-✔️ Elimina las letras adicionales.
-✔️ Muestre la respuesta.
-
-♦️ Características del juego:
-⭐ Cuestionario 🧠 clásico: Escribe las respuestas y observa cómo tu puntuación sube en la tabla de clasificación.⭐ Duelos 🤼 ♂️ en línea: enfréntate a amigos y extraños para ver quién puede adivinar correctamente la mayor cantidad de preguntas.⭐ Tareas diarias: Enfréntate a nuevos desafíos diarios y gana emocionantes recompensas 📆.⭐ Misiones y tabla de clasificación: completa misiones, encabeza la tabla de clasificación y conviértete en el campeón 🏆 definitivo.⭐ Expansión de los Paquetes de Niveles y de los 🎁 Eventos periódicos 🥳.
-
-Al responder las preguntas del juego, avanzarás en los niveles del juego y ganarás monedas por cada nivel completado, lo que te permitirá abrir paquetes de niveles adicionales y aumentar tu entretenimiento, aprendizaje y competencia amistosa, todo GRATIS. ✨
-¡Descarga este juego hoy y adéntrate en el mundo en expansión de los concursos!</long_description>
 		<category>Players</category>
 		<playstore>https://play.google.com/store/apps/details?id=com.bekeiratsoftware.adivinaeljugador</playstore>
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers6.png</shot6>
 	</app>
 </apps>
