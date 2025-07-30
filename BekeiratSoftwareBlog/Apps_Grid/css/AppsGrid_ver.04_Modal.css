@@ -104,12 +104,12 @@
   transition: transform 0.3s ease-in-out !important;
   will-change: transform !important;
 }
-.slide-img {
-  width: 100% !important;
-  height: 100% !important;
-  max-height: 90vh !important;
+.slide-img { 
+  max-height: 65vh !important;
   object-fit: contain !important;
-  flex: 0 0 100% !important;
+  flex: 0 0 100% !important; 
+  display: block !important;
+  border-radius: 6px !important;
 }
 
 .slide-arrow {
@@ -142,13 +142,7 @@
   flex: 0 0 100% !important;
   box-sizing: border-box !important;
 }
-
-.slide-img {
-  width: 100% !important;
-  display: block !important;
-  border-radius: 6px !important;
-}
-
+ 
 .slide-arrow {
   background: none !important;
   border: none !important;
