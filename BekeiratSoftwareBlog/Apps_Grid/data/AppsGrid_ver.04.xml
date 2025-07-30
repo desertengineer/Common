@@ -2,7 +2,7 @@
 <apps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<app>
 		<name>خمن عاصمة الدولة</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArCapitalsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArCapitals_512.png</icon>
 		<description>اختبر معلوماتك عن عواصم العالم.</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -33,16 +33,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArCapitals/ArArCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArCapitals/ArArCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArCapitals/ArArCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArCapitals/ArArCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArCapitals/ArArCapitals5.png</shot5>
-		<shot6></shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArCapitals/ArArCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>العب وتعرف على اعلام البلدان</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArFlagsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArFlags_512.png</icon>
 		<description>تحدي معرفتك مع لعبة الأسئلة الشيقة 'العب وتعرف على اعلام البلدان</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -73,16 +73,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://www.youtube.com/embed/Om4-5Wqtb3M</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArFlags/ArArFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArFlags/ArArFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArFlags/ArArFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArFlags/ArArFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArFlags/ArArFlags5.png</shot5>
-		<shot6></shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArFlags/ArArFlags6.png</shot6>
 	</app>
 	<app>
 		<name>معالم مشهورة</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLandmarksIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArLandmarks_512.png</icon>
 		<description>اختبر معرفتك بالمعالم العالمية المشهورة !</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -113,16 +113,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://youtube.com/embed/FzVRvcpm6J8</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLandmarks/ArArLandmarks6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLandmarks/ArArLandmarks6.png</shot6>
 	</app>
 	<app>
 		<name>لمن هذا الشعار؟</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArLogosIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArLogos_512.png</icon>
 		<description>تحدي معرفتك واختبر ذكائك في لعبة تريفيا الشعارات العربية الممتعة!</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -152,16 +152,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://www.youtube.com/embed/L7L6PBUtj8s</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArLogos/ArArLogos6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArLogos/ArArLogos6.png</shot6>
 	</app>
 	<app>
 		<name>شخصيات عالمية</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPeopleIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArPeople_512.png</icon>
 		<description>تحدي معرفتك بالشخصيات العالمية في لعبة خمن الشخصية</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -192,16 +192,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPeople/ArArPeople6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPeople/ArArPeople6.png</shot6>
 	</app>
 	<app>
 		<name>خمن لاعب كرة القدم</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Ar/ArArPlayersIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/ArPlayers_512.png</icon>
 		<description>مرحبا بكم في لعبة لاعبي كرة القدم في كل العصور!</description>
 		<long_description>هل تبحث عن لعبة تعليمية تتحدى ذاكرتك وتدرب عقلك في مواضيع ومواضيع مختلفة؟ إذا كان الأمر كذلك ، فهذه هي أفضل لعبة لبحثك! 🌍🔥
 
@@ -232,16 +232,16 @@
 		<direction>rtl</direction>
 		<lang>Ar</lang>
 		<youtube>https://youtube.com/embed/TGWJQezPS8g</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPlayers/ArArPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPlayers/ArArPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPlayers/ArArPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPlayers/ArArPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/ArPlayers/ArArPlayers5.png</shot5>
-		<shot6></shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/ArPlayers/ArArPlayers6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the World Capitals Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnCapitalsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnCapitals_512.png</icon>
 		<description>Test your knowledge of the world countries! Capitals Quiz</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -273,16 +273,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnCapitals/EnEnCapitals6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnCapitals/EnEnCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the Country Name</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnFlagsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnFlags_512.png</icon>
 		<description>Test your knowledge of geography! Identify world flags in this game.</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -314,16 +314,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/jq3pZN5jI0E</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnFlags/EnEnFlags6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnFlags/EnEnFlags6.png</shot6>
 	</app>
 	<app>
 		<name>Famous Landmarks Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLandmarksIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnLandmarks_512.png</icon>
 		<description>Identify the most attractive landmarks in the world!</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -355,16 +355,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/gJfhc18o1ec</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLandmarks/EnEnLandmarks6.jpg</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLandmarks/EnEnLandmarks6.png</shot6>
 	</app>
 	<app>
 		<name>Do you know this Logo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnLogosIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnLogos_512.png</icon>
 		<description>Challenge your knowledge to guess the Cars, Sports, Food and Business Logos</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -396,16 +396,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://www.youtube.com/embed/92jk22sgc1g</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos3.jpg</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos4.jpg</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos5.jpg</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnLogos/EnEnLogos6.jpg</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnLogos/EnEnLogos6.png</shot6>
 	</app>
 	<app>
 		<name>International Personalities</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPeopleIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnPeople_512.png</icon>
 		<description>Challenge yourself in this exciting Personalities puzzle game</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -437,16 +437,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople3.jpg</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople4.jpg</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople5.jpg</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPeople/EnPeople6.jpg</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPeople/EnEnPeople6.png</shot6>
 	</app>
 	<app>
 		<name>Guess the Footballer Quiz</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/En/EnEnPlayersIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EnPlayers_512.png</icon>
 		<description>Do you know this player?</description>
 		<long_description>Are you looking for an educational game that challenges your memory and exercises your brain in different subjects and topics? If so, This is the best game for your quest! 🌍🔥
 
@@ -478,16 +478,16 @@ Download this game today and step into the expanding world of quizzes!</long_des
 		<direction>ltr</direction>
 		<lang>En</lang>
 		<youtube>https://youtube.com/embed/KfMXk0jMOCQ</youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPlayers/EnEnPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPlayers/EnEnPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPlayers/EnEnPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPlayers/EnEnPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EnPlayers/EnEnPlayers5.png</shot5>
-		<shot6></shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EnPlayers/EnEnPlayers6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina la capital del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsCapitalsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsCapitals_512.png</icon>
 		<description>Pon a prueba tus conocimientos sobre las capitales del mundo.</description>
 		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
 
@@ -533,16 +533,16 @@ Al responder las preguntas del juego, avanzarás en los niveles del juego y gana
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsCapitals/EsEsCapitals1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsCapitals/EsEsCapitals2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsCapitals/EsEsCapitals3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsCapitals/EsEsCapitals4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsCapitals/EsEsCapitals5.png</shot5>
-		<shot6></shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsCapitals/EsEsCapitals6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina el nombre del país</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsFlagsIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsFlags_512.png</icon>
 		<description>Pon a prueba tus conocimientos de geografía! Identifica banderas del mundo en este juego.</description>
 		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
 
@@ -589,16 +589,16 @@ Al responder las preguntas del juego, avanzarás en los niveles del juego y gana
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsFlags/EsEsFlags6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsFlags/EsEsFlags6.png</shot6>
 	</app>
 	<app>
 		<name>¿Conoces este logotipo?</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsLogosIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsLogos_512.png</icon>
 		<description>Pon a prueba tus conocimientos para adivinar este logo</description>
 		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
 
@@ -645,16 +645,16 @@ Al responder las preguntas del juego, avanzarás en los niveles del juego y gana
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsLogos/EsPlayers6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsLogos/EsEsLogos6.png</shot6>
 	</app>
 	<app>
 		<name>Personalidades internacionales</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPeopleIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsPeople_512.png</icon>
 		<description>Ponte a prueba en este emocionante juego de rompecabezas de personalidades.</description>
 		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
 
@@ -701,16 +701,16 @@ Al responder las preguntas del juego, avanzarás en los niveles del juego y gana
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPeople/EsEsPeople6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPeople/EsEsPeople6.png</shot6>
 	</app>
 	<app>
 		<name>Adivina el jugador</name>
-		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/Apps_Grid/images/Es/EsEsPlayersIcon_512X512.png</icon>
+		<icon>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/AppsIcons/EsPlayers_512.png</icon>
 		<description>¿Conoces a este jugador?</description>
 		<long_description>¿Estás buscando un juego educativo que desafíe tu memoria y ejercite tu cerebro en diferentes materias y temas? Si es así, ¡este es el mejor juego para tu búsqueda! 🌍🔥
 
@@ -758,11 +758,11 @@ Al responder las preguntas del juego, avanzarás en los niveles del juego y gana
 		<direction>ltr</direction>
 		<lang>Es</lang>
 		<youtube></youtube>
-		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers1.png</shot1>
-		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers2.png</shot2>
-		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers3.png</shot3>
-		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers4.png</shot4>
-		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers5.png</shot5>
-		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AppsScreenshots/EsPlayers/EsEsPlayers6.png</shot6>
+		<shot1>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers1.png</shot1>
+		<shot2>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers2.png</shot2>
+		<shot3>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers3.png</shot3>
+		<shot4>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers4.png</shot4>
+		<shot5>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers5.png</shot5>
+		<shot6>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/MyApps/ScreenShots/EsPlayers/EsEsPlayers6.png</shot6>
 	</app>
 </apps>
