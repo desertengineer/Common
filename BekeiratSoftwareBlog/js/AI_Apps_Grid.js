@@ -93,7 +93,7 @@ function renderGrid(items) {
   pageItems.forEach(function (item) {
     var div = document.createElement("div");
     div.className = "grid-item";
-    div.innerHTML = '<img src="' + imageBaseUrl + item.img + '" />' +
+    div.innerHTML = '<img src="' + item.img + '" />' +
       '<h2>' + item.title + '</h2>' +
       '<p>' + item.desc + '</p>' +
       '<a href="' + item.link + '" target="_blank">Read more</a>';
