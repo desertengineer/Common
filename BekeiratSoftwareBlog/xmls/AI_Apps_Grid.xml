@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<title>Gemini</title>
+		<description>المساعد الذكي متعدد الاستخدامات من جوجل</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Gemini.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2025/07/gemini-ai-application.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>الكتابة وإنشاء المحتوى</category2>
+		<category3>إنشاء الصور وتحريرها</category3>
+	</item>
+	<item>
+		<title>ChatGPT</title>
+		<description>المساعد التفاعلي المتقدم من OpenAI</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/ChatGPT.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2025/07/chatgpt-openai.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>الكتابة وإنشاء المحتوى</category2>
+		<category3>معالجة النص</category3>
+	</item>
+	<item>
+		<title>Microsoft Copilot</title>
+		<description>المساعد الذكي المدعوم من مايكروسوفت</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Microsoft Copilot.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2025/07/microsoft-copilot.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>الإنتاجية</category2>
+		<category3>كتابة الكود والبرمجة</category3>
+	</item>
+	<item>
+		<title>DeepSeek</title>
+		<description>النموذج الصيني للبحث والاستدلال</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/DeepSeek.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2025/07/deepseek.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>كتابة الكود والبرمجة</category2>
+		<category3>الإنتاجية</category3>
+	</item>
+	<item>
+		<title>Synthesia</title>
+		<description>استوديو الفيديو المتقدم بالذكاء الاصطناعي</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Synthesia.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/03/synthesia.html</link>
+		<category1>توليد الفيديو والصوت</category1>
+		<category2>الكلام والصوت</category2>
+		<category3>التصميم والرسومات والعروض التقديمية</category3>
+	</item>
+	<item>
+		<title>Runway</title>
+		<description>منصة الإنتاج الإبداعي بالذكاء الاصطناعي</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Runway.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/04/runway.html</link>
+		<category1>توليد الفيديو والصوت</category1>
+		<category2>إنشاء الصور وتحريرها</category2>
+		<category3>التصميم والرسومات والعروض التقديمية</category3>
+	</item>
+	<item>
+		<title>InVideo</title>
+		<description>منصة تحرير الفيديو على الويب</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/InVideo.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/01/invideo.html</link>
+		<category1>توليد الفيديو والصوت</category1>
+		<category2>التصميم والرسومات والعروض التقديمية</category2>
+		<category3>الكتابة وإنشاء المحتوى</category3>
+	</item>
+	<item>
+		<title>Notion AI</title>
+		<description>تعزيز الإنتاجية وتنظيم الأفكار باستخدام الذكاء الاصطناعي</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Notion AI.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2025/07/notion.html</link>
+		<category1>الإنتاجية</category1>
+		<category2>الكتابة وإنشاء المحتوى</category2>
+		<category3>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category3>
+	</item>
+	<item>
+		<title>Midjourney</title>
+		<description>ابتكر صوراً مذهلة عبر أوامر نصية بسيطة</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Midjourney.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/11/midjourney.html</link>
+		<category1>إنشاء الصور وتحريرها</category1>
+		<category2>التصميم والرسومات والعروض التقديمية</category2>
+		<category3>الكتابة وإنشاء المحتوى</category3>
+	</item>
+	<item>
+		<title>Grammarly</title>
+		<description>صديق الكتابة المثالي لتحسين أسلوبك ودقّتك</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Grammarly.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/05/post-ai-grammarly.html</link>
+		<category1>الكتابة وإنشاء المحتوى</category1>
+		<category2>معالجة النص</category2>
+		<category3>الإنتاجية</category3>
+	</item>
+	<item>
+		<title>Perplexity AI</title>
+		<description>إجابة فورية مدعومة بعدة نماذج AI</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Perplexity AI.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/06/perplexity-ai-ai.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>البحث العام والأكاديمي</category2>
+		<category3>الكتابة وإنشاء المحتوى</category3>
+	</item>
+	<item>
+		<title>GitHub Copilot</title>
+		<description>المساعد الذكي للمبرمجين أثناء كتابة الكود</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/GitHub Copilot.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/02/github-copilot.html</link>
+		<category1>كتابة الكود والبرمجة</category1>
+		<category2>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category2>
+		<category3>الإنتاجية</category3>
+	</item>
+	<item>
+		<title>Claude</title>
+		<description>المساعد الذكي الأخلاقي للكتابة والتحليل</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Claude.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/09/claude.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>الكتابة وإنشاء المحتوى</category2>
+		<category3>البحث العام والأكاديمي</category3>
+	</item>
+	<item>
+		<title>Mistral</title>
+		<description>نموذج AI فرنسي مفتوح الأداء</description>
+		<image>https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/Mistral.png</image>
+		<link>https://bekeiratsoftware.blogspot.com/2024/08/mistral-ai.html</link>
+		<category1>مساعدو الذكاء الاصطناعي وروبوتات الدردشة</category1>
+		<category2>كتابة الكود والبرمجة</category2>
+		<category3>الكتابة وإنشاء المحتوى</category3>
+	</item>
+</apps>
