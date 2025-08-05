@@ -1,111 +1,93 @@
 body {
   font-family: Arial, sans-serif !important;
-  margin: 0 !important;
   padding: 20px !important;
-  background: #f9f9f9 !important;
-  direction:rtl !important;
+  background-color: #f9f9f9 !important;
 }
 
-.search-container {
+.filter-buttons {
   text-align: center !important;
   margin-bottom: 20px !important;
 }
 
-#search-input {
-  padding: 10px !important;
-  width: 60% !important;
-  max-width: 400px !important;
-  border: 1px solid #ccc !important;
-  border-radius: 5px !important;
-  font-size: 1em !important;
-}
-
-.filter-container {
-  text-align: center !important;
-  margin-bottom: 20px !important;
-}
-
-.filter-container button {
+.filter-buttons button {
   margin: 5px !important;
-  padding: 10px 15px !important;
-  background: #007acc !important;
-  color: white !important;
+  padding: 10px 20px !important;
   border: none !important;
-  border-radius: 4px !important;
+  background-color: #007BFF !important;
+  color: white !important;
   cursor: pointer !important;
+  border-radius: 5px !important;
+  transition: background-color 0.3s ease !important;
 }
 
-.filter-container button:hover {
-  background: #005fa3 !important;
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background-color: #0056b3 !important;
 }
 
 .grid-container {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
   gap: 20px !important;
+  opacity: 1 !important;
   transition: opacity 0.5s ease !important;
 }
 
+.grid-container.fade-out {
+  opacity: 0.1 !important;
+}
+
 .grid-item {
-  background: white !important;
+  background-color: white !important;
   border: 1px solid #ddd !important;
   padding: 15px !important;
   border-radius: 8px !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
-  text-align: center !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px) !important;
 }
 
 .grid-item img {
-  max-width: 100% !important;
+  width: 100% !important;
   height: auto !important;
-  border-radius: 6px !important;
+  border-radius: 5px !important;
 }
 
 .grid-item h2 {
   font-size: 1.2em !important;
-  margin: 10px 0 !important;
+  margin: 10px 0 5px 0 !important;
 }
 
 .grid-item p {
-  font-size: 0.95em !important;
-  color: #555 !important;
+  font-size: 0.9em !important;
+  color: #333 !important;
 }
 
 .grid-item a {
   display: inline-block !important;
   margin-top: 10px !important;
-  color: #007acc !important;
+  color: #007BFF !important;
   text-decoration: none !important;
 }
 
-.grid-item a:hover {
-  text-decoration: underline !important;
-}
-
-.fade-in {
-  opacity: 1 !important;
-}
-
-.grid-container:not(.fade-in) {
-  opacity: 0 !important;
-}
-
-.pagination-container {
+.pagination {
   text-align: center !important;
   margin-top: 20px !important;
 }
 
-.pagination-container button {
-  margin: 3px !important;
-  padding: 8px 12px !important;
-  border: 1px solid #007acc !important;
-  background: white !important;
-  color: #007acc !important;
-  cursor: pointer !important;
+.pagination button {
+  padding: 8px 16px !important;
+  margin: 0 3px !important;
+  background-color: #e0e0e0 !important;
+  border: none !important;
   border-radius: 4px !important;
+  cursor: pointer !important;
 }
 
-.pagination-container button.active {
-  background: #007acc !important;
+.pagination button.active {
+  background-color: #007BFF !important;
   color: white !important;
 }
