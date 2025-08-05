@@ -3,6 +3,7 @@ body {
   margin: 0 !important;
   padding: 20px !important;
   background: #f9f9f9 !important;
+  direction:rtl !important;
 }
 
 .search-container {
