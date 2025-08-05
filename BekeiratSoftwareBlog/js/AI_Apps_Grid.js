@@ -1,48 +1,69 @@
 const XML_URL = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid.xml";
 const ITEMS_PER_PAGE = 6;
+const CACHE_KEY = "AI_Apps_XML_Cache";
+const CACHE_TIME_KEY = "AI_Apps_XML_Cache_Time";
+const CACHE_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 let allItems = [];
 let currentPage = 1;
 let currentCategory = "all";
+let currentSearch = "";
 let allCategories = [];
 
 function loadXML() {
-  fetch(XML_URL)
-    .then(function(response) {
-      return response.text();
-    })
-    .then(function(str) {
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(str, "application/xml");
-      const items = xml.getElementsByTagName("item");
-      for (let i = 0; i < items.length; i++) {
-        const item = items[i];
-        const obj = {
-          title: item.getElementsByTagName("title")[0].textContent,
-          description: item.getElementsByTagName("description")[0].textContent,
-          image: item.getElementsByTagName("image")[0].textContent,
-          link: item.getElementsByTagName("link")[0].textContent,
-          categories: []
-        };
-        for (let j = 1; j <= 3; j++) {
-          const cat = item.getElementsByTagName("category" + j)[0];
-          if (cat && cat.textContent) {
-            obj.categories.push(cat.textContent);
-            if (allCategories.indexOf(cat.textContent) === -1) {
-              allCategories.push(cat.textContent);
-            }
-          }
+  const cachedXML = localStorage.getItem(CACHE_KEY);
+  const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+  const now = Date.now();
+
+  if (cachedXML && cachedTime && (now - parseInt(cachedTime) < CACHE_EXPIRY_MS)) {
+    parseXML(cachedXML);
+  } else {
+    fetch(XML_URL)
+      .then(function(response) { return response.text(); })
+      .then(function(xmlStr) {
+        localStorage.setItem(CACHE_KEY, xmlStr);
+        localStorage.setItem(CACHE_TIME_KEY, now.toString());
+        parseXML(xmlStr);
+      });
+  }
+}
+
+function parseXML(str) {
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(str, "application/xml");
+  const items = xml.getElementsByTagName("item");
+
+  for (let i = 0; i < items.length; i++) {
+    const item = items[i];
+    const obj = {
+      title: item.getElementsByTagName("title")[0].textContent,
+      description: item.getElementsByTagName("description")[0].textContent,
+      image: item.getElementsByTagName("image")[0].textContent,
+      link: item.getElementsByTagName("link")[0].textContent,
+      categories: []
+    };
+
+    for (let j = 1; j <= 3; j++) {
+      const cat = item.getElementsByTagName("category" + j)[0];
+      if (cat && cat.textContent) {
+        obj.categories.push(cat.textContent);
+        if (allCategories.indexOf(cat.textContent) === -1) {
+          allCategories.push(cat.textContent);
         }
-        allItems.push(obj);
       }
-      generateFilterButtons();
-      renderGrid();
-    });
+    }
+
+    allItems.push(obj);
+  }
+
+  generateFilterButtons();
+  renderGrid();
 }
 
 function generateFilterButtons() {
   const container = document.getElementById("filter-buttons");
   container.innerHTML = "";
+
   const allBtn = document.createElement("button");
   allBtn.innerText = "All";
   allBtn.setAttribute("data-cat", "all");
@@ -66,22 +87,27 @@ function generateFilterButtons() {
   }
 }
 
+function handleSearch() {
+  const input = document.getElementById("search-input");
+  currentSearch = input.value.toLowerCase();
+  currentPage = 1;
+  renderGrid();
+}
+
 function renderGrid() {
   const container = document.getElementById("grid-container");
   container.classList.add("fade-out");
+
   setTimeout(function() {
     container.innerHTML = "";
-    let filtered = [];
 
-    if (currentCategory === "all") {
-      filtered = allItems;
-    } else {
-      for (let i = 0; i < allItems.length; i++) {
-        if (allItems[i].categories.indexOf(currentCategory) !== -1) {
-          filtered.push(allItems[i]);
-        }
-      }
-    }
+    let filtered = allItems.filter(function(item) {
+      const matchCat = (currentCategory === "all") || (item.categories.indexOf(currentCategory) !== -1);
+      const matchSearch =
+        item.title.toLowerCase().includes(currentSearch) ||
+        item.description.toLowerCase().includes(currentSearch);
+      return matchCat && matchSearch;
+    });
 
     const start = (currentPage - 1) * ITEMS_PER_PAGE;
     const end = start + ITEMS_PER_PAGE;
