@@ -4,6 +4,21 @@ body {
   background-color: #f9f9f9 !important;
 }
 
+.search-container {
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
+.search-container input {
+  padding: 10px !important;
+  width: 50% !important;
+  max-width: 300px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  font-size: 14px !important;
+  direction: inherit !important;
+}
+
 .filter-buttons {
   text-align: center !important;
   margin-bottom: 20px !important;
@@ -93,4 +108,13 @@ body {
 
 .fade-in {
   opacity: 1 !important;
+}
+
+body[dir="rtl"] {
+  text-align: right !important;
+}
+
+body[dir="rtl"] .grid-item p,
+body[dir="rtl"] .grid-item h2 {
+  direction: rtl !important;
 }
