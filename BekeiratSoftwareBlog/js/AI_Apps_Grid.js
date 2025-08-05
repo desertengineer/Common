@@ -1,129 +1,129 @@
-var xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid.xml";
-var imageBaseUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/AI_Apps_Images/";
-var itemsPerPage = 6;
-var currentPage = 1;
-var allItems = [];
-var allCategories = [];
+const xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid_Data.xml";
+const imageBaseUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/grid/";
 
-function fetchAndRenderData() {
-  var xhr = new XMLHttpRequest();
-  xhr.open("GET", xmlUrl, true);
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      var xml = xhr.responseXML;
-      var items = xml.getElementsByTagName("item");
-      for (var i = 0; i < items.length; i++) {
-        var title = items[i].getElementsByTagName("title")[0].textContent;
-        var desc = items[i].getElementsByTagName("description")[0].textContent;
-        var img = items[i].getElementsByTagName("image")[0].textContent;
-        var link = items[i].getElementsByTagName("link")[0].textContent;
-        var cats = [];
-        for (var j = 1; j <= 3; j++) {
-          var tag = items[i].getElementsByTagName("category" + j)[0];
-          if (tag) {
-            cats.push(tag.textContent);
-            if (allCategories.indexOf(tag.textContent) === -1) {
-              allCategories.push(tag.textContent);
-            }
+let currentPage = 1;
+const itemsPerPage = 6;
+let allItems = [];
+let filteredItems = [];
+let allCategories = [];
+
+function loadXML() {
+  fetch(xmlUrl)
+    .then(function(response) {
+      return response.text();
+    })
+    .then(function(xmlText) {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+      const appNodes = xmlDoc.getElementsByTagName("app");
+
+      for (let i = 0; i < appNodes.length; i++) {
+        const app = appNodes[i];
+        const title = app.getElementsByTagName("title")[0].textContent;
+        const description = app.getElementsByTagName("description")[0].textContent;
+        const link = app.getElementsByTagName("link")[0].textContent;
+        const image = app.getElementsByTagName("image")[0].textContent;
+        const categories = app.getElementsByTagName("categories")[0].textContent.split(",");
+
+        allItems.push({
+          title: title,
+          description: description,
+          link: link,
+          image: image,
+          categories: categories
+        });
+
+        categories.forEach(function(cat) {
+          if (allCategories.indexOf(cat.trim()) === -1) {
+            allCategories.push(cat.trim());
           }
-        }
-        allItems.push({ title: title, desc: desc, img: img, link: link, cats: cats });
+        });
       }
-      renderFilters();
-      //renderTagCloud();
-      filterItems();
-    }
-  };
-  xhr.send();
+
+      createFilterButtons();
+      applyFilter("all");
+    });
 }
 
-function renderFilters() {
-  var container = document.getElementById("filterButtons");
+function createFilterButtons() {
+  const container = document.getElementById("filter-container");
   container.innerHTML = "";
-  allCategories.forEach(function (cat) {
-    var btn = document.createElement("button");
-    btn.textContent = cat;
-    btn.setAttribute("data-cat", cat);
-    btn.onclick = function () {
-      document.querySelectorAll("#filterButtons button").forEach(function (b) {
-        b.classList.remove("active");
-      });
-      this.classList.add("active");
-      filterItems(cat);
+
+  const allBtn = document.createElement("button");
+  allBtn.innerText = "Show All";
+  allBtn.onclick = function() {
+    applyFilter("all");
+  };
+  container.appendChild(allBtn);
+
+  allCategories.forEach(function(category) {
+    const btn = document.createElement("button");
+    btn.innerText = category;
+    btn.onclick = function() {
+      applyFilter(category);
     };
     container.appendChild(btn);
   });
 }
 
-function renderTagCloud() {
-  var cloud = document.getElementById("tagCloud");
-  cloud.innerHTML = "";
-  allCategories.forEach(function (cat) {
-    var tag = document.createElement("span");
-    tag.className = "tag";
-    tag.textContent = cat;
-    tag.onclick = function () {
-      filterItems(cat);
-    };
-    cloud.appendChild(tag);
-  });
-}
+function applyFilter(category) {
+  const grid = document.getElementById("grid-container");
+  grid.classList.remove("fade-in");
 
-function filterItems(category, search) {
-  var grid = document.getElementById("gridContainer");
-  grid.style.opacity = "0";
-  setTimeout(function () {
-    var filtered = allItems.filter(function (item) {
-      var matchCat = !category || item.cats.indexOf(category) !== -1;
-      var matchSearch = !search || item.title.toLowerCase().indexOf(search.toLowerCase()) !== -1;
-      return matchCat && matchSearch;
-    });
-    renderGrid(filtered);
-    renderPagination(filtered);
-    grid.style.opacity = "1";
-  }, 200);
-}
-
-function renderGrid(items) {
-  var grid = document.getElementById("gridContainer");
-  grid.innerHTML = "";
-  var start = (currentPage - 1) * itemsPerPage;
-  var end = start + itemsPerPage;
-  var pageItems = items.slice(start, end);
-  pageItems.forEach(function (item) {
-    var div = document.createElement("div");
-    div.className = "grid-item";
-    div.innerHTML = '<img src="' + item.img + '" />' +
-      '<h2>' + item.title + '</h2>' +
-      '<p>' + item.desc + '</p>' +
-      '<a href="' + item.link + '" target="_blank">اقرأ المزيد</a>';
-    grid.appendChild(div);
-  });
-}
-
-function renderPagination(filteredItems) {
-  var pagination = document.getElementById("pagination");
-  pagination.innerHTML = "";
-  var pageCount = Math.ceil(filteredItems.length / itemsPerPage);
-  for (var i = 1; i <= pageCount; i++) {
-    var btn = document.createElement("button");
-    btn.textContent = i;
-    if (i === currentPage) {
-      btn.classList.add("active");
+  setTimeout(function() {
+    currentPage = 1;
+    if (category === "all") {
+      filteredItems = allItems;
+    } else {
+      filteredItems = allItems.filter(function(item) {
+        return item.categories.indexOf(category) !== -1;
+      });
     }
-    btn.onclick = (function (page) {
-      return function () {
-        currentPage = page;
-        filterItems(document.querySelector(".filter-buttons .active")?.getAttribute("data-cat"), document.getElementById("searchInput").value);
-      };
-    })(i);
-    pagination.appendChild(btn);
+    renderGrid();
+    renderPagination();
+    grid.classList.add("fade-in");
+  }, 100);
+}
+
+function renderGrid() {
+  const container = document.getElementById("grid-container");
+  container.innerHTML = "";
+
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  const pageItems = filteredItems.slice(start, end);
+
+  pageItems.forEach(function(item) {
+    const card = document.createElement("div");
+    card.className = "grid-item";
+
+    card.innerHTML =
+      "<img src='" + item.image + "' alt='" + item.title + "'>" +
+      "<h2>" + item.title + "</h2>" +
+      "<p>" + item.description + "</p>" +
+      "<a href='" + item.link + "' target='_blank'>Read more</a>";
+
+    container.appendChild(card);
+  });
+}
+
+function renderPagination() {
+  const container = document.getElementById("pagination-container");
+  container.innerHTML = "";
+
+  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.innerText = i;
+    btn.className = (i === currentPage) ? "active" : "";
+    btn.onclick = function() {
+      currentPage = i;
+      renderGrid();
+      renderPagination();
+    };
+    container.appendChild(btn);
   }
 }
 
-document.getElementById("searchInput").addEventListener("input", function () {
-  currentPage = 1;
-  filterItems(document.querySelector(".filter-buttons .active")?.getAttribute("data-cat"), this.value);
-});
-
-window.onload = fetchAndRenderData;
+document.addEventListener("DOMContentLoaded", loadXML);
