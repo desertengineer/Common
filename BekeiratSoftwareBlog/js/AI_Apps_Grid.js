@@ -1,142 +1,128 @@
-const xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid.xml";
-const imageBaseUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/grid/";
+const XML_URL = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid.xml";
+const ITEMS_PER_PAGE = 6;
 
-let currentPage = 1;
-const itemsPerPage = 6;
 let allItems = [];
-let filteredItems = [];
+let currentPage = 1;
+let currentCategory = "all";
 let allCategories = [];
-let searchQuery = "";
-let activeCategory = "all";
 
 function loadXML() {
-  fetch(xmlUrl)
+  fetch(XML_URL)
     .then(function(response) {
       return response.text();
     })
-    .then(function(xmlText) {
+    .then(function(str) {
       const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(xmlText, "application/xml");
-      const appNodes = xmlDoc.getElementsByTagName("app");
-
-      for (let i = 0; i < appNodes.length; i++) {
-        const app = appNodes[i];
-        const title = app.getElementsByTagName("title")[0].textContent;
-        const description = app.getElementsByTagName("description")[0].textContent;
-        const link = app.getElementsByTagName("link")[0].textContent;
-        const image = app.getElementsByTagName("image")[0].textContent;
-        const categories = app.getElementsByTagName("categories")[0].textContent.split(",");
-
-        allItems.push({
-          title: title,
-          description: description,
-          link: link,
-          image: image,
-          categories: categories
-        });
-
-        categories.forEach(function(cat) {
-          if (allCategories.indexOf(cat.trim()) === -1) {
-            allCategories.push(cat.trim());
+      const xml = parser.parseFromString(str, "application/xml");
+      const items = xml.getElementsByTagName("item");
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i];
+        const obj = {
+          title: item.getElementsByTagName("title")[0].textContent,
+          description: item.getElementsByTagName("description")[0].textContent,
+          image: item.getElementsByTagName("image")[0].textContent,
+          link: item.getElementsByTagName("link")[0].textContent,
+          categories: []
+        };
+        for (let j = 1; j <= 3; j++) {
+          const cat = item.getElementsByTagName("category" + j)[0];
+          if (cat && cat.textContent) {
+            obj.categories.push(cat.textContent);
+            if (allCategories.indexOf(cat.textContent) === -1) {
+              allCategories.push(cat.textContent);
+            }
           }
-        });
+        }
+        allItems.push(obj);
       }
-
-      createFilterButtons();
-      filterAndRender();
+      generateFilterButtons();
+      renderGrid();
     });
 }
 
-function createFilterButtons() {
-  const container = document.getElementById("filter-container");
+function generateFilterButtons() {
+  const container = document.getElementById("filter-buttons");
   container.innerHTML = "";
-
   const allBtn = document.createElement("button");
-  allBtn.innerText = "Show All";
+  allBtn.innerText = "All";
+  allBtn.setAttribute("data-cat", "all");
   allBtn.onclick = function() {
-    applyFilter("all");
+    currentCategory = "all";
+    currentPage = 1;
+    renderGrid();
   };
   container.appendChild(allBtn);
 
-  allCategories.forEach(function(category) {
+  for (let i = 0; i < allCategories.length; i++) {
     const btn = document.createElement("button");
-    btn.innerText = category;
+    btn.innerText = allCategories[i];
+    btn.setAttribute("data-cat", allCategories[i]);
     btn.onclick = function() {
-      applyFilter(category);
-    };
-    container.appendChild(btn);
-  });
-}
-
-function applyFilter(category) {
-  activeCategory = category;
-  currentPage = 1;
-  filterAndRender();
-}
-
-function applySearch() {
-  searchQuery = document.getElementById("search-input").value.toLowerCase();
-  currentPage = 1;
-  filterAndRender();
-}
-
-function filterAndRender() {
-  const grid = document.getElementById("grid-container");
-  grid.classList.remove("fade-in");
-
-  setTimeout(function() {
-    filteredItems = allItems.filter(function(item) {
-      const matchesCategory = (activeCategory === "all" || item.categories.indexOf(activeCategory) !== -1);
-      const matchesSearch = item.title.toLowerCase().includes(searchQuery) ||
-                            item.description.toLowerCase().includes(searchQuery);
-      return matchesCategory && matchesSearch;
-    });
-
-    renderGrid();
-    renderPagination();
-    grid.classList.add("fade-in");
-  }, 100);
-}
-
-function renderGrid() {
-  const container = document.getElementById("grid-container");
-  container.innerHTML = "";
-
-  const start = (currentPage - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
-  const pageItems = filteredItems.slice(start, end);
-
-  pageItems.forEach(function(item) {
-    const card = document.createElement("div");
-    card.className = "grid-item";
-
-    card.innerHTML =
-      "<img src='" +  item.image + "' alt='" + item.title + "'>" +
-      "<h2>" + item.title + "</h2>" +
-      "<p>" + item.description + "</p>" +
-      "<a href='" + item.link + "' target='_blank'>اقرأ المزيد</a>";
-
-    container.appendChild(card);
-  });
-}
-
-function renderPagination() {
-  const container = document.getElementById("pagination-container");
-  container.innerHTML = "";
-
-  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
-
-  for (let i = 1; i <= totalPages; i++) {
-    const btn = document.createElement("button");
-    btn.innerText = i;
-    btn.className = (i === currentPage) ? "active" : "";
-    btn.onclick = function() {
-      currentPage = i;
+      currentCategory = allCategories[i];
+      currentPage = 1;
       renderGrid();
-      renderPagination();
     };
     container.appendChild(btn);
   }
 }
 
-document.addEventListener("DOMContentLoaded", loadXML);
+function renderGrid() {
+  const container = document.getElementById("grid-container");
+  container.classList.add("fade-out");
+  setTimeout(function() {
+    container.innerHTML = "";
+    let filtered = [];
+
+    if (currentCategory === "all") {
+      filtered = allItems;
+    } else {
+      for (let i = 0; i < allItems.length; i++) {
+        if (allItems[i].categories.indexOf(currentCategory) !== -1) {
+          filtered.push(allItems[i]);
+        }
+      }
+    }
+
+    const start = (currentPage - 1) * ITEMS_PER_PAGE;
+    const end = start + ITEMS_PER_PAGE;
+    const paginated = filtered.slice(start, end);
+
+    for (let i = 0; i < paginated.length; i++) {
+      const item = paginated[i];
+      const div = document.createElement("div");
+      div.className = "grid-item";
+      div.innerHTML =
+        '<img src="' + item.image + '" alt="' + item.title + '">' +
+        '<h2>' + item.title + '</h2>' +
+        '<p>' + item.description + '</p>' +
+        '<a href="' + item.link + '" target="_blank">Read More</a>';
+      container.appendChild(div);
+    }
+
+    container.classList.remove("fade-out");
+    container.classList.add("fade-in");
+
+    renderPagination(filtered.length);
+  }, 300);
+}
+
+function renderPagination(totalItems) {
+  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+  const pagination = document.getElementById("pagination");
+  pagination.innerHTML = "";
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.innerText = i;
+    if (i === currentPage) {
+      btn.className = "active";
+    }
+    btn.onclick = function() {
+      currentPage = i;
+      renderGrid();
+    };
+    pagination.appendChild(btn);
+  }
+}
+
+loadXML();
