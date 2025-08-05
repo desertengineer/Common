@@ -1,4 +1,4 @@
-const xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid_Data.xml";
+const xmlUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/xmls/AI_Apps_Grid.xml";
 const imageBaseUrl = "https://desertengineer.github.io/Common/BekeiratSoftwareBlog/ContentImages/grid/";
 
 let currentPage = 1;
