@@ -121,7 +121,7 @@ function renderGrid() {
         '<img src="' + item.image + '" alt="' + item.title + '">' +
         '<h2>' + item.title + '</h2>' +
         '<p>' + item.description + '</p>' +
-        '<a href="' + item.link + '" target="_blank">Read More</a>';
+        '<a href="' + item.link + '" target="_blank">اقرأ المزيد</a>';
       container.appendChild(div);
     }
 
