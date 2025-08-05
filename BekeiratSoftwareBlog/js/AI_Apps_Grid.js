@@ -96,7 +96,7 @@ function renderGrid(items) {
     div.innerHTML = '<img src="' + item.img + '" />' +
       '<h2>' + item.title + '</h2>' +
       '<p>' + item.desc + '</p>' +
-      '<a href="' + item.link + '" target="_blank">Read more</a>';
+      '<a href="' + item.link + '" target="_blank">اقرأ المزيد</a>';
     grid.appendChild(div);
   });
 }
