@@ -1,12 +1,13 @@
-body {
+ /* body {
   font-family: Arial, sans-serif !important;
   padding: 20px !important;
   background-color: #f9f9f9 !important;
-}
+} */
 
 .search-container {
   text-align: center !important;
   margin-bottom: 20px !important;
+  background-color: #ccc6c6!important;
 }
 
 .search-container input {
@@ -22,32 +23,36 @@ body {
 .filter-buttons {
   text-align: center !important;
   margin-bottom: 20px !important;
+  background-color: rgb(236, 240, 160)!important;
 }
 
 .filter-buttons button {
-  padding: 10px 20px !important;
+  font-size: 16px !important;
+  padding: 10px 15px !important;
   margin: 5px !important;
   border: none !important;
   cursor: pointer !important;
-  background-color: #007BFF !important;
+  background-color: #0313a2 !important;
   color: white !important;
   border-radius: 5px !important;
   transition: background-color 0.3s !important;
 }
 
 .filter-buttons button:hover {
-  background-color: #0056b3 !important;
+  background-color: maroon !important;
 }
 
 .grid-container {
+  background-color: #0313a2 !important;
+  padding: 12px!important;
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
-  gap: 20px !important;
+  gap: 12px !important;
   transition: opacity 0.3s ease-in-out !important;
 }
 
 .grid-item {
-  background: white !important;
+  background:  rgb(236, 240, 160) !important;
   padding: 15px !important;
   border-radius: 8px !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
@@ -78,9 +83,11 @@ body {
 
 .grid-item a {
   display: inline-block !important;
+  font-size: larger !important;
+  font-weight: 900!important;
   margin-top: 10px !important;
   text-decoration: none !important;
-  color: #007BFF !important;
+  color: maroon !important;
 }
 
 .pagination {
@@ -98,7 +105,7 @@ body {
 }
 
 .pagination button.active {
-  background-color: #007BFF !important;
+  background-color: darkgreen!important;
   color: white !important;
 }
 
