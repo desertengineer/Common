@@ -6,6 +6,8 @@ const itemsPerPage = 6;
 let allItems = [];
 let filteredItems = [];
 let allCategories = [];
+let searchQuery = "";
+let activeCategory = "all";
 
 function loadXML() {
   fetch(xmlUrl)
@@ -41,7 +43,7 @@ function loadXML() {
       }
 
       createFilterButtons();
-      applyFilter("all");
+      filterAndRender();
     });
 }
 
@@ -67,18 +69,29 @@ function createFilterButtons() {
 }
 
 function applyFilter(category) {
+  activeCategory = category;
+  currentPage = 1;
+  filterAndRender();
+}
+
+function applySearch() {
+  searchQuery = document.getElementById("search-input").value.toLowerCase();
+  currentPage = 1;
+  filterAndRender();
+}
+
+function filterAndRender() {
   const grid = document.getElementById("grid-container");
   grid.classList.remove("fade-in");
 
   setTimeout(function() {
-    currentPage = 1;
-    if (category === "all") {
-      filteredItems = allItems;
-    } else {
-      filteredItems = allItems.filter(function(item) {
-        return item.categories.indexOf(category) !== -1;
-      });
-    }
+    filteredItems = allItems.filter(function(item) {
+      const matchesCategory = (activeCategory === "all" || item.categories.indexOf(activeCategory) !== -1);
+      const matchesSearch = item.title.toLowerCase().includes(searchQuery) ||
+                            item.description.toLowerCase().includes(searchQuery);
+      return matchesCategory && matchesSearch;
+    });
+
     renderGrid();
     renderPagination();
     grid.classList.add("fade-in");
@@ -98,7 +111,7 @@ function renderGrid() {
     card.className = "grid-item";
 
     card.innerHTML =
-      "<img src='" + item.image + "' alt='" + item.title + "'>" +
+      "<img src='" +  item.image + "' alt='" + item.title + "'>" +
       "<h2>" + item.title + "</h2>" +
       "<p>" + item.description + "</p>" +
       "<a href='" + item.link + "' target='_blank'>اقرأ المزيد</a>";
