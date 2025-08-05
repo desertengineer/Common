@@ -30,7 +30,7 @@ function fetchAndRenderData() {
         allItems.push({ title: title, desc: desc, img: img, link: link, cats: cats });
       }
       renderFilters();
-      renderTagCloud();
+      //renderTagCloud();
       filterItems();
     }
   };
