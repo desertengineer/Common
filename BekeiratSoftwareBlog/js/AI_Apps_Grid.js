@@ -65,7 +65,7 @@ function generateFilterButtons() {
   container.innerHTML = "";
 
   const allBtn = document.createElement("button");
-  allBtn.innerText = "All";
+  allBtn.innerText = "الكل";
   allBtn.setAttribute("data-cat", "all");
   allBtn.onclick = function() {
     currentCategory = "all";
