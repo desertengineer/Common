@@ -42,6 +42,10 @@
   background-color: maroon !important;
 }
 
+.filter-buttons button:active {
+  background-color: darkgreen !important;
+}
+ 
 .grid-container {
   background-color: #0313a2 !important;
   padding: 12px!important;
