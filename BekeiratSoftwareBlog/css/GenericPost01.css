@@ -34,8 +34,10 @@
          flex: 1 !important;
          font-size: 1.3em !important;
          font-weight: 600 !important;
-         text-align: right !important;
          order: 2 !important;
+         text-align: justify !important;
+          padding: .5em!important;
+          margin: .5em!important;
      }
 
      .bs-section {
@@ -76,7 +78,9 @@
          flex: 1 !important;
          font-size: 1em !important;
          color: var(--color-bs-section-text) !important;
-         text-align: right !important;
+         text-align: justify !important;
+          padding: .5em!important;
+          margin: .5em!important;
          order: 2 !important;
      }
 
