@@ -32,14 +32,16 @@
 
      .intro-statement {
          flex: 1 !important;
-         font-size: 1.3em !important;
+         font-size: 1.1em !important;
          font-weight: 600 !important;
          order: 2 !important;
          text-align: justify !important;
           padding: .5em!important;
           margin: .5em!important;
      }
-
+    div.bs-intro-header > div > b, div.bs-intro-header > div > i{
+        font-size: 1.2em !important;
+   }
      .bs-section {
          margin-bottom: 24px !important;
          background: var(--bg-bs-section) !important;
