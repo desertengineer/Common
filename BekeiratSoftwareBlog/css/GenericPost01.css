@@ -116,13 +116,14 @@
              .bs-intro-header img, .bs-section-img {
                  margin-left: 0 !important;
                  margin-bottom: 13px !important;
-                 width: 99px !important;
-                 height: 99px !important;
+                 width: 100% !important; 
+                 height: auto !important;
                  order: 1 !important;
              }
 
          .intro-statement, .bs-section-text {
              order: 2 !important;
+             width: 100% !important;
          }
      }
  </style>
