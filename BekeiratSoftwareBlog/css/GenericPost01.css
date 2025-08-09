@@ -24,7 +24,7 @@
          .bs-intro-header img {
              width: 40% !important;
              object-fit: contain !important;
-             margin-left: 10px !important;
+             margi: 10px !important;
              border-radius: 10px !important;
              background: var(--bg-img) !important;
              order: 1 !important;
@@ -69,7 +69,7 @@
          max-width: 45% !important;
          width: 40% !important;
          object-fit: contain !important;
-         margin-left: 18px !important;
+         margin: 18px !important;
          border-radius: 8px !important;
          background: var(--bg-img) !important;
          order: 1 !important;
