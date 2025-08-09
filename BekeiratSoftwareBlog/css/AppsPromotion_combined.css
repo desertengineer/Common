@@ -1,10 +1,10 @@
 /* ————— Base & Layout ————— */
 /* reset and layout now confined to .container */
 .container {
-  margin: 0 auto!important;
+  margin: 0 25px!important;
   padding: 15px!important;
   box-sizing: border-box!important;
-  max-width: 630px!important;
+  max-width: 850px!important;
 }
 
 header {
