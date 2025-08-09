@@ -58,12 +58,13 @@
          align-items: center !important;
          justify-content: flex-start !important;
      }
-
+    .bs-section:nth-child(odd) {background-color:lightgray!important;}
+    .bs-section:nth-child(even) {background-color:lightblue!important;}
      .bs-section-img {
          min-width: 35% !important;
          max-width: 45% !important;
          width: 40% !important;
-         object-fit: cover !important;
+         object-fit: contain !important;
          margin-left: 18px !important;
          border-radius: 8px !important;
          background: var(--bg-img) !important;
