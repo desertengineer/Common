@@ -57,7 +57,9 @@
          color: var(--color-bs-section-heading) !important;
          text-align: right !important;
      }
-
+   .bs-section-content > div > ul > li > b{
+      margin-left: 8px !important;
+   }
      .bs-section-content {
          align-items: center !important;
          justify-content: flex-start !important;
