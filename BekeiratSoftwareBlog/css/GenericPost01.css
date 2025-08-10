@@ -64,8 +64,8 @@
          align-items: center !important;
          justify-content: flex-start !important;
      }
-    .bs-section:nth-child(odd) {background-color:lightgray!important;}
-    .bs-section:nth-child(even) {background-color:lightblue!important;}
+/*     .bs-section:nth-child(odd) {background-color:lightgray!important;}
+    .bs-section:nth-child(even) {background-color:lightblue!important;} */
      .bs-section-img {
 /*          min-width: 35% !important;
          max-width: 45% !important; */
