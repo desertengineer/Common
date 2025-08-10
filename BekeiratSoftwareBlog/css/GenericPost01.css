@@ -22,7 +22,7 @@
              .bs-intro-header > div:nth-child(1) {
                  width: 40% !important;
              }
-             .bs-intro-header > div > img {
+             .bs-intro-header > div >a> img {
                  width: 100% !important;
                  object-fit: contain !important;
                  margin: 10px !important;
