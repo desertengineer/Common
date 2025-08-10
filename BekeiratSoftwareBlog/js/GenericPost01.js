@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             '--bg-main:#fff8e1 !important;' +
             '--color-main:#4e342e !important;' +
             '--bg-header:#ffe0b2 !important;' +
-            '--color-header:#bf360c !important;' +
+            '--color-header:#1a0cbf !important;' +
             '--bg-bs-section:#fffde7 !important;' +
             '--color-bs-section-heading:#e65100 !important;' +
             '--color-bs-section-text:#3e2723 !important;' +
