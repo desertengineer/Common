@@ -65,6 +65,9 @@
              margin-left: 8px !important;
          }
 
+         .bs-section-content > div > ul > li > b::after {
+  content: ":";
+}
          .bs-section-content {
              align-items: center !important;
              justify-content: flex-start !important;
